@@ -2,16 +2,14 @@ import '../style/components/Navbar.css';
 
 function Navbar(){
     return (
-        <>
-        <nav>
+        <nav className="nav-bar">
             <ul>
-                <li>Início</li>
-                <li>Sobre</li>
-                <li>Patrocinadores</li>
-                <li>Local</li>
+                <li><a href="./">Início</a></li>
+                <li><a href="./">Sobre</a></li>
+                <li><a href="./">Patrocinadores</a></li>
+                <li><a href="./">Local</a></li>
             </ul>
         </nav>
-        </>
     )
 }
 

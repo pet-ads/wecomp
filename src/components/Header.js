@@ -1,9 +1,11 @@
+import "../style/components/Header.css";
+
 import Navbar from './Navbar';
 
 function Header(){
     return (
         <header className="header">
-            <img src="https://via.placeholder.com/1000x200" alt="Logo da Wecomp"/>
+            <img className="logo" src="https://via.placeholder.com/48x48" alt="Logo da Wecomp"/>
             <Navbar/>
         </header>
     )
