@@ -6,6 +6,15 @@ function App() {
   return (
     <div className="app">
       <Header/>
+
+      <div className="banner">
+
+      </div>
+
+      <main className="content">
+
+      </main>
+
       <Footer/>
     </div> 
   );
