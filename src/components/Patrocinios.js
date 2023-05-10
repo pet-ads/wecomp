@@ -1,5 +1,5 @@
 import Patrocinador from "./Patrocinador"
-import styles from "./Patrocinios.module.css"
+import styles from ""../style/components/Patrocinios.module.css"
 
 function Patrocinios({imagens}){
     return(
