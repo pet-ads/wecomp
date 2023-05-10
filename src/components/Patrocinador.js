@@ -1,4 +1,4 @@
-import styles from '../style/components/Patrocinador.module.css'
+import styles from "../style/components/Patrocinador.module.css"
 function Patrocinador({patrocinador}){
 
     return(
