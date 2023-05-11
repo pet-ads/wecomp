@@ -1,7 +1,9 @@
+import AboutTheEvent from "./AboutTheEvent";
+
 function AboutUs(){
     return (
         <>
-        <h2>Sobre nós</h2>
+            <AboutTheEvent />
         </>
     )
 }

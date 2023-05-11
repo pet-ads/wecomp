@@ -1,7 +1,10 @@
 import '../style/pages/App.css';
+
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import Banner from '../components/Banner.js';
+
+import AboutUs from './AboutUs';
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
       </Banner>
 
       <main className="content">
-
+        <AboutUs />
       </main>
 
       <Footer/>

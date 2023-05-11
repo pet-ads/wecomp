@@ -1,0 +1,50 @@
+.introduction-field > .introduction-item {
+    min-width: 200px;
+    max-width: 250px;
+
+    flex: 0 1 auto;
+
+    display: grid;
+}
+
+.introduction-field > .introduction-item.vertical {
+    grid-template-columns: 1fr;
+}
+
+.introduction-field > .introduction-item.horizontal {
+    max-width: 350px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.introduction-field > .introduction-item .introduction-photo {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    border-radius: 75px;
+}
+
+.introduction-field > .introduction-item .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-field > .introduction-item .description :first-child {
+    margin: 0 0 .5em;
+    
+    text-transform: uppercase;
+}
+
+.introduction-field > .introduction-item .description :only-child {
+    margin: 0;
+}
