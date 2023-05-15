@@ -4,7 +4,7 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import Banner from '../components/Banner.js';
 
-import AboutUs from './AboutUs';
+import AboutTheEvent from './AboutTheEvent';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       </Banner>
 
       <main className="content">
-        <AboutUs />
+        <AboutTheEvent />
       </main>
 
       <Footer/>
