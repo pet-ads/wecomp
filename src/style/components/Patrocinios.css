@@ -1,21 +1,23 @@
-:root{
---cor-de-fundo: rgb(112, 112, 112);
---cor-do-texto: rgb(32, 32, 32);
-}
-
 .patrocinadores {
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 20px;
     justify-content: center;
-    
+    align-content: center;
+    column-gap: 50px;
 }
 
 .texto {
-    color: var(--cor-do-texto);
+    color: var(--font-color);
+    font-size: 48px;
+    margin-bottom: 50px;
 }
 
 .patrocinios {
-    background-color: var(--cor-de-fundo);
-    margin: 10%;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
 }

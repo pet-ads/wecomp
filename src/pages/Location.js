@@ -1,8 +1,10 @@
+import '../style/pages/Location.css';
+
 function Location(){
     return (
-        <>
-        <h2>Local</h2>
-        </>
+        <div className='local'>
+            <h2>Local</h2>
+        </div>
     )
 }
 

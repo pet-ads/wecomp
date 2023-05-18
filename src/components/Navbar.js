@@ -6,7 +6,7 @@ function Navbar(){
             <ul>
                 <li><a href="./">Início</a></li>
                 <li><a href="#about-the-event">Sobre</a></li>
-                <li><a href="./">Patrocinadores</a></li>
+                <li><a href="#patrocinios">Patrocinadores</a></li>
                 <li><a href="./">Local</a></li>
             </ul>
         </nav>

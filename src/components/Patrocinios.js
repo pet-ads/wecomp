@@ -3,7 +3,7 @@ import "../style/components/Patrocinios.css";
 
 function Patrocinios({imagens}){
     return(
-        <div className="patrocinios">
+        <div id="patrocinios" className="patrocinios">
             <h1 className="texto">Patrocínios</h1>
             <div className="patrocinadores">
 

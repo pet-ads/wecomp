@@ -1,0 +1,9 @@
+.local {
+    width: 100vw;
+    max-width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--pallete-mid-dark);
+}
