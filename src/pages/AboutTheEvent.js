@@ -2,7 +2,7 @@ import '../style/pages/AboutTheEvent.css';
 
 function AboutTheEvent() {
     return (
-        <section id="about-the-event" className="about-the-event">
+        <section id="about-the-event" className="about-the-event colored-section">
             <header>
                 <h2>Sobre a Wecomp</h2>
             </header>
