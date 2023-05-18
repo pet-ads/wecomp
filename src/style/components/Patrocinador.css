@@ -1,26 +1,22 @@
-:root {
-    --tamanho-imagem: 150px;
-    --cor-texto: rgb(49, 49, 49);
-}
-
 .patrocinadorImagem img{
-    max-width: var(--tamanho-imagem);
+    max-width: 150px;
     height: auto;
-    max-height: var(--tamanho-imagem);
+    max-height: 150px;
     width: auto;
 }
 
 .patrocinadorImagem{
-    width: var(--tamanho-imagem);
-    height: var(--tamanho-imagem);
+    width: 150px;
+    height: 150px;
     align-self: center;
     justify-content: center;
     display: flex;
 }
 
 .patrocinadorTexto {
-    color: var(--cor-texto);
+    color: var(--font-color);
     text-align: center;
+    margin-top: 20px;
 }
 
 .container{

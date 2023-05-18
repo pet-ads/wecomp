@@ -1,23 +1,23 @@
 .nav-bar > ul {
     list-style: none;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.nav-bar a {
+.nav-bar li {
+    transition: transform 0.2s ease-out;
     padding: 1em;
     margin: .125em;
-
     border-radius: .5em;
-
-    text-decoration: none;
     text-transform: uppercase;
-
-    color: white;       
 }
 
-.nav-bar a:hover, .nav-bar a:focus {
-    background-color: var(--pallete-dark);
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar li:hover {
+  transform: translateY(-5px);
 }
