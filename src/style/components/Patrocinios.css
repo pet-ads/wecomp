@@ -1,0 +1,21 @@
+:root{
+--cor-de-fundo: rgb(112, 112, 112);
+--cor-do-texto: rgb(32, 32, 32);
+}
+
+.patrocinadores {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+    justify-content: center;
+    
+}
+
+.texto {
+    color: var(--cor-do-texto);
+}
+
+.patrocinios {
+    background-color: var(--cor-de-fundo);
+    margin: 10%;
+}

@@ -1,12 +1,12 @@
-import styles from "../style/components/Patrocinador.module.css"
+import styles from "../style/components/Patrocinador.css"
 function Patrocinador({patrocinador}){
 
     return(
-        <div className={styles.container}>
-            <div className={styles.patrocinadorImagem}> 
+        <div className="container">
+            <div className="patrocinadorImagem"> 
                 <img src={patrocinador[0]}></img>
             </div>
-            <h3 className={styles.patrocinadorTexto}>{patrocinador[1]}</h3>
+            <h3 className="patrocinadorTexto">{patrocinador[1]}</h3>
         </div>
     )
 }
