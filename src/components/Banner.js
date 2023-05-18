@@ -1,6 +1,6 @@
 import '../style/components/Banner.css';
 
-function Banner({ bannerImage, children }) {
+function Banner({ bannerImage, canvasBackgroundColor, children }) {
     return (
         <div 
             className="banner" 
@@ -8,7 +8,14 @@ function Banner({ bannerImage, children }) {
                 backgroundImage: (bannerImage ? `url(${bannerImage})` :  'none')
             }}
         >
-            { children }
+            <div 
+                style={{ 
+                    backgroundColor: 
+                        (canvasBackgroundColor ? `${canvasBackgroundColor}86` : "") 
+                }}
+            >
+                { children }
+            </div>
         </div>
     );
 }

@@ -21,7 +21,9 @@ function App() {
     <div className="app">
       <Header/>
 
-      <Banner bannerImage="https://via.placeholder.com/1000x500">
+      <Banner 
+        bannerImage="https://via.placeholder.com/1000x500" 
+        canvasBackgroundColor="#868686">
         <h1>Wecomp</h1>
       </Banner>
 
