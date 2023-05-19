@@ -21,15 +21,6 @@ function AboutTheEvent() {
                     Nam ex odio, egestas quis orci vel, consequat pellentesque 
                     dolor.
                 </p>
-
-                <p>
-                    Nulla sit amet lobortis dolor. Vivamus id nisi felis. Mauris
-                    tristique, metus id volutpat blandit, ligula ante convallis 
-                    justo, sed ullamcorper est tortor imperdiet eros. Aliquam 
-                    facilisis elit ut tellus fringilla luctus. Sed et purus ut 
-                    mi gravida bibendum. Sed lobortis erat lectus, eu ultrices 
-                    enim mattis dictum. Sed sit amet scelerisque ipsum.
-                </p>
             </div>
         </section>
     );
