@@ -7,14 +7,6 @@ import Supporters from './Supporters';
 import Location from './Location';
 import AboutTheEvent from './AboutTheEvent';
 
-const logos = [
-  ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png", "Lego"],
-  ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png", "Lego"],
-  ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png", "Lego"],
-  ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png", "Lego"],
-  ["https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/1024px-LEGO_logo.svg.png", "Lego"],
-  
-  ]
 
 function App() {
   return (
@@ -22,7 +14,7 @@ function App() {
       <Header/>
       <Banner/>
       <AboutTheEvent />
-      <Supporters imagens={logos}/>
+      <Supporters/>
       <Location/>
       <Footer/>
     </div> 
