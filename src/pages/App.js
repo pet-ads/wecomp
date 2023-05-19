@@ -3,7 +3,7 @@ import '../style/pages/App.css';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import Banner from '../components/Banner.js';
-import Patrocinios from '../components/Patrocinios';
+import Supporters from './Supporters';
 import Location from './Location';
 import AboutTheEvent from './AboutTheEvent';
 
@@ -22,7 +22,7 @@ function App() {
       <Header/>
       <Banner/>
       <AboutTheEvent />
-      <Patrocinios imagens={logos}/>
+      <Supporters imagens={logos}/>
       <Location/>
       <Footer/>
     </div> 
