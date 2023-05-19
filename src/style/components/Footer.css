@@ -10,3 +10,8 @@
     color: white;
     background-color: var(--pallete-dark);
 }
+
+.logoIF {
+    width: 100px;
+    height: auto;
+}
