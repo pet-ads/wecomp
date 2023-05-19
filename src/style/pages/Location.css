@@ -5,5 +5,5 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--pallete-mid-dark);
+    background-image: linear-gradient( to right, var(--pallete-dark), var(--pallete-light));
 }
