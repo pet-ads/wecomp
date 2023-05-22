@@ -15,8 +15,8 @@ function Organizers(){
 
             <div className="eachOrganizer">
             
-            {logos2.map((patrocinador, index) => (
-                <Organizer key={index} patrocinador={patrocinador} />
+            {logos2.map((organizer, index) => (
+                <Organizer key={index} organizer={organizer} />
                 ))}
             </div>
         </div>
