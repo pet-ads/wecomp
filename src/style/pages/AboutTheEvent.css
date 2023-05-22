@@ -10,6 +10,7 @@
     justify-content: center;
     
     background-image: linear-gradient( to right, var(--pallete-dark), var(--pallete-light));
+
 }
 
 .about-the-event > header h2 {
