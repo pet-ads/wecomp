@@ -1,4 +1,5 @@
 import '../style/pages/AboutTheEvent.css';
+import Button from '../components/Button.js';
 
 function AboutTheEvent() {
     return (
@@ -22,6 +23,7 @@ function AboutTheEvent() {
                     dolor.
                 </p>
             </div>
+            <Button text='Veja mais' address='http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html'/>
         </section>
     );
 }

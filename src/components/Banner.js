@@ -7,10 +7,11 @@ function Banner({ bannerImage, canvasBackgroundColor, children }) {
         <div id="banner" className="banner">
             <img className="banner--image" src={logoWecomp}></img>
             <h2 className="title">IV Semana da Computação</h2>
-            <p className="text">10 a 15 de Agosto de 2023</p>
-            <img className="logoIFSP" src={logoIFSP}></img>
+            <p className="text">Em breve!</p>
         </div> 
     );
 }
+
+/*<img className="logoIFSP" src={logoIFSP}></img>*/
 
 export default Banner;

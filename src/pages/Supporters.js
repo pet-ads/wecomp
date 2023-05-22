@@ -1,5 +1,6 @@
 import Supporter from "../components/Supporter";
 import "../style/pages/Supporters.css";
+import Button from "../components/Button";
 
 const logos = [
     ["http://via.placeholder.com/640x360", "Patrocinador1"],
