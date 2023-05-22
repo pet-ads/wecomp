@@ -1,12 +1,7 @@
 import "../style/pages/Organizers.css";
 import Button from "../components/Button";
 import Organizer from "../components/Organizer";
-
-const logos2 = [
-    ["https://iamfounder.com.br/images/logo-onovolab.png", "Onovolab"],
-    ["http://pet_ads.paginas.scl.ifsp.edu.br/assets/logo_PET.svg", "PET/ADS"],
-    ["https://portais.ifsp.edu.br/scl/images/Logo_Campus/Marca_IFSP_2015_Sao-Carlos.png", "IFSP - São Carlos"],
-]
+import logos from "../JSONs/Organizers.json";
 
 function Organizers(){
     return (
@@ -15,8 +10,8 @@ function Organizers(){
 
             <div className="eachOrganizer">
             
-            {logos2.map((organizer, index) => (
-                <Organizer key={index} organizer={organizer} />
+            {logos.map((index) => (
+                <Organizer key={index.id} organizer={index} />
                 ))}
             </div>
         </div>

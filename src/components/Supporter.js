@@ -1,4 +1,4 @@
-import styles from "../style/components/Suppoter.css"
+import styles from "../style/components/Supporter.css"
 function Supporter({patrocinador}){
 
     return(

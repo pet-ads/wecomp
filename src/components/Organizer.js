@@ -3,9 +3,9 @@ function Organizer({organizer}){
     return(
         <div className="container">
             <div className="organizerImage"> 
-                <img src={organizer[0]}></img>
+                <img src={organizer.src} alt={organizer.name}></img>
             </div>
-            <h3 className="organizerText">{organizer[1]}</h3>
+            <h3 className="organizerText">{organizer.name}</h3>
         </div>
     )
 }

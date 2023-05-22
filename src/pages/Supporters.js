@@ -9,6 +9,8 @@ const logos = [
     ["http://via.placeholder.com/200x400", "Patrocinador5"],
     ]
 
+
+
 function Supporters(){
     return(
         <div id="patrocinios" className="patrocinios">
