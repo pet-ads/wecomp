@@ -1,7 +1,7 @@
 import "../style/pages/Organizers.css";
 import Button from "../components/Button";
 import Organizer from "../components/Organizer";
-import logos from "../JSONs/Organizers.json";
+import logos from "../JSONs/logos.json";
 
 function Organizers(){
     return (
@@ -10,8 +10,8 @@ function Organizers(){
 
             <div className="eachOrganizer">
             
-            {logos.map((index) => (
-                <Organizer key={index.id} organizer={index} />
+            {logos.organizers.map((logo) => (
+                <Organizer key={logo.id} organizer={logo} />
                 ))}
             </div>
         </div>
