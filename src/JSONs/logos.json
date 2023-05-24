@@ -1,47 +1,50 @@
 {
-    "organizers": [
-      {
-        "id": 1,
-        "src": "https://iamfounder.com.br/images/logo-onovolab.png",
-        "name": "Onovolab"
-      },
-      {
-        "id": 2,
-        "src": "http://pet_ads.paginas.scl.ifsp.edu.br/assets/logo_PET.svg",
-        "name": "PET/ADS"
-      },
-      {
-        "id": 3,
-        "src": "https://portais.ifsp.edu.br/scl/images/Logo_Campus/Marca_IFSP_2015_Sao-Carlos.png",
-        "name": "IFSP - São Carlos"
-      }
-    ],
-    "supporters":[
-      {
-        "id": 1,
-        "src": "http://via.placeholder.com/640x360",
-        "name": "Patrocinador1"
-      },
-      {
-        "id": 2,
-        "src": "http://via.placeholder.com/100x50",
-        "name": "Patrocinador2"
-      },
-      {
-        "id": 3,
-        "src": "http://via.placeholder.com/300x300",
-        "name": "Patrocinador3"
-      },
-      {
-        "id": 4,
-        "src": "http://via.placeholder.com/400x200",
-        "name": "Patrocinador4"
-      },
-      {
-        "id": 5,
-        "src": "http://via.placeholder.com/200x400",
-        "name": "Patrocinador5"
-      }
-    ]
+  "organizers": [
+    {
+      "id": 1,
+      "src": "https://iamfounder.com.br/images/logo-onovolab.png",
+      "name": "Onovolab",
+      "link": "https://onovolab.com"
+    },
+    {
+      "id": 2,
+      "src": "http://pet_ads.paginas.scl.ifsp.edu.br/assets/logo_PET.svg",
+      "name": "PET/ADS",
+      "link": "http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html"
+    },
+    {
+      "id": 3,
+      "src": "/static/media/ifsp.43506bc1a70db3bd15eb.png",
+      "name": "IFSP - São Carlos",
+      "link": "https://portais.ifsp.edu.br/scl/"
+    }
+  ],
+  "supporters":[
+    {
+      "id": 1,
+      "src": "http://via.placeholder.com/640x360",
+      "name": "Patrocinador1"
+    },
+    {
+      "id": 2,
+      "src": "http://via.placeholder.com/100x50",
+      "name": "Patrocinador2"
+    },
+    {
+      "id": 3,
+      "src": "http://via.placeholder.com/300x300",
+      "name": "Patrocinador3"
+    },
+    {
+      "id": 4,
+      "src": "http://via.placeholder.com/400x200",
+      "name": "Patrocinador4"
+    },
+    {
+      "id": 5,
+      "src": "http://via.placeholder.com/200x400",
+      "name": "Patrocinador5"
+    }
+  ]
 
 }
