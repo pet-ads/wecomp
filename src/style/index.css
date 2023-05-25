@@ -11,3 +11,30 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  overflow: scroll;
+  overflow: overlay;
+}
+
+* {
+  scrollbar-width: thin;
+}
+ 
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--pallete-light)
+} 
+
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--pallete-dark);
+  background: linear-gradient( 180deg, var(--pallete-dark), var(--pallete-light));
+  border-radius: 10px;
+}
+
+
