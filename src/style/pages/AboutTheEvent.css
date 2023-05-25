@@ -32,5 +32,6 @@
     min-width: 50%;
     
     font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
     text-align: center;
 }

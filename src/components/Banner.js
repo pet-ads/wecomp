@@ -1,6 +1,5 @@
 import '../style/components/Banner.css';
 import logoWecomp from '../images/logoCerto.png';
-import logoIFSP from '../images/ifsp.png';
 
 function Banner({ bannerImage, canvasBackgroundColor, children }) {
     return (
