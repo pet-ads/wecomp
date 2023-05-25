@@ -12,6 +12,6 @@
     align-items: center;
 }
 
-h1{
-    padding-bottom: 60px;
+.local > h1 {
+    padding-bottom: 40px;
 }

@@ -9,18 +9,10 @@ function AboutTheEvent() {
             </header>
             <div className="section-content">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Donec felis lorem, vestibulum quis pretium eget, 
-                    tincidunt eget dolor. Sed tristique a mi eget ullamcorper. 
-                    In laoreet diam a posuere faucibus. Proin scelerisque 
-                    finibus diam eget scelerisque. In pulvinar nisl nec 
-                    consequat ullamcorper. Donec eget felis orci. Praesent 
-                    sagittis ex a sollicitudin gravida. Sed nunc nibh, congue 
-                    id nisi nec, pretium auctor enim. Suspendisse ut neque sit 
-                    amet ex consequat sollicitudin vel sit amet urna. Phasellus 
-                    ultricies nisl justo, dapibus gravida ipsum blandit vitae. 
-                    Nam ex odio, egestas quis orci vel, consequat pellentesque 
-                    dolor.
+                    O principal objetivo da Semana da Computação é proporcionar aos alunos maior interação 
+                    com o mercado e com aqueles que compartilham ideias e interesses semelhantes. 
+                    Pretende-se reduzir a distância entre teoria e prática, ensinar tecnologias novas aos alunos,
+                    guiá-los no âmbito empresarial da computação e promover seu ingresso no mercado de trabalho.
                 </p>
             </div>
             <Button text='Veja mais' address='http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html'/>

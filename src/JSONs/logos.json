@@ -23,27 +23,27 @@
     {
       "id": 1,
       "src": "http://via.placeholder.com/640x360",
-      "name": "Patrocinador1"
+      "name": "Apoiador1"
     },
     {
       "id": 2,
       "src": "http://via.placeholder.com/100x50",
-      "name": "Patrocinador2"
+      "name": "Apoiador2"
     },
     {
       "id": 3,
       "src": "http://via.placeholder.com/300x300",
-      "name": "Patrocinador3"
+      "name": "Apoiador3"
     },
     {
       "id": 4,
       "src": "http://via.placeholder.com/400x200",
-      "name": "Patrocinador4"
+      "name": "Apoiador4"
     },
     {
       "id": 5,
       "src": "http://via.placeholder.com/200x400",
-      "name": "Patrocinador5"
+      "name": "Apoiador5"
     }
   ]
 

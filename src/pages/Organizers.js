@@ -6,7 +6,7 @@ import logos from "../JSONs/logos.json";
 function Organizers(){
     return (
         <div id="organizers" className="organizers">
-            <h1 className="texto">Realização</h1>
+            <h1 className="texto">Apoio</h1>
             <div className="eachOrganizer">
                 {logos.supporters.map((logo) => (
                     <Organizer key={logo.id} organizer={logo} />

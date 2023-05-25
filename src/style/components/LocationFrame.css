@@ -1,20 +1,20 @@
 .locationFrame{
     width: 400px;
-    border: 2px solid var(--pallete-dark);
     padding: 10px;
     border-radius: 15px;
 }
 
-h2{
+.locationFrame > h2{
     font-weight: bold;
-    text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
-p{
+.local > p{
     padding-bottom: 15px;
 }
 
 iframe {
+    margin: 20px;
     width: 400;
     height: 300;
     border-style: 0;

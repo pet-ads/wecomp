@@ -6,5 +6,7 @@
     --pallete-light: #00D66F;
     --main-font: 'Montserrat', sans-serif;
     --font-color: rgb(32, 32, 32);
-    font-size: 12pt;
+
+    --title-font-size: 1.6rem;
+    --text-font-size: 1.2rem;
 }

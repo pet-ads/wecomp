@@ -9,21 +9,17 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
 }
 
 .about-the-event > header h2 {
-    text-align: justify;
-    text-transform: uppercase;
-
     margin: 0 0 .5em;
 
     font-weight: light;
-    font-size: 14pt;
+    font-size: var(--title-font-size);
 }
 
 .about-the-event > .section-content {
-    padding: 1em 0;
+    padding: 2em 0;
 
     display: flex;
     flex-direction: column;
@@ -35,5 +31,6 @@
     max-width: 80%;
     min-width: 50%;
     
-    text-align: justify;
+    font-size: var(--text-font-size);
+    text-align: center;
 }
