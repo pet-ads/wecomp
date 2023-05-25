@@ -5,3 +5,10 @@
   height: auto;
   min-height: 100vh;
 }
+
+.scroll-container {
+  height: 94vh;
+  width: 100%;
+  overflow: scroll;
+  overflow: overlay;
+}

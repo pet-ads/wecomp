@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding-right: 30px;
-    height:60px;
+    height: var(--navbar-height);
 }
 
 .nav-bar li {

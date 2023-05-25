@@ -2,19 +2,13 @@
   "organizers": [
     {
       "id": 1,
-      "src": "https://iamfounder.com.br/images/logo-onovolab.png",
-      "name": "Onovolab",
-      "link": "https://onovolab.com"
-    },
-    {
-      "id": 2,
       "src": "http://pet_ads.paginas.scl.ifsp.edu.br/assets/logo_PET.svg",
       "name": "PET/ADS",
       "link": "http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html"
     },
     {
-      "id": 3,
-      "src": "/static/media/ifsp.43506bc1a70db3bd15eb.png",
+      "id": 2,
+      "src": "ifsp.png",
       "name": "IFSP - São Carlos",
       "link": "https://portais.ifsp.edu.br/scl/"
     }
@@ -22,26 +16,32 @@
   "supporters":[
     {
       "id": 1,
+      "src": "https://iamfounder.com.br/images/logo-onovolab.png",
+      "name": "Onovolab",
+      "link": "https://onovolab.com"
+    },
+    {
+      "id": 2,
       "src": "http://via.placeholder.com/640x360",
       "name": "Apoiador1"
     },
     {
-      "id": 2,
+      "id": 3,
       "src": "http://via.placeholder.com/100x50",
       "name": "Apoiador2"
     },
     {
-      "id": 3,
+      "id": 4,
       "src": "http://via.placeholder.com/300x300",
       "name": "Apoiador3"
     },
     {
-      "id": 4,
+      "id": 5,
       "src": "http://via.placeholder.com/400x200",
       "name": "Apoiador4"
     },
     {
-      "id": 5,
+      "id": 6,
       "src": "http://via.placeholder.com/200x400",
       "name": "Apoiador5"
     }
