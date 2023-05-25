@@ -3,9 +3,9 @@ import '../style/components/Button.css';
 function Button({text, address}){
     return (
         <div className="button">
-            <form action={address}>
+            <a href={address}>
                 <input type="button" value={text}/>
-            </form>
+            </a>
         </div>
     );
 }
