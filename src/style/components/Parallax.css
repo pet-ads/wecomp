@@ -1,0 +1,29 @@
+.parallax_layer_back {
+    transform: translateZ(-8px) scale(10);
+    background-image: linear-gradient(45deg, #ffffff 25%, #f7f7f7 25%, #f7f7f7 50%, #ffffff 50%, #ffffff 75%, #f7f7f7 75%, #f7f7f7 100%);
+    background-size: 130px 130px;
+} 
+
+.parallax_layer_base {
+    transform: translateZ(0);
+}
+
+.parallax {
+  perspective: 3px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.scroll-container {
+    overflow: overlay;
+  }
+
+

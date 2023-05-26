@@ -29,4 +29,8 @@
   border-radius: 10px;
 }
 
+*::-webkit-scrollbar-corner{
+  size: 0;
+}
+
 
