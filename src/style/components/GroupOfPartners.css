@@ -1,0 +1,14 @@
+.groupOfPartners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    column-gap: 60px;
+    height: 50%;
+}
+
+.partnersTitle {
+    color: var(--font-color);
+    font-size: 30px;
+    margin-top: 5%;
+}
