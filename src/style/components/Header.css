@@ -9,7 +9,6 @@
     align-items: center;
     flex-direction: row-reverse;
     background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
-    
 
     position: -webkit-sticky; 
     position: sticky;
