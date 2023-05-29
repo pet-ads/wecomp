@@ -5,6 +5,7 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import Banner from '../components/Banner.js';
 import Partners from './Partners';
+import Contact from './Contact';
 import Location from './Location';
 import AboutTheEvent from './AboutTheEvent';
 import Background from '../components/Background';
@@ -22,6 +23,7 @@ function App() {
           <AboutTheEvent />
           <Schedule/>
           <Partners/>
+          <Contact/>
           <Location/>
           <Footer/>
         </div>
