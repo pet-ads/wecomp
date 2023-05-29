@@ -8,6 +8,7 @@ import Partners from './Partners';
 import Location from './Location';
 import AboutTheEvent from './AboutTheEvent';
 import Background from '../components/Background';
+import Schedule from './Schedule';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <div className="parallax_layer_base parallax__layer">
           <Banner/>
           <AboutTheEvent />
+          <Schedule/>
           <Partners/>
           <Location/>
           <Footer/>

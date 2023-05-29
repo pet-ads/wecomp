@@ -1,0 +1,21 @@
+{
+    "listOfEvents": [
+        {
+            "id": 1,
+            "description": "Mini-curso de Python",
+            "image": "http://via.placeholder.com/400x200",
+            "imageDesc": "Foto do Evento",
+            "author": "Caio Andrade",
+            "date": "28 de agosto às 18h"
+        },
+
+        {
+            "id": 2,
+            "description": "Mini-curso de Python",
+            "image": "http://via.placeholder.com/400x200",
+            "imageDesc": "Foto do Evento",
+            "author": "Helena Monteiro",
+            "date": "28 de agosto às 18h"
+        }
+    ]
+}
