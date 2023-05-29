@@ -1,4 +1,5 @@
 import Event from "../components/Event";
+import "../style/components/GroupOfEvents.css";
 
 function GroupOfEvents({events}){
     return(

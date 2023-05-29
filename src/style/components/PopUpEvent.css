@@ -1,0 +1,37 @@
+.popUpTeste {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 2px 2px 2px #c4c4c4;
+
+    background: rgb(255, 255, 255); 
+    overflow: auto; 
+    border-radius: 15px;
+    outline: none; 
+    padding: 20px;
+}
+
+.popUpOverlay {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(197, 197, 197, 0.75);
+}
+
+.popUpDescription {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+
+    position: relative;
+    top: 25%;
+}
+
+.popUpDescription > p {
+    font-weight: var(--text-font-weight);
+    text-align: center;
+    margin-bottom: 20px;
+}

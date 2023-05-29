@@ -1,0 +1,27 @@
+.eventTitle {
+    color: var(--font-color);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.eventImage {
+    border-radius: 10px;
+    width: 300px;
+    height: 175px;
+    object-fit: cover;
+}
+
+.eventAuthor {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--font-color);
+    text-align: center;
+    margin: 18px;
+}
+
+.eventDate {
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    text-align: center;
+    margin-bottom: 20px;
+}
