@@ -6,7 +6,7 @@ import events from "../JSONs/events.json";
 import "../style/components/PopUpEvent.css";
 
 
-function PopUpEvent({description}) {
+function PopUpEvent({name, author, date, description}) {
   const [isOpen, setIsOpen] = useState(false);
  
   return (
@@ -17,6 +17,9 @@ function PopUpEvent({description}) {
             isOpen={isOpen}
             contentLabel="Example Modal">
             <div className='popUpDescription'>
+                <h2>{name}</h2>
+                <h3>{author}</h3>
+                <p>{date}</p>
                 <p>{description}</p>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
             </div>

@@ -8,7 +8,7 @@ function Event({event}){
                 <img className="eventImage" src={event.image} alt={event.imageDesc}/>
                 <h3 className="eventAuthor">{event.author}</h3>
                 <p className="eventDate">{event.date}</p>
-                <PopUpEvent description={event.description}/>
+                <PopUpEvent name={event.name} author={event.author} date={event.date} description={event.description}/>
             </div>
         );
 }
