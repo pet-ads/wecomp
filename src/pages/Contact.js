@@ -12,7 +12,7 @@ function Contact(){
     const logoFacebook = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"; 
 
     return(
-        <div className="contact">
+        <div className="contact" id="contact">
             <h2>Contato</h2>
             <p>Nos acompanhe pelas nossas redes sociais, onde postaremos as atualizações do evento.
                 Entre em contato conosco pelo nosso e-mail oficial!</p>

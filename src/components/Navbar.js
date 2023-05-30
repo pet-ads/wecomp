@@ -8,6 +8,7 @@ function Navbar(){
                 <li><a className="navAbout" href="#about-the-event">Sobre</a></li>
                 <li><a className="navSchedule" href="#schedule">Programação</a></li>
                 <li><a className="navSupports" href="#organizers">Parceiros</a></li>
+                <li><a className="navContact" href="#contact">Contato</a></li>
                 <li><a className="navLocation" href="#local">Local</a></li>
             </ul>
         </nav>
