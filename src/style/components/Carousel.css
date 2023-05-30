@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+}
+
+.btn-gallery {
+    text-align: center;
+}
+

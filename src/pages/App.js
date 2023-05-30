@@ -7,10 +7,11 @@ import Banner from '../components/Banner.js';
 import Partners from './Partners';
 import Contact from './Contact';
 import Location from './Location';
+import Carousel from '../components/Carousel';
 import AboutTheEvent from './AboutTheEvent';
 import Background from '../components/Background';
 import Schedule from './Schedule';
-
+import events from "../JSONs/events.json";
 
 function App() {
   return (

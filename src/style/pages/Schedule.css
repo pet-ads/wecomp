@@ -11,3 +11,8 @@
     font-size: var(--title-font-size);
     margin: 50px;
 }
+
+.schedule > p {
+    font-weight: 700;
+    font-size: var(--text-font-size);
+}
