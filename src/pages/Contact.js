@@ -14,7 +14,8 @@ function Contact(){
     return(
         <div className="contact">
             <h2>Contato</h2>
-
+            <p>Nos acompanhe pelas nossas redes sociais, onde postaremos as atualizações do evento.
+                Entre em contato conosco pelo nosso e-mail oficial!</p>
             <h3>Redes Sociais</h3>
             <div className="socialMedia">
                 <div>
@@ -31,9 +32,11 @@ function Contact(){
                 </div>
             </div>
             
-            <h3>E-mail</h3>
-            <p>wecomp.scl@ifsp.edu.br</p>
-            <Button text='Envie um e-mail' address='mailto:wecomp.scl@ifsp.edu.br?subject=Contato via Site da Wecomp'/>
+            <div className="email">
+                <h3>E-mail</h3>
+                <p>wecomp.scl@ifsp.edu.br</p>
+                <Button className="buttonEmail" text='Envie um e-mail' address='mailto:wecomp.scl@ifsp.edu.br?subject=Contato via Site da Wecomp'/>
+            </div>
         </div>
     );
 }
