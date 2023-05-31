@@ -1,6 +1,6 @@
 import styles from "../style/components/Partner.css"
-import logo from "../JSONs/logos.json"
-function Organizer({organizer}){
+
+function Partner({organizer}){
     let image = organizer.src;
     return(
         <div className="container">
@@ -13,4 +13,4 @@ function Organizer({organizer}){
     )
 }
 
-export default Organizer;
+export default Partner;

@@ -3,6 +3,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-size:300px 300px;
-    height: 100%;
+}
+
+.partnersTile{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-radius: 80px;
+    align-self: center;
 }
