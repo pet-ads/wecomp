@@ -1,6 +1,6 @@
 import '../style/components/Button.css';
 
-function Button({text, address, action}){
+function Button({text, address, action, alt}){
     return (
         <div className="button">
             <a href={address}>

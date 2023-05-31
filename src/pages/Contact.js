@@ -1,5 +1,6 @@
 import '../style/pages/Contact.css';
 import Button from '../components/Button.js';
+import ClickableImage from '../components/ClickableImage';
 
 function Contact(){
     const linkInstagram = "http://instagram.com/petadsifsp";
@@ -19,16 +20,21 @@ function Contact(){
             <h3>Redes Sociais</h3>
             <div className="socialMedia">
                 <div>
-                    <a href={linkInstagram} target="_blank">
+                    <ClickableImage className={"socialMediaLogo"} link={linkInstagram} alt="Logo da Rede Social Instagram" 
+                    text="@wecompifsp" image={logoInstagram}></ClickableImage>
+                    {/* <a href={linkInstagram} target="_blank">
                         <img className="socialMediaLogo" src={logoInstagram} alt="Logo da Rede Social Instagram"></img>
                     </a>
-                    <p>@wecompifsp</p>
+                    <p>@wecompifsp</p> */}
                 </div>
                 <div>
-                    <a href={linkFacebook} target="_blank">
+                    <ClickableImage className={"socialMediaLogo"} link={linkFacebook} alt="Logo da Rede Social Facebook" 
+                    text="@wecompifsp" image={logoFacebook}></ClickableImage>
+                    {/* <a href={linkFacebook} target="_blank">
                         <img className="socialMediaLogo" src={logoFacebook} alt="Logo da Rede Social Facebook"></img>
-                    </a>
+                    </a> 
                     <p>Wecomp IFSP</p>
+                    */}
                 </div>
             </div>
             
