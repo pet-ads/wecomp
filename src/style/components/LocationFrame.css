@@ -6,32 +6,40 @@
 }
 
 .locationFrame {
-    display: flex;
-    flex-direction: column;
+    display: inline;
     width: 400px;
+    height: 250px;
     padding: 10px;
     border-radius: 15px;
+    position: relative;
 }
 
 .locationFrame > h2{
     font-weight: bold;
     padding-bottom: 10px;
+    text-align: left;
+    padding-left: 70px;
 }
 
 .locationIcon {
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
+    float: left;
 }
 
-.local > p{
+.locationFrame > p{
     padding-bottom: 15px;
+    text-align: left;
+    padding-left: 70px;
 }
 
 iframe {
-    margin: 20px;
     width: 400;
     height: 300;
     border-style: solid;
     border-color: rgb(202, 202, 202);
     border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
