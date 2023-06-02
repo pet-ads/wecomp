@@ -21,12 +21,13 @@ function Partners(){
 
         fetchPartners();
     }, []);
+    console.log(supporters);
 
     return (
         <div id="organizers" className="partners">
             <div className="partnersTile">
-            <GroupOfPartners logos={supporters} text="Apoiadores"/>
-            <GroupOfPartners logos={organizers} text="Realizadores"/>
+            <GroupOfPartners partners={supporters} text="Apoiadores"/>
+            <GroupOfPartners partners={organizers} text="Realizadores"/>
             </div>
         </div>
     )
