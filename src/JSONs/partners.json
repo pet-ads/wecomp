@@ -11,6 +11,12 @@
       "src": "https://portais.ifsp.edu.br/scl/images/Logo_Campus/Marca_IFSP_2015_Sao-Carlos.png",
       "name": "IFSP - São Carlos",
       "link": "https://portais.ifsp.edu.br/scl/"
+    },
+    {
+      "id": 3,
+      "src": "../imagens/logoInova.png",
+      "name": "Inova IFSP",
+      "link": ""
     }
   ],
   "supporters":[
