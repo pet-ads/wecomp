@@ -9,15 +9,15 @@
 .parallax_layer_back_image_test1 {
     transform: translateZ(-1px) scale(2);
     background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 66%, rgb(255, 255, 255) 66%);
-    background-size: 10% 4%;
-    height: 500%;
+    background-size: 10vw 8.66vw;
+    height:500%;
     width: 100%;
 }
 
 .parallax_layer_back_image_test2 {
     transform: translateZ(-1px) scale(2);
     background-image: linear-gradient(240deg, rgba(255, 255, 255, 0) 66%, rgb(255, 255, 255) 66%);
-    background-size: 10% 4%;
+    background-size: 10vw 8.66vw;
     height: 500%;
     width: 100%;
 }

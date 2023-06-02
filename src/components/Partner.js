@@ -1,11 +1,11 @@
 import styles from "../style/components/Partner.css"
 
-function Partner({organizer, image}){
+function Partner({partner, image}){
     return(
         <div className="container">
             <div className="partnerImage">
-                <a href={organizer.link} target="_blank">
-                    <img src={image} alt={organizer.name}></img>
+                <a href={partner.link} target="_blank">
+                    <img src={image} alt={partner.name} width={partner.width}></img>
                 </a>
             </div>
         </div>
