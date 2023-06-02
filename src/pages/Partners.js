@@ -1,5 +1,4 @@
 import "../style/pages/Partners.css";
-import logos from "../JSONs/partners.json";
 import GroupOfPartners from "../components/GroupOfPartners";
 import React, { useState, useEffect } from 'react';
 
