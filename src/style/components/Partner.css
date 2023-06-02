@@ -1,8 +1,7 @@
 .partnerImage img{
-    max-width: 250px;
-    /* width: auto; */
     max-height: 150px;
-    height: auto;
+    max-width: 250px;
+    aspect-ratio:initial; 
 }
 
 .partnerImage{
