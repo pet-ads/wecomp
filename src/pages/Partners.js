@@ -11,8 +11,8 @@ function Partners(){
     useEffect(() => {
         const fetchPartners = async () => {
         try {
-            const response = await fetch("../JSONs/partners.json");
-            const data = response.json();
+            const response = await fetch("./partners.json");
+            const data = await response.json();
             setSupporters(data.supporters);
             setOrganizers(data.organizers);
         } catch (error) {
