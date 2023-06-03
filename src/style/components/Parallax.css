@@ -1,6 +1,6 @@
 .parallax_layer_back {
     transform: translateZ(-1px) scale(2);
-    background-image: linear-gradient( 90deg, #00d0ff85, #1fdd942c 20%, white 40%, white 60%,  #1fdd942c 80%, #00d0ff85);;
+    background-image: linear-gradient( 90deg, #00d0ff5d, #1fdd942c, white 20%, white 80%,  #1fdd942c, #00d0ff5d );;
     background-size: 100% 100%;
     height: 500%;
     width: 100%;
@@ -9,15 +9,17 @@
 .parallax_layer_back_image_test1 {
     transform: translateZ(-1px) scale(2);
     background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 66%, rgb(255, 255, 255) 66%);
-    background-size: 10vw 8.66vw;
-    height:500%;
+    /* background-size: 10vw 8.66vw; */
+    background-size: 20vh 3.6%;
+    height: 500%;
     width: 100%;
 }
 
 .parallax_layer_back_image_test2 {
     transform: translateZ(-1px) scale(2);
     background-image: linear-gradient(240deg, rgba(255, 255, 255, 0) 66%, rgb(255, 255, 255) 66%);
-    background-size: 10vw 8.66vw;
+    
+    background-size: 20vh 3.6%;
     height: 500%;
     width: 100%;
 }
