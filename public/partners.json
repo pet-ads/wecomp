@@ -20,7 +20,8 @@
         "id": 1,
         "src": "https://iamfounder.com.br/images/logo-onovolab.png",
         "name": "Onovolab",
-        "link": "https://onovolab.com"
+        "link": "https://onovolab.com",
+        "width": 165
       },
       {
         "id": 2,
@@ -28,21 +29,6 @@
         "name": "Inova IFSP",
         "link": "",
         "width": 240
-      },
-      {
-        "id": 3,
-        "src": "http://via.placeholder.com/100x50",
-        "name": "Apoiador2"
-      },
-      {
-        "id": 4,
-        "src": "http://via.placeholder.com/300x300",
-        "name": "Apoiador3"
-      },
-      {
-        "id": 5,
-        "src": "http://via.placeholder.com/400x200",
-        "name": "Apoiador4"
       }
     ]
   

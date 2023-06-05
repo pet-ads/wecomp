@@ -1,7 +1,9 @@
 .partnerImage img{
     max-height: 150px;
     max-width: 250px;
-    aspect-ratio:initial; 
+    align-self: center;
+    max-width: auto;
+    max-height: auto;
 }
 
 .partnerImage{
@@ -24,9 +26,4 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-}
-
-
-.container img{
-    align-self: center;
 }
