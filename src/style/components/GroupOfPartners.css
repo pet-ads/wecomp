@@ -8,8 +8,21 @@
 }
 
 .partnersTitle {
-    color: var(--font-color);
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 5%;
     margin-bottom: 5%;
+    color: var(--font-color);
+    background: linear-gradient( 90deg, var(--pallete-dark), var(--pallete-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration:underline;
+    text-align: center; 
+}
+
+.partnersTitleContainer{
+    width: fit-content;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding: 10px;
 }

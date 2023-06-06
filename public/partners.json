@@ -5,14 +5,14 @@
         "src": "http://pet_ads.paginas.scl.ifsp.edu.br/assets/logo_PET.svg",
         "name": "PET/ADS",
         "link": "http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html",
-        "width": 170
+        "width": 165
       },
       {
         "id": 2,
         "src": "./logos/ifsp.png",
         "name": "IFSP - São Carlos",
         "link": "https://portais.ifsp.edu.br/scl/",
-        "width": 210
+        "width": 230
       }
     ],
     "supporters":[
@@ -21,13 +21,34 @@
         "src": "https://iamfounder.com.br/images/logo-onovolab.png",
         "name": "Onovolab",
         "link": "https://onovolab.com",
-        "width": 165
+        "width": 160
       },
       {
         "id": 2,
         "src": "./logos/inova.jpeg",
         "name": "Inova IFSP",
-        "link": "",
+        "link": "http://inova.ifsp.edu.br/",
+        "width": 240
+      },
+      {
+        "id": 3,
+        "src": "./logos/monitora_black.png",
+        "name": "Marlabs - Monitora",
+        "link": "https://monitoratec.com.br",
+        "width": 240
+      },
+      {
+        "id": 4,
+        "src": "./logos/tokenlab.svg",
+        "name": "Tokenlab",
+        "link": "https://www.tokenlab.com.br/pt/home",
+        "width": 240
+      },
+      {
+        "id": 5,
+        "src": "./logos/mediamonks.png",
+        "name": "Media.monks",
+        "link": "https://media.monks.com/pt",
         "width": 240
       }
     ]
