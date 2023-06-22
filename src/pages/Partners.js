@@ -27,7 +27,7 @@ function Partners(){
         <div id="organizers" className="partners">
             <div className="partnersTile">
             <GroupOfPartners partners={supporters} text="Apoiadores"/>
-            <GroupOfPartners partners={organizers} text="Realizadores"/>
+            <GroupOfPartners partners={organizers} text="Realização"/>
             </div>
         </div>
     )

@@ -10,15 +10,6 @@
 .partnersTitle {
     font-size: 40px;
     color: var(--font-color);
-    /* background: linear-gradient( 90deg, var(--pallete-dark), var(--pallete-light));
-    background-clip: initial;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    text-align: center;
-    background-image: linear-gradient(90deg, rgba(0, 208, 255, 0.1) , rgba(31, 221, 148, 0.03), rgba(0, 208, 255, 0.1));
-    margin-left: -10%;
-    margin-right: -10%;
-    border-radius: 20px;
 }
 
 .partnersTitleContainer{
