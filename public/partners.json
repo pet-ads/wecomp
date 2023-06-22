@@ -18,14 +18,14 @@
     "supporters":[
       {
         "id": 1,
-        "src": "./logos/onovolab3.jpg",
+        "src": "./logos/onovolab.jpg",
         "name": "Onovolab",
         "link": "https://onovolab.com",
         "width": 300
       },
       {
         "id": 2,
-        "src": "./logos/inova.jpeg",
+        "src": "./logos/inova.png",
         "name": "Inova IFSP",
         "link": "http://inova.ifsp.edu.br/",
         "width": 220
