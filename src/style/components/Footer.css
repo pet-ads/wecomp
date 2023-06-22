@@ -4,12 +4,12 @@
     padding: 10px;
 
     display: flex;
-    
+
     justify-content: space-evenly;
     align-items: center;
     color: white;
     background-image: linear-gradient( to right, var(--pallete-dark), var(--pallete-light));
-    height: 7%;
+    height: 4.5em;
 }
 
 .footer > p {
@@ -26,3 +26,11 @@
 .logoGithub {
     width: 35px;
 }
+
+@media screen and (max-width: 775px) {
+    .footer {
+        height: 28%;
+        flex-wrap: wrap;
+    }
+  }
+    
