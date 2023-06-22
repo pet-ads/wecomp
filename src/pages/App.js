@@ -12,11 +12,13 @@ import AboutTheEvent from './AboutTheEvent';
 import Background from '../components/Background';
 import Schedule from './Schedule';
 import events from "../JSONs/events.json";
+import DropdownMenu from '../components/DropdownMenu';
 
 function App() {
   return (
     <div className="app">
       <Header/>
+      <DropdownMenu/>
       <div className="scroll-container parallax">
         <Background/>
         <div className="parallax_layer_base parallax__layer">
