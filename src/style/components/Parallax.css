@@ -1,6 +1,6 @@
 .parallax_layer_back {
     transform: translateZ(-1px) scale(2);
-    background-image: linear-gradient( 90deg, #00d0ff5d, #1fdd942c, white 20%, white 80%,  #1fdd942c, #00d0ff5d );;
+    background-image: linear-gradient( 90deg, #00d0ffb0, #1fdd94a1, #1fdd944d 16%, white 30%, white 70%,  #1fdd944d 84%,  #1fdd94a1, #00d0ffb0 );
     background-size: 100% 100%;
     height: 500%;
     width: 100%;
@@ -55,6 +55,19 @@
 
 .test {
     margin-top: 0px;
+}
+
+.parallaxImage1{
+    width: auto;
+    height: 200vh;
+    position: absolute;
+    left: 0;
+}
+.parallaxImage2{
+    width: auto;
+    height: 200vh;
+    position: absolute;
+    right: 0;
 }
 
 /* 
