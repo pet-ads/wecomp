@@ -1,5 +1,6 @@
 import '../style/components/Footer.css';
 import logoGithubBranco from '../images/github-mark-white.png';
+import logoIfspBranco from '../images/logoIFSPbranco.png';
 
 function Footer(){
     return (
@@ -7,8 +8,8 @@ function Footer(){
             <a href="https://github.com/pet-ads/wecomp">
                 <img className="logoGithub" src={logoGithubBranco} alt="Logo do Github"/>
             </a>
-            <p>Desenvolvido com ♥ pela equipe do PET 
-                do curso de Análise e Desenvolvimento de Sistemas</p>
+            <p className="footer_text">Desenvolvido com ♥ por PET/ADS @ IFSP/SCL</p>
+            <img className='logoIfsp ' src={logoIfspBranco} alt="logo do IFSP"></img>
         </footer>
     )
 }
