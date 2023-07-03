@@ -6,7 +6,7 @@ function Banner({ bannerImage, canvasBackgroundColor, children }) {
         <div id="banner" className="banner">
             <img className="banner--image" src={logoWecomp}></img>
             <h2 className="title">IV Semana da Computação</h2>
-            <p className="text">Em breve!</p>
+            <p className="text">28 de agosto a 01 de setembro</p>
         </div> 
     );
 }

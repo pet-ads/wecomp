@@ -7,7 +7,7 @@
 }
 
 .scroll-container {
-  height: 94vh;
+  height: var(--page-height);
   width: auto;
   overflow: scroll;
 }

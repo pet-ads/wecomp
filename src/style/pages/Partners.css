@@ -1,5 +1,6 @@
 .partners {
     width: 100%;
+    height: var(--page-height);
     display: flex;
     flex-direction: column;
     justify-content: center;

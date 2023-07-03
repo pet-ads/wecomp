@@ -14,6 +14,7 @@ import Schedule from './Schedule';
 import events from "../JSONs/events.json";
 import DropdownMenu from '../components/DropdownMenu';
 
+
 function App() {
   return (
     <div className="app">

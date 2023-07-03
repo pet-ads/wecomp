@@ -1,35 +1,11 @@
 .parallax_layer_back {
-    transform: translateZ(-1px) scale(2);
-    background-image: linear-gradient( 90deg, #00d0ffb0, #1fdd94a1, #1fdd944d 16%, white 30%, white 70%,  #1fdd944d 84%,  #1fdd94a1, #00d0ffb0 );
-    background-size: 100% 100%;
-    height: 500%;
-    width: 100%;
+    margin-top: 115vh;
+    transform: translateZ(-1px) scale(2); 
+    background-image: linear-gradient( 90deg, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
+    height: 350%;
+    width: initial;
+    margin-left: -10px;
 }
-
-.parallax_layer_back_image_test1 {
-    transform: translateZ(-1px) scale(2);
-    background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 66%, rgb(255, 255, 255) 66%);
-    /* background-size: 10vw 8.66vw; */
-    background-size: 20vh 3.6%;
-    height: 500%;
-    width: 100%;
-}
-
-.parallax_layer_back_image_test2 {
-    transform: translateZ(-1px) scale(2);
-    background-image: linear-gradient(240deg, rgba(255, 255, 255, 0) 66%, rgb(255, 255, 255) 66%);
-    
-    background-size: 20vh 3.6%;
-    height: 500%;
-    width: 100%;
-}
-/* .parallax_layer_back_image_test3 {
-    transform: translateZ(-1px) scale(2);
-    background-image: linear-gradient(340deg, rgba(255, 255, 255, 0) 70%, rgb(255, 255, 255) 70%);
-    background-size: 200px 173px;
-    height: 500%;
-    width: 100%;
-} */
 
 .parallax_layer_base {
     transform: translateZ(0);
@@ -50,25 +26,13 @@
 }
 
 .scroll-container {
-    overflow: overlay;
-  }
-
-.test {
-    margin-top: 0px;
+    overflow-x: hidden;
 }
 
-.parallaxImage1{
-    width: auto;
-    height: 200vh;
-    position: absolute;
-    left: 0;
+.parallax_image{
+    height: 100%;
 }
-.parallaxImage2{
-    width: auto;
-    height: 200vh;
-    position: absolute;
-    right: 0;
-}
+    
 
 /* 
 site que eu peguei o parallax
