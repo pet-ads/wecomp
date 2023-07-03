@@ -8,8 +8,10 @@
     --font-color: rgb(32, 32, 32);
 
     --title-font-size: 1.6rem;
+    --mobile-title-font-size: 1.3rem;
     --subtitle-font-size: 1.4rem;
     --text-font-size: 1.2rem;
+    --mobile-text-font-size: 1rem;
     --text-font-weight: 500;
     --page-height: 94vh;
     --site-height: 564vh;

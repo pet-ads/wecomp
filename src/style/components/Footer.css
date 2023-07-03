@@ -34,8 +34,21 @@
 
 @media screen and (max-width: 775px) {
     .footer {
-        height: 28%;
+        height: 20vh;
         flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .footer_text {
+        font-size: 1rem;
+    }
+
+    .logoGithub {
+        height: 30px;
+    }
+    
+    .logoIfsp {
+        height: 35px;
     }
   }
     

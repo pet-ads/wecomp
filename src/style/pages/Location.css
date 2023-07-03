@@ -1,14 +1,34 @@
 .title {
-    font-size: 30px;
+    font-size: var(--title-font-size);
 }
 
 .local {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 100%;
     height: calc(var(--page-height) - 7vh);
-    /* background-color: blue; */
+}
+
+.locations {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .local > h1 {
     padding-bottom: 40px;
 }
+
+@media screen and (max-width: 775px) {
+    .local {
+        height: calc(var(--page-height) - 20vh);
+    }
+
+    .local > h1 {
+        padding-bottom: 20px;
+    }
+  }
