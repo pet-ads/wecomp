@@ -4,7 +4,7 @@
     justify-content: center;
     align-content: center;
     column-gap: 100px;
-    height: 50%;
+    /* background-color: blue; */
 }
 
 .partnersTitle {
@@ -17,5 +17,18 @@
     justify-content: center;
     align-content: center;
     margin: auto;
-    padding: 10px;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
 }
+
+@media screen and (max-width: 1100px) {
+    .partnersTitleContainer{
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+    }
+
+    .partnersTitle {
+        font-size: 30px;
+        color: var(--font-color);
+    }
+  }
