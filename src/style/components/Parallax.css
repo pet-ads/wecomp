@@ -1,6 +1,6 @@
 .parallax_layer_back {
     margin-top: 115vh;
-    transform: translateZ(-1px) scale(2); 
+    transform: translateZ(-1px) scale(2.2); 
     background-image: linear-gradient( 90deg, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
     height: 350%;
     width: initial;
@@ -31,6 +31,9 @@
 
 .parallax_image{
     height: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
     
 
