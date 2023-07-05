@@ -28,21 +28,30 @@
         "src": "./logos/inova.png",
         "name": "Inova IFSP",
         "link": "http://inova.ifsp.edu.br/",
-        "width": 220
+        "width": 230
       },
+      {
+        "id": 3,
+        "src": "./logos/mediamonks.png",
+        "name": "Media.monks",
+        "link": "https://media.monks.com/pt",
+        "width": 280
+      },
+      {
+        "id": 3,
+        "src": "./logos/minsait.png",
+        "name": "Minsait",
+        "link": "https://www.minsait.com/pt",
+        "width": 225
+      }
+    ],
+    "unused":[
       {
         "id": 3,
         "src": "./logos/monitora_black.png",
         "name": "Marlabs - Monitora",
         "link": "https://monitoratec.com.br",
         "width": 260
-      },
-      {
-        "id": 5,
-        "src": "./logos/mediamonks.png",
-        "name": "Media.monks",
-        "link": "https://media.monks.com/pt",
-        "width": 280
       },
       {
         "id": 4,

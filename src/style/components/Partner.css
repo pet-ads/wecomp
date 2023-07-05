@@ -87,3 +87,9 @@
         height: 55px;
     }
 }
+
+@media screen and (max-height: 700px) {
+    .partnerImage {
+        height: 40px;
+    }
+}
