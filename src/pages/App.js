@@ -19,6 +19,7 @@ function App() {
   return (
     <div className="app">
       <Header/>
+      
       <DropdownMenu/>
       <div className="scroll-container parallax">
         <Background/>

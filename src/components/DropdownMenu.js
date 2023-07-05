@@ -15,10 +15,11 @@ function DropdownMenu () {
     };
 
     return (
-        
         <div className="menu" onMouseLeave={handleMouseLeave}>
             <div className="dropdown" ref={dropdownRef} >
-                <img className="menu-image" src={menu} onClick={toggleDropdown} ></img>
+                <div className="menu-image">
+                    <img src={menu} onClick={toggleDropdown} ></img>
+                </div>
                 {isDropdownOpen && (
                 <div className="dropdown-content" onMouseLeave={handleMouseLeave}>
                     <a href="#banner">Início</a>

@@ -1,10 +1,16 @@
 .banner {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: var(--page-height   );
-    padding-top: 100px
+    height: var(--page-height);
+
+    /* background-color: rebeccapurple; */
+}
+
+.banner-container {
+    width: 100%;
 }
 
 .banner--image { 
@@ -12,9 +18,14 @@
     max-width: 120vh;
 }
 
-.title {
-    margin: 15px;
-    font-size: 25px;
+.banner-title {
+    margin: 30px;
+    font-size: var(--subtitle-font-size);
+}
+
+.banner-text {
+    font-size: var(--text-font-size);
+    font-weight: 400;
 }
 
 .logoIFSP {
@@ -22,7 +33,25 @@
     margin: 15px;
 }
 
-.banner > p {
-    font-size: var(--text-font-size);
-    font-weight: 400;
+
+
+
+@media screen and (max-width: 670px) {
+    .banner-title {
+        font-size: var(--mobile-title-font-size);
+    }
+    
+    .banner-text {
+        font-size: var(--mobile-text-font-size);
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .banner-title {
+        font-size: 20px;
+    }
+    
+    .banner-text {
+        font-size: 15px;
+    }
 }

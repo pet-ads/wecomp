@@ -1,17 +1,24 @@
 .menu {
     width: 100%;
-    height: 3em;
+    height: var(--navbar-height);
     background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
     display: flex;
     align-items: center;
 }
 
-.menu-image {
+.menu-image > img {
+    display: fixed;
+    /* margin-top: 1.5vh; */
     width: auto;
-    height: 1.75em;
-    padding-left: 1em;
+    height: 4vh;
+    padding-left: 0.8em;
     cursor: pointer;
 }
+.menu-image  {
+    display: flex;
+    align-items: center;
+}
+
 
 .dropdown {
     position: relative;

@@ -3,7 +3,7 @@ import Button from '../components/Button.js';
 import ClickableImage from '../components/ClickableImage';
 
 function Contact(){
-    const linkInstagram = "http://instagram.com/petadsifsp";
+    const linkInstagram = "https://www.instagram.com/wecompifsp/";
     const logoInstagram = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png";
     
     const linkEmail = "mailto:wecomp.scl@ifsp.edu.br?subject=Contato via Site da Wecomp";
@@ -22,19 +22,10 @@ function Contact(){
                 <div>
                     <ClickableImage className={"socialMediaLogo"} link={linkInstagram} alt="Logo da Rede Social Instagram" 
                     text="@wecompifsp" image={logoInstagram}></ClickableImage>
-                    {/* <a href={linkInstagram} target="_blank">
-                        <img className="socialMediaLogo" src={logoInstagram} alt="Logo da Rede Social Instagram"></img>
-                    </a>
-                    <p>@wecompifsp</p> */}
                 </div>
                 <div>
                     <ClickableImage className={"socialMediaLogo"} link={linkFacebook} alt="Logo da Rede Social Facebook" 
                     text="@wecompifsp" image={logoFacebook}></ClickableImage>
-                    {/* <a href={linkFacebook} target="_blank">
-                        <img className="socialMediaLogo" src={logoFacebook} alt="Logo da Rede Social Facebook"></img>
-                    </a> 
-                    <p>Wecomp IFSP</p>
-                    */}
                 </div>
             </div>
             
