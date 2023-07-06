@@ -2,11 +2,14 @@
     position: fixed;
     left: 0;
     bottom: -1;
+
     width: 100%;
     max-width: 100%;
+
     padding: 10px;
+
     background-image: linear-gradient( to right, var(--pallete-dark), var(--pallete-light));
-    height: 7vh;
+    height: fit-content;
 }
 
 .footer > div {
