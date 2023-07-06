@@ -5,14 +5,14 @@
         "src": "./logos/pet.png",
         "name": "PET/ADS",
         "link": "http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html",
-        "width": 200
+        "width": 160
       },
       {
         "id": 2,
         "src": "./logos/ifsp.png",
         "name": "IFSP - São Carlos",
         "link": "https://portais.ifsp.edu.br/scl/",
-        "width": 290
+        "width": 230
       }
     ],
     "supporters":[
@@ -21,28 +21,28 @@
         "src": "./logos/onovolab.jpg",
         "name": "Onovolab",
         "link": "https://onovolab.com",
-        "width": 300
+        "width": 240
       },
       {
         "id": 2,
         "src": "./logos/inova.png",
         "name": "Inova IFSP",
         "link": "http://inova.ifsp.edu.br/",
-        "width": 230
+        "width": 180
       },
       {
         "id": 3,
         "src": "./logos/mediamonks.png",
         "name": "Media.monks",
         "link": "https://media.monks.com/pt",
-        "width": 280
+        "width": 225
       },
       {
         "id": 4,
         "src": "./logos/minsait.png",
         "name": "Minsait",
         "link": "https://www.minsait.com/pt",
-        "width": 225
+        "width": 180
       }
     ],
     "unused":[
