@@ -9,7 +9,7 @@
     padding: 10px;
 
     background-image: linear-gradient( to right, var(--pallete-dark), var(--pallete-light));
-    height: fit-content;
+    height: 6vh;
 }
 
 .footer > div {

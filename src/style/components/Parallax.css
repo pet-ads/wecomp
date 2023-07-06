@@ -1,10 +1,11 @@
 .parallax_layer_back {
-    margin-top: 115vh;
+    margin-top: 100vh;
     transform: translateZ(-1px) scale(2); 
-    background-image: linear-gradient( 90deg, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
-    height: 350%;
-    width: initial;
+    background-image: linear-gradient( 0deg, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
+    height: 350vh;
+    width: 100vw;
     margin-left: -10px;
+
 }
 
 .parallax_layer_base {
@@ -12,17 +13,25 @@
 }
 
 .parallax {
-  perspective: 0px;
-  overflow-x: hidden;
-  overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    perspective: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .parallax__layer {
-    position: absolute;
+    position: relative;
+    /* justify-self: center; */
+    /* align-self: center; */
+    margin-bottom: -450vh;
+    /* position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
-    left: 0;
+    left: 0; */
 }
 
 .scroll-container {
