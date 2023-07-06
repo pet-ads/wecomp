@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 670px) {
     .parallax_layer_back {
-        transform: translateZ(-1px) scale(3); 
+        transform: translateZ(-1px) scale(3.5); 
     }
 }
     
