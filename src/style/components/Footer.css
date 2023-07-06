@@ -17,12 +17,12 @@
 }
 
 .footer > div {
+    height: 6vh;
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
     align-items: center;
     justify-content: space-evenly;
-    align-self: center;
     display: flex;
     flex-direction: row;
 }
@@ -38,11 +38,13 @@
 }
 
 .logoGithub {
-    height: 4vh;
+    margin-top: 0.5vh;
+    height: 4.5vh;
 }
 
 .logoIfsp {
-    height: 4vh;
+    margin-top: 0.5vh;
+    height: 4.5vh;
 }
 
 @media screen and (max-width: 775px) {
@@ -53,6 +55,7 @@
     .footer > div {
         flex-wrap: wrap;
         flex-direction: column;
+        column-gap: 3vh;
 
     }
 
