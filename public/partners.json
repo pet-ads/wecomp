@@ -2,7 +2,7 @@
     "organizers": [
       {
         "id": 1,
-        "src": "http://pet_ads.paginas.scl.ifsp.edu.br/assets/logo_PET.svg",
+        "src": "./logos/pet.png",
         "name": "PET/ADS",
         "link": "http://pet_ads.paginas.scl.ifsp.edu.br/src/pages/home/index.html",
         "width": 200
