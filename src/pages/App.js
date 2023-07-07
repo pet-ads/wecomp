@@ -1,38 +1,23 @@
 import '../style/pages/App.css';
 import '../style/components/Parallax.css';
+import { isSafari } from "react-device-detect";
 
-import Header from '../components/Header.js';
-import Footer from '../components/Footer.js';
-import Banner from '../components/Banner.js';
-import Partners from './Partners';
-import Contact from './Contact';
-import Location from './Location';
-import Carousel from '../components/Carousel';
-import AboutTheEvent from './AboutTheEvent';
-import Background from '../components/Background';
-import Schedule from './Schedule';
-import events from "../JSONs/events.json";
-import DropdownMenu from '../components/DropdownMenu';
+import NormalLayout from "../components/NormalLayout";
+import SafariLayout from "../components/SafariLayout";
 
 
 function App() {
+    if (isSafari) { 
+      return (
+        <div className="app"> 
+          <SafariLayout/> 
+        </div>
+      );
+    }
+
   return (
     <div className="app">
-      <Header/>
-      
-      <DropdownMenu/>
-      <div className="scroll-container parallax">
-        <Background/>
-        <div className="parallax_layer_base parallax__layer">
-          <Banner/>
-          <AboutTheEvent />
-          <Schedule/>
-          <Partners/>
-          <Contact/>
-          <Location/>
-          <Footer/>
-        </div>
-      </div>
+      <NormalLayout/>
     </div> 
   );
 }
