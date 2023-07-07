@@ -1,10 +1,9 @@
 .parallax_layer_back {
     transform: translateZ(-1px) scale(2); 
-    background-image: linear-gradient( to bottom, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
+    background-image: linear-gradient( to bottom, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 45%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
     height: 400vh;
     width: 100vw;
     margin-left: -10px;
-    padding-top: 50vh;
 }
 
 .parallax_layer_base {
