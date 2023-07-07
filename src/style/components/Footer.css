@@ -16,17 +16,6 @@
     align-items: center;
 }
 
-.footer > div {
-    height: 6vh;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    align-items: center;
-    justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
-}
-
 .footer_text {
     color: white;
     display: flex;
@@ -52,7 +41,7 @@
         height: 20vh;
     }
     
-    .footer > div {
+    .footer {
         flex-wrap: wrap;
         flex-direction: column;
         column-gap: 3vh;
