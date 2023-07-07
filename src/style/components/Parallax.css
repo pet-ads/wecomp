@@ -38,7 +38,7 @@
 
 .parallax_image{
     height: 100%;
-    position: fixed;
+    position: page;
     bottom: 0;
     left: 0;
 }
