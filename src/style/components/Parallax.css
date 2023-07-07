@@ -1,11 +1,11 @@
 .parallax_layer_back {
-    /* margin-top: -100vh; */
-    transform: translateZ(-1px) scale(2); 
-    background-image: linear-gradient( to right, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
-    height: 400vh;
-    width: 100vw;
+    margin-top: -240vh;
+    transform: translateZ(-1px) scale(1);
+    background-image: linear-gradient( 0deg, #00d0ffb0 5%, #1fdd9479 ,#1fdd9427 16%, white 30%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
+    height: 700vh;
+    width: 200vw;
     margin-left: -10px;
-    
+
 }
 
 .parallax_layer_base {
@@ -23,13 +23,8 @@
 }
 
 .parallax__layer {
-    /* position: relative;
-    margin-bottom: -400vh; */   
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin-left: 0;
+    position: relative;
+    margin-bottom: -600vh;
 }
 
 .scroll-container {
@@ -41,14 +36,15 @@
     position: page;
     bottom: 0;
     left: 0;
+    /*top: 0;*/
 }
 
 @media screen and (max-width: 670px) {
     .parallax_layer_back {
-        transform: translateZ(-1px) scale(2);
+        transform: translateZ(-1px) scale(3.6);
     }
 }
-    
+
 
 /* 
 site que eu peguei o parallax
