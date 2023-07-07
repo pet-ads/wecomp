@@ -24,6 +24,7 @@
     align-items: center;
     justify-content: space-evenly;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 .footer_text {
@@ -50,9 +51,7 @@
     .footer {
         height: 20vh;
     }
-    
     .footer > div {
-        flex-wrap: wrap;
         flex-direction: column;
         column-gap: 3vh;
 
