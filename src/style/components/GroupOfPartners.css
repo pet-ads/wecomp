@@ -33,3 +33,10 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .groupOfPartners {
+        display: block;
+        padding: 3% 0;
+    }
+}
+

@@ -6,7 +6,7 @@
   flex-direction: row-reverse;
   background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
 
-  position: -webkit-sticky; 
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -14,6 +14,6 @@
 
 @media screen and (max-width: 775px) {
   .header {
-    display: none;
+      display: none;
   }
 }

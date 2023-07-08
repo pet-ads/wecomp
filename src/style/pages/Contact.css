@@ -54,3 +54,18 @@
     margin: 10px;
     font-size: var(--subtitle-font-size);
 }
+
+.contact > .disclaimer {
+    max-width: 80%;
+    min-width: 50%;
+
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    text-align: center;
+}
+
+@media screen and (max-width: 330px) {
+    .socialMedia > div {
+        padding: 2% 0;
+    }
+}

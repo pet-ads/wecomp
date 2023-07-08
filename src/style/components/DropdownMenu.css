@@ -1,4 +1,7 @@
 .menu {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     width: 100%;
     height: var(--navbar-height);
     background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
@@ -52,5 +55,8 @@
 @media screen and (min-width: 775px) {
     .menu {
       display: none;
+    }
+    .dropdown-content {
+      position: absolute !important;
     }
   }

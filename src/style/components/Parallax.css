@@ -45,7 +45,7 @@
 
 .parallax-safari {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #00d0ffb0 2%, #1fdd9479, #1fdd9427 8%, white 14%, white 86%, #1fdd9427 92%, #1fdd9479, #00d0ffb0 98%);
+    background-image: linear-gradient(to bottom, #00d0ffb0 3%, #1fdd9479, #1fdd9427 9%, white 15%, white 85%, #1fdd9427 91%, #1fdd9479, #00d0ffb0 97%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -64,5 +64,15 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 */
 
 .parallax-image {
-    background-image: url('../../../public/logos/BackgroundPattern.png')
+    background-image: url('../../../public/logos/BackgroundPattern.png');
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: -58%;
+    left: -51%;
+    z-index: 0;
+    transform: scale(1.12);
+}
+.main-content-safari {
+    position: relative;
 }

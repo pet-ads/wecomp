@@ -17,16 +17,15 @@ function SafariLayout(){
 
             <DropdownMenu/>
             <div className="parallax-safari">
-                <div className="parallax-image">
-                    <div>
-                        <Banner/>
-                        <AboutTheEvent />
-                        <Schedule/>
-                        <Partners/>
-                        <Contact/>
-                        <Location/>
-                        <Footer/>
-                    </div>
+                <div className="parallax-image"/>
+                <div className="main-content-safari">
+                    <Banner/>
+                    <AboutTheEvent />
+                    <Schedule/>
+                    <Partners/>
+                    <Contact/>
+                    <Location/>
+                    <Footer/>
                 </div>
             </div>
         </>
