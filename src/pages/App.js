@@ -7,7 +7,7 @@ import SafariLayout from "../components/SafariLayout";
 
 
 function App() {
-  if (!isSafari) {
+  if (isSafari) {
     return (
       <div className="app">
         <SafariLayout/>
