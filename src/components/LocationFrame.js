@@ -5,8 +5,10 @@ function LocationFrame({name, address, src}){
    
     return (
             <div className="locationFrame">
-                    <h3>{name}</h3>
-                    <p>{address}</p>
+                    <div>
+                        <h3>{name}</h3>
+                        <p>{address}</p>
+                    </div>
                     <iframe src={src}></iframe>
             </div>
         

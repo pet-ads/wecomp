@@ -1,7 +1,6 @@
 .footer {
-    position: fixed;
     left: 0;
-    bottom: -1;
+    bottom: 0;
 
     width: 100%;
     max-width: 100%;
@@ -16,6 +15,17 @@
     align-items: center;
 }
 
+.footer > div {
+    height: 6vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .footer_text {
     color: white;
     display: flex;
@@ -23,7 +33,7 @@
     justify-content: center;
     font-size: var(--text-font-size);
     font-weight: 600;
-    
+
 }
 
 .logoGithub {
@@ -36,15 +46,20 @@
     height: 4.5vh;
 }
 
+.footer > div > a {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 775px) {
     .footer {
         height: 20vh;
     }
-    
-    .footer {
-        flex-wrap: wrap;
+    .footer > div {
         flex-direction: column;
-        column-gap: 3vh;
+        display: flex;
+        align-content: space-evenly;
+        height: inherit;
+
     }
 
     .footer_text {
@@ -52,4 +67,3 @@
     }
 
 }
-    
