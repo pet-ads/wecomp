@@ -1,13 +1,13 @@
 import '../style/pages/App.css';
 import '../style/components/Parallax.css';
-import { isSafari } from "react-device-detect";
+import { isIOS, isMacOs } from "react-device-detect";
 
 import NormalLayout from "../components/NormalLayout";
 import SafariLayout from "../components/SafariLayout";
 
 
 function App() {
-  if (isSafari) {
+  if (isIOS || isMacOs) {
     return (
       <div className="app">
         <SafariLayout/>

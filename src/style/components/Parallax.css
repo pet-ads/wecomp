@@ -1,7 +1,7 @@
 .parallax_layer_back {
     /* margin-top: -100vh; */
     transform: translateZ(-1px) scale(2); 
-    background-image: linear-gradient( to bottom, #00d0ffb0 22%, #1fdd9479 ,#1fdd9427 33%, white 40%, white 70%,  #1fdd9427 84%, #1fdd9479, #00d0ffb0 95%);
+    background-image: linear-gradient(to bottom, #1ddc9a7d 22%, #00d0ffb0 ,#00d0ff1f 33%, white 40%, white 70%, #00d0ff1f 84%, #00d0ffb0, #1ddc9a7d 95%);
     height: 400vh;
     width: 100vw;
     margin-left: -10px;
@@ -45,7 +45,7 @@
 
 .parallax-safari {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #00d0ffb0 3%, #1fdd9479, #1fdd9427 9%, white 15%, white 85%, #1fdd9427 91%, #1fdd9479, #00d0ffb0 97%);
+    background-image: linear-gradient(to bottom, #1ddc9a7d 2%, #00d0ffb0 ,#00d0ff1f 10%, white 15%, white 85%, #00d0ff1f 90%, #00d0ffb0, #1ddc9a7d 98%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -68,10 +68,10 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     position: fixed;
     width: 200%;
     height: 200%;
-    top: -58%;
-    left: -51%;
+    top: -68%;
+    left: -45%;
     z-index: 0;
-    transform: scale(1.12);
+    transform: scale(1.02);
 }
 .main-content-safari {
     position: relative;
