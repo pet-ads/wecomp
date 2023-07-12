@@ -35,7 +35,7 @@
         "src": "./logos/mediamonks.png",
         "name": "Media.monks",
         "link": "https://media.monks.com/pt",
-        "width": 225
+        "width": 235
       },
       {
         "id": 4,
@@ -43,6 +43,13 @@
         "name": "Minsait",
         "link": "https://www.minsait.com/pt",
         "width": 180
+      },
+      {
+        "id": 5,
+        "src": "./logos/logoonesix_transp3.png",
+        "name": "OneSix",
+        "link": "https://onesix.global",
+        "width": 170
       }
     ],
     "unused":[

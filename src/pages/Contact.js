@@ -15,7 +15,7 @@ function Contact(){
     return(
         <div className="contact" id="contact">
             <h2>Contato</h2>
-            <p>Nos acompanhe pelas nossas redes sociais, onde postaremos as atualizações do evento.
+            <p className="disclaimer">Nos acompanhe pelas nossas redes sociais, onde postaremos as atualizações do evento.
                 Entre em contato conosco pelo nosso e-mail oficial!</p>
             <h3>Redes Sociais</h3>
             <div className="socialMedia">
