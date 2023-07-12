@@ -63,6 +63,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .carousel-control {
+        grid-template-columns: 5% 90% 5%;
+    }
+
     .control-button {
         display: none;
     }
