@@ -25,3 +25,22 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media  screen and (max-width : 480px) {
+    .eventImage {
+        width: 275px;
+    }
+}
+
+@media  screen and (max-width : 360px) {
+    .eventImage {
+        width: 250px;
+    }
+}
+
+@media  screen and (max-width : 300px) {
+    .eventImage {
+        width: 200px;
+        height: 125px;
+    }
+}
