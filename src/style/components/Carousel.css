@@ -35,18 +35,6 @@
     grid-area: next;
 }
 
-.blurred-box {
-    grid-area: carousel;
-    
-    position: relative;
-    z-index: 2;
-
-    box-shadow: inset 0 0 28px 20px white;
-
-    width: 100%;
-    height: 100%;
-}
-
 .carousel-window {
     grid-area: carousel;
 
@@ -76,19 +64,9 @@
     margin: 0 1em;
 }
 
-@media screen and (max-width: 1366px) {
-    .blurred-box {
-        box-shadow: inset 0 0 18px 11px white;
-    }
-}
-
 @media screen and (max-width: 480px) {
     .carousel-control {
         grid-template-columns: 5% 90% 5%;
-    }
-
-    .blurred-box {
-        box-shadow: inset 0 0 8px 5px white;
     }
 
     .control-button {
