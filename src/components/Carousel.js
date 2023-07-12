@@ -116,10 +116,10 @@ function Carousel({ children }){
 
     return (
         <div className="carousel-control">
+            <div className="blurred-box" onTouchStart={ handleTouchStart } onTouchMove={ handleTouchMove }
+                onTouchEnd={ handleTouchEnd } ></div>
             <div className="carousel-window">
-                <div className="carousel" style={{ ...carouselTranformation, ...windowJustification }} 
-                        onTouchStart={ handleTouchStart } onTouchMove={ handleTouchMove } 
-                        onTouchEnd={ handleTouchEnd } >{
+                <div className="carousel" style={{ ...carouselTranformation, ...windowJustification }} >{
                     children.map(child => (
                         <div key={++countChildren} className="carousel-card">
                             { child }
