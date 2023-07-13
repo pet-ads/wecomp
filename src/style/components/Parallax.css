@@ -1,7 +1,6 @@
 .parallax_layer_back {
-    /* margin-top: -100vh; */
     transform: translateZ(-1px) scale(2); 
-    background-image: linear-gradient(to bottom, #1ddc9a7d 22%, #00d0ffb0 ,#00d0ff1f 33%, white 40%, white 70%, #00d0ff1f 84%, #00d0ffb0, #1ddc9a7d 95%);
+    background-image: linear-gradient(to bottom, hsla(159, 77%, 49%, 0.65) 23%, hsla(159, 77%, 49%, 0.3), hsla(191, 100%, 50%, 0.2) 29%, hsla(191, 100%, 50%, 0.1), white 42%, white 78%, hsla(191, 100%, 50%, 0.1), hsla(191, 100%, 50%, 0.2) 91%, hsla(159, 77%, 49%, 0.3), hsla(159, 77%, 49%, 0.65) 100%);
     height: 400vh;
     width: 100vw;
     margin-left: -10px;
@@ -37,7 +36,7 @@
 }
 
 .parallax_image{
-    height: 100%;
+    height: 108%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -45,7 +44,7 @@
 
 .parallax-safari {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #1ddc9a7d 2%, #00d0ffb0 ,#00d0ff1f 10%, white 15%, white 85%, #00d0ff1f 90%, #00d0ffb0, #1ddc9a7d 98%);
+    background-image: linear-gradient(to bottom, hsla(159, 77%, 49%, 0.65), hsla(159, 77%, 49%, 0.3), hsla(191, 100%, 50%, 0.2) 9%, hsla(191, 100%, 50%, 0.1), white 19%, white 81%, hsla(191, 100%, 50%, 0.1), hsla(191, 100%, 50%, 0.2) 91%, hsla(159, 77%, 49%, 0.3), hsla(159, 77%, 49%, 0.65) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
