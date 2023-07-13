@@ -17,7 +17,7 @@ function SafariLayout(){
 
             <DropdownMenu/>
             <div className="parallax-safari">
-                <div className="parallax-image"/>
+                <div className="parallax-image-safari"/>
                 <div className="main-content-safari">
                     <Banner/>
                     <AboutTheEvent />
