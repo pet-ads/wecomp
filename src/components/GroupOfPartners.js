@@ -6,7 +6,7 @@ function GroupOfPartners({partners, text}){
     return (
         <>
             <div className="partnersTitleContainer">
-                <h1 className="partnersTitle">{text}</h1>
+                <h2 className="partnersTitle">{text}</h2>
             </div>
             <div className="groupOfPartners">
                 {partners.map((partner) => (
