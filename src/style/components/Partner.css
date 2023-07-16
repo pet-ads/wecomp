@@ -4,7 +4,7 @@
     align-self: center;
     max-width: auto;
     max-height: auto;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .partnerImage{
@@ -27,7 +27,7 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     margin-left: 5%;
     margin-right: 5%;
 }
