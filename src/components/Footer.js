@@ -2,9 +2,9 @@ import '../style/components/Footer.css';
 import logoGithubBranco from '../images/github-mark-white.png';
 import logoIfspBranco from '../images/logoIFSPbranco.png';
 
-function Footer({isLandscape}) {
+function Footer(){
     return (
-        <footer id="footer" className={`footer ${isLandscape ? "footer-landscape" : ""}`}>
+        <footer id="footer" className="footer">
             <div>
                 <a href="https://github.com/pet-ads/wecomp" target="_blank">
                     <img className="logoGithub" src={logoGithubBranco} alt="Logo do Github"/>

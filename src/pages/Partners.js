@@ -2,7 +2,7 @@ import "../style/pages/Partners.css";
 import GroupOfPartners from "../components/GroupOfPartners";
 import React, { useState, useEffect } from 'react';
 
-function Partners({isLandscape}){
+function Partners(){
 
     const [supporters, setSupporters] = useState([]);
     const [organizers, setOrganizers] = useState([]);
@@ -24,10 +24,10 @@ function Partners({isLandscape}){
     console.log(supporters);
 
     return (
-        <div id="organizers" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
+        <div id="organizers" className="partners">
             <div className="partnersTile">
-            <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape}/>
-            <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
+            <GroupOfPartners partners={supporters} text="Apoiadores"/>
+            <GroupOfPartners partners={organizers} text="Realização"/>
             </div>
         </div>
     )

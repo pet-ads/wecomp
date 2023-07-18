@@ -8,7 +8,6 @@
     justify-content: center;
     width: 100%;
     max-width: 100%;
-    margin-bottom: 2vh;
     height: calc(var(--page-height) - 7vh);
 }
 
@@ -33,7 +32,3 @@
         padding-bottom: 10px;
     }
   }
-
-.local-landscape {
-    height: unset !important;
-}

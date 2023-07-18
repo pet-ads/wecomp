@@ -22,12 +22,12 @@ function DropdownMenu () {
                 </div>
                 {isDropdownOpen && (
                 <div className="dropdown-content" onMouseLeave={handleMouseLeave}>
-                    <a href="#banner" onClick={toggleDropdown}>Início</a>
-                    <a href="#about-the-event" onClick={toggleDropdown}>Sobre</a>
-                    <a href="#schedule" onClick={toggleDropdown}>Programação</a>
-                    <a href="#organizers" onClick={toggleDropdown}>Parceiros</a>
-                    <a href="#contact" onClick={toggleDropdown}>Contato</a>
-                    <a href="#local" onClick={toggleDropdown}>Local</a>
+                    <a href="#banner">Início</a>
+                    <a href="#about-the-event">Sobre</a>
+                    <a href="#schedule">Programação</a>
+                    <a href="#organizers">Parceiros</a>
+                    <a href="#contact">Contato</a>
+                    <a href="#local">Local</a>
                 </div>
                 )}
             </div>

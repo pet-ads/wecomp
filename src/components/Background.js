@@ -1,10 +1,10 @@
 import '../style/components/Parallax.css';
 
 
-function Background({isLandscape}){
+function Background(){
     return (
-        <div className={`parallax_layer_back ${isLandscape ? "parallax_layer_back_landscape" : ""} parallax__layer`}>
-            <div className="parallax-image"/>
+        <div className="parallax_layer_back parallax__layer">
+            <img className="parallax_image" alt="parallax" src="../logos/BackgroundPattern.png"/>
         </div>
     )
 }

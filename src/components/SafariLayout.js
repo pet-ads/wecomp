@@ -10,22 +10,22 @@ import Header from "./Header";
 import DropdownMenu from "./DropdownMenu";
 
 
-function SafariLayout({isLandscape}){
+function SafariLayout(){
     return (
         <>
-            <Header isLandscape={isLandscape}/>
+            <Header/>
 
             <DropdownMenu/>
             <div className="parallax-safari">
-                <div className="parallax-image-safari"/>
+                <div className="parallax-image"/>
                 <div className="main-content-safari">
                     <Banner/>
                     <AboutTheEvent />
                     <Schedule/>
-                    <Partners isLandscape={isLandscape}/>
-                    <Contact isLandscape={isLandscape}/>
-                    <Location  isLandscape={isLandscape}/>
-                    <Footer isLandscape={isLandscape}/>
+                    <Partners/>
+                    <Contact/>
+                    <Location/>
+                    <Footer/>
                 </div>
             </div>
         </>

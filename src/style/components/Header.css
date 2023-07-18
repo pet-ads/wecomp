@@ -1,23 +1,19 @@
 .header {
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row-reverse;
-    background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
 
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 
 @media screen and (max-width: 775px) {
   .header {
-    display: none;
+      display: none;
   }
-}
-
-.header-landscape {
-    height: 10vh;
 }

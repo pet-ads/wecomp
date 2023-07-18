@@ -11,6 +11,8 @@
     color: var(--font-color);
     font-size: var(--title-font-size);
     margin-bottom: 50px;
+    margin-top: -50px;
+
 }
 
 .schedule > p {

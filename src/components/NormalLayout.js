@@ -11,22 +11,22 @@ import Header from "./Header";
 import DropdownMenu from "./DropdownMenu";
 
 
-function NormalLayout({isLandscape}){
+function NormalLayout(){
     return (
         <>
-            <Header isLandscape={isLandscape}/>
+            <Header/>
 
             <DropdownMenu/>
             <div className="scroll-container parallax">
-                <Background isLandscape={isLandscape}/>
+                <Background/>
                 <div className="parallax_layer_base parallax__layer">
                     <Banner/>
                     <AboutTheEvent />
                     <Schedule/>
-                    <Partners isLandscape={isLandscape}/>
-                    <Contact isLandscape={isLandscape}/>
-                    <Location  isLandscape={isLandscape}/>
-                    <Footer isLandscape={isLandscape}/>
+                    <Partners/>
+                    <Contact/>
+                    <Location/>
+                    <Footer/>
                 </div>
             </div>
         </>
