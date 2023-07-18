@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 10vh;
+    height: var(--page-height);
 }
 
 .contact > h2 {
@@ -74,4 +74,8 @@
     .socialMedia > div {
         padding: 2% 0;
     }
+}
+
+.contact-landscape {
+    height: unset !important;
 }

@@ -17,3 +17,7 @@
     display: none;
   }
 }
+
+.header-landscape {
+    height: 10vh;
+}

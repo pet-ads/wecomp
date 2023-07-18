@@ -2,9 +2,9 @@ import LocationFrame from '../components/LocationFrame';
 import '../style/pages/Location.css';
 
 
-function Location(){
+function Location({isLandscape}) {
     return (
-        <div id="local" className="local">
+        <div id="local" className={`local ${isLandscape ? "local-landscape" : ""}`}>
             <h1 className="title">Local</h1>
             <div className="locations">
             <LocationFrame address="Rua Aquibadan, 1 - Centro" name="Onovolab" 

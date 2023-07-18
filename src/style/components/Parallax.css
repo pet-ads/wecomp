@@ -131,3 +131,7 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
         height: 420vh;
     }
 }
+
+.parallax_layer_back_landscape {
+    height: 520vh !important;
+}

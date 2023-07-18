@@ -1,7 +1,7 @@
 import Partner from "../components/Partner";
 import "../style/components/GroupOfPartners.css";
 
-function GroupOfPartners({partners, text}){
+function GroupOfPartners({partners, text, isLandscape}){
 
     return (
         <>
@@ -10,7 +10,7 @@ function GroupOfPartners({partners, text}){
             </div>
             <div className="groupOfPartners">
                 {partners.map((partner) => (
-                    <Partner key={partner.id} partner={partner} image={partner.src}/>
+                    <Partner key={partner.id} partner={partner} image={partner.src} isLandscape={isLandscape}/>
                     ))
                 }
             </div>

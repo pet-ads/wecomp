@@ -31,7 +31,6 @@
     margin-right: 5%;
 }
 
-/* 
 @media screen and (max-width: 1550px) {
    .partnerImage img{
        max-height: 240px;
@@ -69,6 +68,7 @@
    }
 }
 
+
 @media screen and (max-width: 1000px) {
    .partnerImage img{
        max-height: 160px;
@@ -76,6 +76,12 @@
    }
 }
 
+@media screen and (max-width: 990px) {
+    .container {
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
 
 @media screen and (max-width: 800px) {
    .partnerImage img{
@@ -93,5 +99,9 @@
    .partnerImage {
        height: 40px;
    }
-} */
+}
 
+
+.partner-image-landscape {
+    height: unset !important;
+}
