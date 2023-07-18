@@ -67,3 +67,7 @@
     }
 
 }
+
+.footer-landscape {
+    height: unset !important;
+}
