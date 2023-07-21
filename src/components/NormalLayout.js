@@ -25,7 +25,7 @@ function NormalLayout({isLandscape}){
                     <Schedule/>
                     <Partners isLandscape={isLandscape}/>
                     <Contact isLandscape={isLandscape}/>
-                    <Location  isLandscape={isLandscape}/>
+                    <Location isLandscape={isLandscape}/>
                     <Footer isLandscape={isLandscape}/>
                 </div>
             </div>

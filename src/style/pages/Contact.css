@@ -64,6 +64,12 @@
     text-align: center;
 }
 
+@media screen and (max-width: 375px) {
+    .contact {
+        margin: 20% 0;
+    }
+}
+
 @media screen and (max-width: 330px) {
     .socialMedia > div {
         padding: 2% 0;

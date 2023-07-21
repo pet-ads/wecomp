@@ -28,7 +28,7 @@
 }
 
 .dropdown-content {
-    margin-top: 8px;
+    top: var(--navbar-height);
     display: block;
     border-radius: 0em .8em .8em .8em;
     position: fixed;
