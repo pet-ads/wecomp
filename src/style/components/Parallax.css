@@ -140,8 +140,8 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
         /* background-image: linear-gradient(red, blue, green); */
     }
     .parallax_layer_back {
-        /* height: 400vh; */
-        height: 420vh;
+        height: 400vh;
+        /* height: 420vh; */
     }
 }
 
