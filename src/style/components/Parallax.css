@@ -138,6 +138,18 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     }
 }
 
+@media screen and (max-width: 500px) {
+    .parallax-image {
+        /* position: fixed; */
+        height: 430%;
+        top: -160%;
+        /* background-image: linear-gradient(red, blue, green); */
+    }
+    .parallax_layer_back {
+        height: 420vh;
+    }
+}
+
 .parallax_layer_back_landscape {
     height: 520vh !important;
 }
