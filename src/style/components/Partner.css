@@ -95,11 +95,11 @@
    }
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
    .partnerImage {
        height: fit-content;
    }
-}
+} */
 
 
 .partner-image-landscape {
