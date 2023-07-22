@@ -95,7 +95,7 @@
    }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-width: 500px) {
    .partnerImage {
        height: 40px;
    }
