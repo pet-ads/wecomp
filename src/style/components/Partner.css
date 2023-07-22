@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 500px) {
    .partnerImage {
-       height: 40px;
+       height: fit-content;
    }
 }
 
