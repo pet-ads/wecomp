@@ -67,7 +67,8 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     position: fixed;
     width: 200%;
     height: 200%;
-    bottom: 4vh;
+    /* bottom: 4vh; */
+    top: -68%;
     left: -45%;
     z-index: 0;
     transform: scale(1.02);
@@ -91,8 +92,10 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 @media screen and (max-width: 1024px) {
     .parallax-image {
         width: 534%;
-        height: 430%;
-        top: -155%;
+        /* height: 430%;
+        top: -155%; */
+        height: 350%;
+        top: -160%;
         left: -220%;
         transform: scale(.2);
         
@@ -112,7 +115,8 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     .parallax-image {
         position: fixed;
         width: 540%;
-        height: 430%;
+        /* height: 430%; */
+        height: 440%;
         top: -160%;
         left: -220%;
         transform: scale(.2);
@@ -129,12 +133,15 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 @media screen and (max-width: 500px) {
     .parallax-image {
         /* position: fixed; */
-        height: 430%;
-        top: -160%;
+        /* height: 430%;
+        top: -160%; */
+        height: 490%;
+        top: -180%;
         /* background-image: linear-gradient(red, blue, green); */
     }
     .parallax_layer_back {
-        height: 400vh;
+        /* height: 400vh; */
+        height: 420vh;
     }
 }
 
