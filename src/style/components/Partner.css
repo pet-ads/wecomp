@@ -4,6 +4,7 @@
     align-self: center;
     max-width: auto;
     max-height: auto;
+    /*background-color: red;*/
 }
 
 .partnerImage{
@@ -26,7 +27,7 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    /* background-color: blueviolet; */
+    /*background-color: blueviolet;*/
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -100,8 +101,11 @@
        height: 40px;
    }
 }
+<<<<<<< HEAD
 
 
 .partner-image-landscape {
     height: unset !important;
 }
+=======
+>>>>>>> 493f8e7b14d64fb9447b8ed7c6d096d983f57078
