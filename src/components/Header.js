@@ -1,9 +1,9 @@
 import "../style/components/Header.css";
 import Navbar from './Navbar';
 
-function Header(){
+function Header({isLandscape}){
     return (
-        <header className="header" id="navbar">
+        <header className={`header ${isLandscape ? "header-landscape" : ""}`} id="navbar">
             <Navbar/>
         </header>
     )
