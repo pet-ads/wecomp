@@ -1,6 +1,6 @@
 .parallax_layer_back {
     background-image: linear-gradient(to right,rgba(29,221,154,.65) 2%,rgba(29,221,154,.3),rgba(0,208,255,.2) 9%,rgba(0,208,255,.1),#fff 15%,#fff 85%,rgba(0,208,255,.1),rgba(0,208,255,.2) 91%,rgba(29,221,154,.3),rgba(29,221,154,.65));
-    height: 400vh;
+    height: 420vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -67,8 +67,8 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     position: fixed;
     width: 200%;
     height: 200%;
-    /* bottom: 4vh; */
-    top: -68%;
+    bottom: 4vh;
+    /* top: -68%; */
     left: -45%;
     z-index: 0;
     transform: scale(1.02);
@@ -92,22 +92,22 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 @media screen and (max-width: 1024px) {
     .parallax-image {
         width: 534%;
-        /* height: 430%;
-        top: -155%; */
-        height: 350%;
-        top: -160%;
+        height: 420%;
+        top: -140%;
         left: -220%;
         transform: scale(.2);
-        
-        /* background-image: linear-gradient(red, blue, green); */
     }
 
     .parallax-image-safari {
         width: 534%;
         height: 350%;
-        top: -160%;
+        top: -140%;
         left: -220%;
         transform: scale(.6);
+    }
+
+    .parallax_layer_back{
+        height: 400vh;
     }
 }
 
@@ -115,12 +115,14 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     .parallax-image {
         position: fixed;
         width: 540%;
-        /* height: 430%; */
-        height: 440%;
+        height: 430%;
         top: -160%;
         left: -220%;
         transform: scale(.2);
-        /* background-image: linear-gradient(red, blue, green); */
+    }
+
+    .parallax_layer_back{
+        height: 400vh;
     }
 
     .parallax-image-safari {
@@ -132,28 +134,13 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
 
 @media screen and (max-width: 500px) {
     .parallax-image {
-        /* position: fixed; */
-        /* height: 430%;
-        top: -160%; */
-        height: 490%;
-        top: -180%;
-        /* background-image: linear-gradient(red, blue, green); */
+        position: fixed;
+        height: 465%;
+        top: -160%;
+        top: -180%; 
     }
     .parallax_layer_back {
         height: 400vh;
-        /* height: 420vh; */
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .parallax-image {
-        /* position: fixed; */
-        height: 430%;
-        top: -160%;
-        /* background-image: linear-gradient(red, blue, green); */
-    }
-    .parallax_layer_back {
-        height: 420vh;
     }
 }
 
