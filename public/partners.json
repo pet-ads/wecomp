@@ -50,18 +50,33 @@
         "name": "OneSix",
         "link": "https://onesix.global",
         "width": 170
-      }
-    ],
-    "unused":[
+      },
       {
-        "id": 3,
+        "id": 5,
         "src": "./logos/monitora_black.png",
         "name": "Marlabs - Monitora",
         "link": "https://monitoratec.com.br",
         "width": 260
       },
+      
       {
-        "id": 4,
+        "id": 6,
+        "src": "./logos/logoF1RST.png",
+        "name": "F1RST",
+        "link": "https://www.f1rst.com.br/first/",
+        "width": 210
+      }
+    ],
+    "unused":[
+      {
+        "id": 7,
+        "src": "./logos/RaiaDrogasil.png",
+        "name": "RaiaDrogasil",
+        "link": "https://rd.com.br",
+        "width": 160
+      },
+      {
+        "id": 7,
         "src": "./logos/tokenlab.svg",
         "name": "Tokenlab",
         "link": "https://www.tokenlab.com.br/pt/home",
