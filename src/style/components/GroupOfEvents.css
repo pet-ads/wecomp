@@ -1,6 +1,6 @@
 .groupOfEvents {
-    /* display: none; */
-    display: flex;
+    display: none;
+    /* display: flex; */
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 80px;
