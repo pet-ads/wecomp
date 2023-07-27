@@ -6,7 +6,7 @@ function Schedule(){
     return (
         <div id="schedule" className="schedule">
             <h2 className="scheduleTitle">Programação</h2>
-            <p>Divulgaremos em breve!</p>
+            {/* <p>Divulgaremos em breve!</p> */}
             <GroupOfEvents events={events.listOfEvents}/>
         </div>
     )
