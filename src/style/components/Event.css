@@ -6,7 +6,7 @@
 
 .eventImage {
     border-radius: 15px;
-    width: 300px;
+    width: 250px;
     height: 175px;
     object-fit: cover;
 }
@@ -26,9 +26,9 @@
     margin-bottom: 20px;
 }
 
-.event{
+/* .event{
     background-color: red;
-}
+} */
 
 @media  screen and (max-width : 480px) {
     .eventImage {
