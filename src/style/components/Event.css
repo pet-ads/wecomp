@@ -26,6 +26,10 @@
     margin-bottom: 20px;
 }
 
+.event{
+    background-color: red;
+}
+
 @media  screen and (max-width : 480px) {
     .eventImage {
         width: 275px;
