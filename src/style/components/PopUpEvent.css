@@ -43,3 +43,39 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1120px) {
+    .popUpTeste {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 852px) {
+    .popUpTeste {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .popUpTeste {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .popUpTeste {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .popUpTeste {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .popUpTeste {
+        width: 75%;
+    }
+}
