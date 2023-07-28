@@ -23,11 +23,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: blueviolet;
 }
 
 .control-button > svg {
-    width: 75%;
-    height: 50%;
+    width: 100px;
+    height: auto;
+    background-color: black;
 }
 
 .control-button > svg > path {
@@ -72,3 +75,36 @@
 
     margin: 0 20px;
 }
+
+@media  screen and (max-width : 1400px) {
+    .carousel-control{
+        width: calc((349px*3) + 20px);
+    }
+}
+
+@media  screen and (max-width : 1100px) {
+    .carousel-control{
+        width: calc((349px*2) + 80px) ;
+    }
+}
+
+@media  screen and (max-width : 900px) {
+    .carousel-control{
+        width: 490px;
+        grid-template-columns: 1fr 10fr 1fr;
+    }
+}
+
+@media  screen and (max-width : 530px) {
+    .carousel-control{
+        width: 430px;
+        grid-template-columns: 0fr 10fr 0fr;
+    }
+
+    .control-button > svg {
+        width: 70px;
+        height: auto;
+        background-color: black;
+    }
+}
+
