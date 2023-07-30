@@ -41,7 +41,7 @@ function Carousel({ children }){
     const disrespectsBackwardLimit = (value) => value > 0
 
     const isAllowedToMoveForward = () => {
-        return children.length > maxNumberOfVisibleCards && index + 1 < children.length
+        return children.length > maxNumberOfVisibleCards && index + 1 < children.length + 1 - calculateMaxNumberOfVisibleCards()
     }
 
     const isAllowedToMoveBackward = () => {
@@ -49,6 +49,7 @@ function Carousel({ children }){
     }
 
     const moveForward = () => {
+        console.log(calculateMaxNumberOfVisibleCards())
         if (!isAllowedToMoveForward())
             return
         
@@ -57,6 +58,7 @@ function Carousel({ children }){
     }
 
     const moveBackward = () => {
+        console.log("teste")
         if (!isAllowedToMoveBackward())
             return
         
@@ -127,23 +129,36 @@ function Carousel({ children }){
                 }</div>
             </div>
 
-            { isAllowedToMoveBackward() &&
+
+            { isAllowedToMoveBackward() ? <div className="control-button previous">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                            fill="currentColor" className="bi bi-chevron-compact-left clickable" viewBox="0 0 16 16"
+                            onClick={ moveBackward }>
+                        <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+                    </svg>
+                </div> : 
                 <div className="control-button previous">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
-                            fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16"
-                            onClick={ moveBackward }>
+                            fill="currentColor" className="bi bi-chevron-compact-left nonClickable" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
                     </svg>
                 </div>
             }
-            { isAllowedToMoveForward() &&
+            { isAllowedToMoveForward() ?
                 <div className="control-button next">
                     <svg class="next" xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
-                            fill="currentColor" className="bi bi-chevron-compact-right" viewBox="0 0 16 16" 
+                            fill="currentColor" className="bi bi-chevron-compact-right clickable" viewBox="0 0 16 16" 
                             onClick={ moveForward }>
                         <path d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
                     </svg>
+                </div> : 
+                <div className="control-button next">
+                    <svg class="next" xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                            fill="currentColor" className="bi bi-chevron-compact-right nonClickable" viewBox="0 0 16 16">
+                        <path d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                    </svg>
                 </div>
+
             }
         </div>
     );
