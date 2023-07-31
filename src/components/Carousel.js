@@ -18,7 +18,6 @@ function Carousel({ children }){
         const cardComputedStyle = getComputedStyle(card)
         const width = parseInt(cardComputedStyle.width)
         const lateralWidth = parseInt(cardComputedStyle.margin.split(" ")[1])
-
         return 2 * lateralWidth + width
     }
 
@@ -26,7 +25,8 @@ function Carousel({ children }){
         const carouselWindow = document.querySelector(".carousel-window")
         
         const windowWidth = parseInt(getComputedStyle(carouselWindow).width)
-
+        setMaxNumberOfVisibleCards(windowWidth / getCurrentCardWidth())
+        console.log("largura: " + maxNumberOfVisibleCards)
         return windowWidth / getCurrentCardWidth()
     }
 
@@ -41,7 +41,9 @@ function Carousel({ children }){
     const disrespectsBackwardLimit = (value) => value > 0
 
     const isAllowedToMoveForward = () => {
-        return children.length > maxNumberOfVisibleCards && index + 1 < children.length + 1 - calculateMaxNumberOfVisibleCards()
+        console.log("aaa: " + maxNumberOfVisibleCards)
+        console.log("index:" + ( children.length - maxNumberOfVisibleCards));
+        return children.length > maxNumberOfVisibleCards && index + 1 <= children.length - maxNumberOfVisibleCards
     }
 
     const isAllowedToMoveBackward = () => {
@@ -49,7 +51,7 @@ function Carousel({ children }){
     }
 
     const moveForward = () => {
-        console.log(calculateMaxNumberOfVisibleCards())
+        console.log(index)
         if (!isAllowedToMoveForward())
             return
         
@@ -58,7 +60,8 @@ function Carousel({ children }){
     }
 
     const moveBackward = () => {
-        console.log("teste")
+        console.log(getCurrentCardWidth())
+        console.log(calculateMaxNumberOfVisibleCards())
         if (!isAllowedToMoveBackward())
             return
         
@@ -100,9 +103,11 @@ function Carousel({ children }){
     }
 
     useEffect(() => { 
-        window.addEventListener("resize", (event) => {
-            setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
-        })
+        // window.addEventListener("resize", (event) => {
+        //     console.log("Asdjbiasdb")
+        //     setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
+        // })
+          setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
     });
 
     useEffect(() => { 

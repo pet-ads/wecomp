@@ -1,9 +1,7 @@
 .carousel-control {
     /* max-width: 1380px; */
     
-    width: calc(350px*4);
-    /* 349 é a largura que cada card ocupa ja com a margin */
-    /* width: calc((250px*x) + (79px*x) + (20px*x)); */
+    width: calc(350px*4 - 7px);
 
 
     /* display: none; */
@@ -15,7 +13,7 @@
 
 .control-button {
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
 
     width: 100%;
     height: 100%;
@@ -54,7 +52,7 @@
     grid-area: carousel;
 
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
     
     padding-bottom: 30px;
     padding-top: 30px;
@@ -97,20 +95,40 @@
 @media  screen and (max-width : 900px) {
     .carousel-control{
         width: 490px;
-        grid-template-columns: 1fr 10fr 1fr;
     }
 }
 
-@media  screen and (max-width : 530px) {
+@media  screen and (max-width : 480px) {
     .carousel-control{
-        width: 430px;
-        grid-template-columns: 0fr 10fr 0fr;
+        width: 400px;
     }
 
     .control-button > svg {
         width: 70px;
-        height: auto;
-        /* background-color: black; */
+    }
+    .clickable > path {
+        stroke: var(--pallete-light);
+        stroke-width: 0.5;
+    }
+    
+    .nonClickable > path{
+        stroke: rgb(209, 209, 209);
+        stroke-width: 0.2px;
+    }
+}
+
+@media  screen and (max-width : 400px) {
+    .carousel-control {
+        width: 330px;
+    }
+}
+@media  screen and (max-width : 330px) {
+    .carousel-control {
+        width: 280px;
+    }
+    .control-button > svg {
+        width: 50px;
+        margin: -10px;
     }
 }
 

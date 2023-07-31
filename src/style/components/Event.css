@@ -32,19 +32,29 @@
 
 @media  screen and (max-width : 480px) {
     .eventImage {
-        width: 275px;
+        width: 220px;
     }
 }
 
-@media  screen and (max-width : 360px) {
+@media  screen and (max-width : 400px) {
     .eventImage {
-        width: 250px;
+        width: 190px;
+    }
+
+    .event{
+        margin-left: -20px;
     }
 }
 
-@media  screen and (max-width : 300px) {
+
+@media  screen and (max-width : 330px) {
     .eventImage {
         width: 200px;
         height: 125px;
+    }
+
+    .event{
+        margin-left: -10px;
+        background-color: blue;
     }
 }
