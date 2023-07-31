@@ -32,10 +32,10 @@
       },
       {
         "id": 3,
-        "src": "./logos/mediamonks.png",
+        "src": "./logos/media_monks.png",
         "name": "Media.monks",
         "link": "https://media.monks.com/pt",
-        "width": 235
+        "width": 225
       },
       {
         "id": 4,
