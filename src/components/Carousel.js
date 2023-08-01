@@ -102,13 +102,9 @@ function Carousel({ children }){
         setTouchPosition(null)
     }
 
-    useEffect(() => { 
-        // window.addEventListener("resize", (event) => {
-        //     console.log("Asdjbiasdb")
-        //     setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
-        // })
+    useEffect(() => {
           setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
-    });
+    }),[];
 
     useEffect(() => { 
         setWindowJustification(

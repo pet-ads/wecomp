@@ -7,6 +7,7 @@
             "imageDesc": "Foto do Evento",
             "author": "Caio Andrade",
             "date": "28 de agosto às 18h",
+            "classification": "livre",
 
             "description": "Este mini-curso será ministrado por Caio Andrade, desenvolvedor back-end da empresa RaiaDrograsil. O intuito é apresentar aos alunos e participantes de forma inicial o uso da linguagem Python."
         },
@@ -16,7 +17,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "basico"
         },
         {
             "id": 3,
@@ -24,7 +26,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "intermediario"
         },
         {
             "id": 4,
@@ -32,7 +35,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "avancado"
         },
         {
             "id": 5,
@@ -40,7 +44,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "livre"
         },
         {
             "id": 6,
@@ -48,7 +53,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "livre"
         },
         {
             "id": 7,
@@ -56,7 +62,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "livre"
         },
         {
             "id": 8,
@@ -64,7 +71,8 @@
             "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
             "imageDesc": "Foto do Evento",
             "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h"
+            "date": "30 de agosto às 16h",
+            "classification": "livre"
         }
     ]
 }

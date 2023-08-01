@@ -9,7 +9,19 @@
     width: 250px;
     height: 175px;
     object-fit: cover;
+    position: absolute;
+    bottom:0;
+    left: 0;
 }
+
+.eventBanner{
+    width: 250px;
+    height: 175px;
+    /* background-color: red; */
+    position: relative;
+
+}
+
 
 .eventAuthor {
     font-size: 1.4rem;
@@ -55,6 +67,5 @@
 
     .event{
         margin-left: -10px;
-        background-color: blue;
     }
 }

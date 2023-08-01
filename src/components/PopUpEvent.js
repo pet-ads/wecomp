@@ -3,10 +3,12 @@ import React, { useState } from 'react';
 import Button from "./Button.js";
 import Event from "./Event.js";
 import events from "../JSONs/events.json";
+
+import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
 
 
-function PopUpEvent({name, author, date, description}) {
+function PopUpEvent({name, author, date, description, classification}) {
   const [isOpen, setIsOpen] = useState(false);
  
   return (
@@ -17,7 +19,10 @@ function PopUpEvent({name, author, date, description}) {
             isOpen={isOpen}
             contentLabel="Example Modal">
             <div className='popUpDescription'>
-                <h2>{name}</h2>
+                <div className="badge-line">
+                  <ClassificationBadge classification={classification}/>
+                  <h2>{name}</h2>
+                </div>
                 <h3>{author}</h3>
                 <p>{date}</p>
                 <p>{description}</p>
