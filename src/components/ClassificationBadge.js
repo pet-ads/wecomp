@@ -13,7 +13,10 @@ function ClassificationBadge({classification}){
             break;
             case "avancado": classificacao = "Avançado"
             break;
-            default: classificacao = classification
+            default: 
+                return(
+                    <></>
+                )
             break;
         }
     return(

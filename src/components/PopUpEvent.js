@@ -20,11 +20,11 @@ function PopUpEvent({name, author, date, description, classification}) {
             <div className='popUpDescription'>
                 <h2>{name}</h2>
                 <h3>{author}</h3>
+                  <p>{date}</p>
+                <p>{description}</p>
                 <div className="badge-line">
                   <ClassificationBadge classification={classification}/>
-                  <p>{date}</p>
                 </div>
-                <p>{description}</p>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
             </div>
         </ReactModal>

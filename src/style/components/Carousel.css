@@ -1,7 +1,7 @@
 .carousel-control {
     /* max-width: 1380px; */
     
-    width: calc(350px*4 - 7px);
+    width: calc(314px*4 - 7px);
 
 
     /* display: none; */
@@ -82,19 +82,19 @@
 
 @media  screen and (max-width : 1550px) {
     .carousel-control{
-        width: calc((350px*3) + 20px);
+        width: calc((314px*3) + 38px);
     }
 }
 
 @media  screen and (max-width : 1250px) {
     .carousel-control{
-        width: calc((350px*2) + 80px) ;
+        width: calc((314px*2) + 92px) ;
     }
 }
 
 @media  screen and (max-width : 900px) {
     .carousel-control{
-        width: 490px;
+        width: 460px;
     }
 }
 
@@ -124,11 +124,10 @@
 }
 @media  screen and (max-width : 330px) {
     .carousel-control {
-        width: 280px;
+        width: 248px;
     }
     .control-button > svg {
         width: 50px;
         margin: -10px;
     }
 }
-

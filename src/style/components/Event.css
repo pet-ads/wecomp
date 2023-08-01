@@ -15,8 +15,8 @@
 }
 
 .eventBanner{
-    width: 250px;
-    height: 175px;
+    width: 220px;
+    height: 250px;
     /* background-color: red; */
     position: relative;
 
@@ -48,23 +48,16 @@
 
 @media  screen and (max-width : 400px) {
     .eventBanner {
-        width: 190px;
-        height: 150px;
-    }
-
-    .event{
-        margin-left: -20px;
-    }
-}
-
-
-@media  screen and (max-width : 330px) {
-    .eventBanner {
-        width: 200px;
-        height: 135px;
+        width: 167px;
+        height: 190px;
+        
     }
 
     .event{
         margin-left: -10px;
+        /* background-color: blue; */
     }
+
 }
+
+
