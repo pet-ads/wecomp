@@ -41,8 +41,6 @@ function Carousel({ children }){
     const disrespectsBackwardLimit = (value) => value > 0
 
     const isAllowedToMoveForward = () => {
-        console.log("aaa: " + maxNumberOfVisibleCards)
-        console.log("index:" + ( children.length - maxNumberOfVisibleCards));
         return children.length > maxNumberOfVisibleCards && index + 1 <= children.length - maxNumberOfVisibleCards
     }
 
@@ -51,7 +49,7 @@ function Carousel({ children }){
     }
 
     const moveForward = () => {
-        console.log(index)
+        console.log(maxNumberOfVisibleCards)
         if (!isAllowedToMoveForward())
             return
         
@@ -60,8 +58,6 @@ function Carousel({ children }){
     }
 
     const moveBackward = () => {
-        console.log(getCurrentCardWidth())
-        console.log(calculateMaxNumberOfVisibleCards())
         if (!isAllowedToMoveBackward())
             return
         
@@ -71,7 +67,6 @@ function Carousel({ children }){
 
     const handleTouchStart = (event) => {
         setTouchPosition(event.touches[0].clientX)
-        console.log("touch start")
     }
 
     const handleTouchMove = (event) => {
@@ -104,7 +99,7 @@ function Carousel({ children }){
 
     useEffect(() => {
           setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
-    },[]);
+    });  
 
     useEffect(() => { 
         setWindowJustification(
