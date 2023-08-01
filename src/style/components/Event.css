@@ -6,8 +6,8 @@
 
 .eventImage {
     border-radius: 15px;
-    width: 250px;
-    height: 175px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: absolute;
     bottom:0;
@@ -38,19 +38,18 @@
     margin-bottom: 20px;
 }
 
-/* .event{
-    background-color: red;
-} */
 
 @media  screen and (max-width : 480px) {
-    .eventImage {
+    .eventBanner {
         width: 220px;
     }
+
 }
 
 @media  screen and (max-width : 400px) {
-    .eventImage {
+    .eventBanner {
         width: 190px;
+        height: 150px;
     }
 
     .event{
@@ -60,9 +59,9 @@
 
 
 @media  screen and (max-width : 330px) {
-    .eventImage {
+    .eventBanner {
         width: 200px;
-        height: 125px;
+        height: 135px;
     }
 
     .event{
