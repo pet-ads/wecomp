@@ -25,10 +25,10 @@
       },
       {
         "id": 2,
-        "src": "./logos/inova.png",
-        "name": "Inova IFSP",
-        "link": "http://inova.ifsp.edu.br/",
-        "width": 180
+        "src": "./logos/monitora_black.png",
+        "name": "Marlabs - Monitora",
+        "link": "https://monitoratec.com.br",
+        "width": 260
       },
       {
         "id": 3,
@@ -46,30 +46,30 @@
       },
       {
         "id": 5,
-        "src": "./logos/logoonesix_transp3.png",
-        "name": "OneSix",
-        "link": "https://onesix.global",
-        "width": 170
-      },
-      {
-        "id": 5,
-        "src": "./logos/monitora_black.png",
-        "name": "Marlabs - Monitora",
-        "link": "https://monitoratec.com.br",
-        "width": 260
-      },
-      
-      {
-        "id": 6,
         "src": "./logos/f1rst.png",
         "name": "F1RST",
         "link": "https://www.f1rst.com.br/first/",
         "width": 210
+      },
+      {
+        "id": 6,
+        "src": "./logos/inova.png",
+        "name": "Inova IFSP",
+        "link": "http://inova.ifsp.edu.br/",
+        "width": 180
+      },
+      
+      {
+        "id": 7,
+        "src": "./logos/logoonesix_transp3.png",
+        "name": "OneSix",
+        "link": "https://onesix.global",
+        "width": 170
       }
     ],
     "unused":[
       {
-        "id": 7,
+        "id": 8,
         "src": "./logos/RaiaDrogasil.png",
         "name": "RaiaDrogasil",
         "link": "https://rd.com.br",
