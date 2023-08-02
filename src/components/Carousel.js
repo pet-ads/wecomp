@@ -48,9 +48,6 @@ function Carousel({ children }){
     }
 
     const moveForward = () => {
-        console.log("index: " + index)
-        console.log(maxNumberOfVisibleCards)
-        console.log(getCurrentCardWidth());
         if (!isAllowedToMoveForward())
             return
         setCarouselPosition(calculateFixedPosition(index + 1))
