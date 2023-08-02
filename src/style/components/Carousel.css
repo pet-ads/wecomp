@@ -1,6 +1,6 @@
 .carousel-control {
     
-    width: calc(350px*4 - 7px);
+    width: calc(270px*4 + 217px);
 
     /* display: none; */
     display: grid;
@@ -74,31 +74,31 @@
     width: fit-content;
     height: 100%;
 
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 
 @media  screen and (max-width : 1550px) {
     .carousel-control{
-        width: calc((350px*3) + 20px);
+        width: calc(270px*3 + 200px);
     }
 }
 
 @media  screen and (max-width : 1250px) {
     .carousel-control{
-        width: calc((350px*2) + 80px) ;
+        width: calc(270px*2 + 200px);
     }
 }
 
 @media  screen and (max-width : 900px) {
     .carousel-control{
-        width: 490px;
+        width: 470px;
     }
 }
 
 @media  screen and (max-width : 480px) {
     .carousel-control{
-        width: 400px;
+        width: 410px;
     }
 
     .control-button > svg {
@@ -115,18 +115,21 @@
     }
 }
 
-@media  screen and (max-width : 400px) {
+@media  screen and (max-width : 440px) {
     .carousel-control {
-        width: 330px;
+        width: 370px;
     }
-}
-@media  screen and (max-width : 330px) {
-    .carousel-control {
-        width: 280px;
-    }
+
     .control-button > svg {
         width: 50px;
-        margin: -10px;
+    }
+}
+@media  screen and (max-width : 400px) {
+    .carousel-control {
+        width: 288px;
+    }
+    .carousel-card {
+        margin: 0 2px;
     }
 }
 
