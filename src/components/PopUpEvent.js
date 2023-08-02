@@ -23,7 +23,7 @@ function PopUpEvent({name, author, date, description, classification}) {
                   <p>{date}</p>
                 <p>{description}</p>
                 <div className="badge-line">
-                  <p>Classificação:</p>
+                  <p>Dificuldade:</p>
                   <ClassificationBadge classification={classification}/>
                 </div>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
