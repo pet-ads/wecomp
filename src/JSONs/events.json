@@ -3,10 +3,11 @@
         {
             "id": 1,
             "name": "Abertura oficial",
-            "image": "https://bosonit.com/n-uploads/2023/06/MicrosoftTeams-image-13.png",
+            "image": "https://onovolab.com/wp-content/uploads/2023/06/onovolab_corporativo.jpeg",
             "imageDesc": "OnovoLab",
             "author": "Local: ONOVOLAB",
             "date": "28 de agosto 19h - 21h30",
+            "classification": "livre",
 
             "description": "A abertura oficial da IV Wecomp acontecerá no ONOVOLAB e contará com a presença de empresas parceiras, uma mesa redonda com o tema 'IA generativa, mercado de trabalho e a carreira dos (novos) desenvolvedores' e uma confraternização. Não perca!"
         }
