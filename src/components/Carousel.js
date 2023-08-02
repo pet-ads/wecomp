@@ -105,8 +105,8 @@ function Carousel({ children }){
         )
     }, [maxNumberOfVisibleCards, children])
 
-    useEffect(() => { setCarouselTranformation({ transform : `translateX(${ carouselPosition }px)` }) }, 
-        [ carouselPosition ])
+    useEffect(() => { setCarouselTranformation({ transform : `translateX(${ carouselPosition }px)` }) 
+    }, [ carouselPosition])
 
 
     return (

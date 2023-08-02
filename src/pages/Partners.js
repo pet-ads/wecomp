@@ -21,7 +21,6 @@ function Partners({isLandscape}){
 
         fetchPartners();
     }, []);
-    console.log(supporters);
 
     return (
         <div id="organizers" className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
