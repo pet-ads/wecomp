@@ -1,8 +1,6 @@
 import ReactModal from 'react-modal';
 import React, { useState } from 'react';
 import Button from "./Button.js";
-import Event from "./Event.js";
-import events from "../JSONs/events.json";
 
 import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
@@ -23,8 +21,9 @@ function PopUpEvent({name, author, date, description, classification}) {
                   <p>{date}</p>
                 <p>{description}</p>
                 <div className="badge-line">
-                  <p>Dificuldade:</p>
+                  {classification ? <p>Dificuldade:</p> : <></>}
                   <ClassificationBadge classification={classification}/>
+                
                 </div>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
             </div>
