@@ -6,7 +6,7 @@ import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
 
 
-function PopUpEvent({name, author, date, description, classification, vacancies}) {
+function PopUpEvent({event}) {
   const [isOpen, setIsOpen] = useState(false);
  
   return (
@@ -16,14 +16,14 @@ function PopUpEvent({name, author, date, description, classification, vacancies}
             isOpen={isOpen}
             contentLabel="Example Modal">
             <div className='popUpDescription'>
-                <h2>{name}</h2>
-                <h3>{author}</h3>
-                  <p>{date}</p>
-                <p className='description-container'>{description}</p>
-                {vacancies ? <p>Quantidade de vagas: {vacancies}</p> : <></>}
+                <h2>{event.name}</h2>
+                <h3>{event.author}</h3>
+                <p>{event.date} | {event.time}</p>
+                <p className='description-container'>{event.description}</p>
+                {event.vacancies ? <p>Quantidade de vagas: {event.vacancies}</p> : <></>}
                 <div className="badge-line">
-                  {classification ? <p>Dificuldade:</p> : <></>}
-                  <ClassificationBadge classification={classification}/>
+                  {event.classification ? <p>Dificuldade:</p> : <></>}
+                  <ClassificationBadge classification={event.classification}/>
                 </div>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
             </div>

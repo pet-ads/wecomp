@@ -16,7 +16,7 @@ function Event({event}){
                     <p className="eventDate">{event.date}</p>
                     <p className="eventTime">{event.time}</p>
                 </div>
-                <PopUpEvent name={event.name} author={event.author} date={event.date} description={event.description} classification={event.classification} vacancies={event.vacancies}/>
+                <PopUpEvent event={event}/>
             </div>
         );
 }
