@@ -31,6 +31,12 @@
     top: 25%;
 }
 
+.description-container{
+    overflow-x: auto;
+    max-height: 200px;
+    /* background-color: red; */
+}
+
 
 .popUpDescription > h2 {
     margin-bottom: 10px;

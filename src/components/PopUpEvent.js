@@ -6,7 +6,7 @@ import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
 
 
-function PopUpEvent({name, author, date, description, classification}) {
+function PopUpEvent({name, author, date, description, classification, vacancies}) {
   const [isOpen, setIsOpen] = useState(false);
  
   return (
@@ -19,11 +19,11 @@ function PopUpEvent({name, author, date, description, classification}) {
                 <h2>{name}</h2>
                 <h3>{author}</h3>
                   <p>{date}</p>
-                <p>{description}</p>
+                <p className='description-container'>{description}</p>
+                {vacancies ? <p>Quantidade de vagas: {vacancies}</p> : <></>}
                 <div className="badge-line">
                   {classification ? <p>Dificuldade:</p> : <></>}
                   <ClassificationBadge classification={classification}/>
-                
                 </div>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
             </div>

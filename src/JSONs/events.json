@@ -13,15 +13,28 @@
         {
             "id": 2,
             "name": "Como é o dia-a-dia de um QA?",
-            "image": "../../eventsImages/Cerminaro.jpeg",
+            "image": "../../eventsImages/cerminaro.jpeg",
             "imageDesc": "Cerminaro",
-            "author": "Cerminaro",
+            "author": "Leonardo Cerminaro",
             "date": "28 de agosto 8h - 12h",
             "vacancies" : 30,
             "classification": "livre",
             
 
             "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
+        },
+        {
+            "id": 3,
+            "name": "Criando Micro-serviços em Golang",
+            "image": "../../eventsImages/go.png",
+            "imageDesc": "Gustavo e Vinicius",
+            "author": "Gustavo Okuyama e Vinícius Silva",
+            "date": "29 e 30 de agosto 8h - 12h",
+            "vacancies" : 20,
+            "classification": "intermediario",
+            
+
+            "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
         }
     ]
 }

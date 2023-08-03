@@ -12,7 +12,7 @@ function Event({event}){
                 </div>
                 <h3 className="eventAuthor">{event.author}</h3>
                 <p className="eventDate">{event.date}</p>
-                <PopUpEvent name={event.name} author={event.author} date={event.date} description={event.description} classification={event.classification}/>
+                <PopUpEvent name={event.name} author={event.author} date={event.date} description={event.description} classification={event.classification} vacancies={event.vacancies}/>
             </div>
         );
 }
