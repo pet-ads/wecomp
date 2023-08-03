@@ -29,7 +29,7 @@
 
 
 .eventAuthor {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 700;
     color: var(--font-color);
     margin: 10px;
@@ -40,16 +40,23 @@
     justify-content: center;
 }
 
-.eventDate {
-    font-size: var(--text-font-size);
-    font-weight: var(--text-font-weight);
+.eventDateTime {
     margin-bottom: 10px;
-    height: 60px;
+    height: fit-content;
     
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
+
+.eventDate{
+    margin-bottom: 10px;
+}
+
+.eventDateTime p{
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+}
+
 
 
 
