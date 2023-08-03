@@ -35,6 +35,19 @@
             
 
             "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
+        },
+        {
+            "id": 4,
+            "name": "InstallFest Linux",
+            "image": "../../eventsImages/pedro.png",
+            "imageDesc": "Pedro Nobile",
+            "author": "Pedro Nobile",
+            "date": "01 de setembro 8h - 10h",
+            "vacancies" : 20,
+            "classification": "livre",
+            
+
+            "description": "Conhecer Linux e compreender o básico de seu uso é requisito essencial a qualquer desenvolvedor de sofware. O InstallFest Linux é um evento dedicado a abrir as portas desse poderoso sistema operacional aos futuros desenvolvedores. Durante o encontro, será fornecido apoio técnico personalizado para instalação da sua primeira distribuição Linux, sem afetar seu sistema operacional atual.  Explore as vantagens do Linux na programação e no desenvolvimento de software e abra novas oportunidades em sua carreira tecnológica. Traga seu computador e um pendrive para participar."
         }
     ]
 }
