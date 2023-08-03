@@ -72,3 +72,27 @@
     }
 
 }
+
+
+@media  screen and (max-width : 480px) {
+    .eventBanner {
+        width: 220px;
+    }
+
+}
+
+@media  screen and (max-width : 400px) {
+    .eventBanner {
+        width: 167px;
+        height: 190px;
+        
+    }
+
+    .event{
+        margin-left: -10px;
+        /* background-color: blue; */
+    }
+
+}
+
+

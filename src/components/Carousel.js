@@ -26,6 +26,7 @@ function Carousel({ children }){
         
         const windowWidth = parseInt(getComputedStyle(carouselWindow).width)
         setMaxNumberOfVisibleCards(windowWidth / getCurrentCardWidth())
+
         return windowWidth / getCurrentCardWidth()
     }
 
@@ -96,7 +97,7 @@ function Carousel({ children }){
 
     useEffect(() => {
           setMaxNumberOfVisibleCards(calculateMaxNumberOfVisibleCards())
-    }, []);  
+    }, []); 
 
     useEffect(() => { 
         setWindowJustification(
@@ -105,7 +106,8 @@ function Carousel({ children }){
     }, [maxNumberOfVisibleCards, children])
 
     useEffect(() => { setCarouselTranformation({ transform : `translateX(${ carouselPosition }px)` }) 
-    }, [ carouselPosition])
+    }, [carouselPosition])
+
 
 
     return (

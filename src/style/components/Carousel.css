@@ -124,4 +124,24 @@
         margin: 0 2px;
     }
 }
+    
+    .nonClickable > path{
+        stroke: rgb(209, 209, 209);
+        stroke-width: 0.2px;
+    }
+}
 
+@media  screen and (max-width : 400px) {
+    .carousel-control {
+        width: 330px;
+    }
+}
+@media  screen and (max-width : 330px) {
+    .carousel-control {
+        width: 248px;
+    }
+    .control-button > svg {
+        width: 50px;
+        margin: -10px;
+    }
+}
