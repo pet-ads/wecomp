@@ -23,7 +23,7 @@ function NormalLayout({isLandscape}){
                     <Banner/>
                     <AboutTheEvent />
                     <Schedule/>
-                    <Partners isLandscape={isLandscape}/>
+                    <Partners issLandscape={isLandscape}/>
                     <Contact isLandscape={isLandscape}/>
                     <Location isLandscape={isLandscape}/>
                     <Footer isLandscape={isLandscape}/>
