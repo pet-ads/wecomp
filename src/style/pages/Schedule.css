@@ -4,17 +4,32 @@
     flex-direction: column;
     background-size: 300px 300px;
     height: var(--page-height);
+    min-height: 550px;
     justify-content: center;
-    /* background-color: aqua; */
+    margin-right: -300px;
 }
 
 .scheduleTitle {
     color: var(--font-color);
     font-size: var(--title-font-size);
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .schedule > p {
     font-weight: 700;
     font-size: var(--text-font-size);
 }
+
+
+@media  screen and (max-height : 720px) {
+    .scheduleTitle {
+        padding-bottom: 0px;
+    }
+}
+
+@media  screen and (max-width : 720px) {
+    .scheduleTitle {
+        padding-bottom: 0px;
+    }
+}
+

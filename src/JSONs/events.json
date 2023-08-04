@@ -66,67 +66,6 @@
             
 
             "description": "Este mini-curso apresentará uma breve história da filosofia do Software Livre e do surgimento do sistema operacional Linux, focando em seguida nos principais comandos para dominar o terminal e executar tarefas com agilidade e eficiência. Desde comandos básicos de navegação até operações mais avançadas, serão exploradas ferramentas essenciais para gestão de arquivos, instalação de programas, gerenciamento de processos, entre outros, de uma forma totalmente prática."
-
-            "name": "1Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "basico"
-        },
-        {
-            "id": 3,
-            "name": "2Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "intermediario"
-        },
-        {
-            "id": 4,
-            "name": "3Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 5,
-            "name": "4Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 6,
-            "name": "5Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 7,
-            "name": "6Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 8,
-            "name": "7Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
         }
     ]
 }
