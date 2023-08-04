@@ -1,7 +1,7 @@
 .eventTitle {
     font-size: 22px;
     color: var(--font-color);
-    height: 90px;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,6 +20,7 @@
     width: 220px;
     height: 250px;
     position: relative;
+    
 
 }
 
@@ -29,7 +30,7 @@
 
 
 .eventAuthor {
-    font-size: 1.3rem;
+    font-size: 20px;
     font-weight: 700;
     color: var(--font-color);
     margin: 10px;
@@ -71,4 +72,27 @@
         width: 184px;
     }
 
+}
+
+
+@media  screen and (max-height : 680px) {
+    .eventTitle {
+        margin: 10px 0;
+        font-size: 20px;
+        height: 90px;
+    }
+    
+    .eventAuthor {
+        font-size: 18px;
+        margin: 7px;
+        height: 40px;
+    }
+
+    .eventDateTime {
+        margin-bottom: 7px;
+    }
+    
+    .eventDate{
+        margin-bottom: 7px;
+    }
 }

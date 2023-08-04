@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: red; */
+    /* margin-bottom: 130px; */
 }
 
 .partnersTile{
@@ -30,6 +32,11 @@
     }
 }
 
+/* @media screen and (max-width: 1000) {
+    .partners {
+        background-color: red;
+    }
+} */
 
 .partners-landscape {
     height: unset !important;
