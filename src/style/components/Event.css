@@ -1,7 +1,7 @@
 .eventTitle {
     font-size: 22px;
     color: var(--font-color);
-    height: 90px;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,8 +77,9 @@
 
 @media  screen and (max-height : 680px) {
     .eventTitle {
+        margin: 10px 0;
         font-size: 20px;
-        height: 70px;
+        height: 90px;
     }
     
     .eventAuthor {
