@@ -5,15 +5,31 @@
     background-size: 300px 300px;
     height: var(--page-height);
     justify-content: center;
+    
+    background-color:azure ;
 }
 
 .scheduleTitle {
     color: var(--font-color);
     font-size: var(--title-font-size);
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    /* background-color: red; */
 }
 
 .schedule > p {
     font-weight: 700;
     font-size: var(--text-font-size);
+}
+
+
+@media  screen and (max-height : 720px) {
+    .scheduleTitle {
+        padding-bottom: 0px;
+    }
+}
+
+@media  screen and (max-width : 720px) {
+    .scheduleTitle {
+        padding-bottom: 0px;
+    }
 }

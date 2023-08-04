@@ -72,3 +72,15 @@
     }
 
 }
+/* 
+
+@media  screen and (max-height : 720px) {
+    
+    .eventBanner{
+        width: 176px;
+        height: 200px;
+        position: relative;
+    
+    }
+    
+} */

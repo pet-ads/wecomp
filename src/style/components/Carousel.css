@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-areas: "previous carousel next";
+    height: max-content;
 }
 
 .control-button {
@@ -14,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .control-button > svg {
@@ -42,12 +44,7 @@
     grid-area: carousel;
 
     position: relative;
-    /* z-index: 1; */
     
-    padding-bottom: 30px;
-    padding-top: 30px;
-    
-    /* background-color: blue; */
     width: 100%;
     height: 100%;
     
@@ -55,6 +52,7 @@
 }
 
 .carousel {
+    
     height: 100%;
 
     transition: all .75s;
