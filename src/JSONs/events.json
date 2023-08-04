@@ -2,77 +2,70 @@
     "listOfEvents": [
         {
             "id": 1,
-            "name": "Mini-curso de Python",
-            "image": "https://pe.tedcdn.com/images/ted/e9b34b5a3094eb2c3e7eda83638003c70bbcc635_2400x1800.jpg",
-            "imageDesc": "Foto do Evento",
-            "author": "Caio Andrade",
-            "date": "28 de agosto às 18h",
-            "classification": "livre",
+            "name": "Abertura oficial",
+            "image": "../../eventsImages/onovolab.png",
+            "imageDesc": "OnovoLab",
+            "author": "ONOVOLAB",
+            "date": "28 de agosto",
+            "time": "19h - 21h30",
 
-            "description": "Este mini-curso será ministrado por Caio Andrade, desenvolvedor back-end da empresa RaiaDrograsil. O intuito é apresentar aos alunos e participantes de forma inicial o uso da linguagem Python."
+            "description": "A abertura oficial da IV Wecomp acontecerá no ONOVOLAB e contará com a presença de empresas parceiras, uma mesa redonda com o tema 'IA generativa, mercado de trabalho e a carreira dos (novos) desenvolvedores' e uma confraternização. Não perca!"
         },
         {
             "id": 2,
-            "name": "1Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "basico"
+            "name": "Como é o dia-a-dia de um QA?",
+            "image": "../../eventsImages/cerminaro.jpeg",
+            "imageDesc": "Cerminaro",
+            "author": "Leonardo Cerminaro",
+            "date": "28 de agosto",
+            "time": "8h - 12h",
+            "vacancies" : 30,
+            "classification": "livre",
+            
+
+            "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
         {
             "id": 3,
-            "name": "2Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "intermediario"
+            "name": "Criando Micro-serviços em Golang",
+            "image": "../../eventsImages/go.png",
+            "imageDesc": "Gustavo e Vinicius",
+            "author": "Gustavo Okuyama e Vinícius Silva",
+            "date": "29 e 30 de agosto",
+            "time": "8h - 12h",
+            "vacancies" : 20,
+            "classification": "intermediario",
+            
+
+            "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
         },
         {
             "id": 4,
-            "name": "3Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
+            "name": "InstallFest Linux",
+            "image": "../../eventsImages/pedro.png",
+            "imageDesc": "Pedro Nobile",
+            "author": "Pedro Nobile",
+            "date": "01 de setembro",
+            "time": "8h - 10",
+            "vacancies" : 20,
+            "classification": "livre",
+            
+
+            "description": "Conhecer Linux e compreender o básico de seu uso é requisito essencial a qualquer desenvolvedor de sofware. O InstallFest Linux é um evento dedicado a abrir as portas desse poderoso sistema operacional aos futuros desenvolvedores. Durante o encontro, será fornecido apoio técnico personalizado para instalação da sua primeira distribuição Linux, sem afetar seu sistema operacional atual.  Explore as vantagens do Linux na programação e no desenvolvimento de software e abra novas oportunidades em sua carreira tecnológica. Traga seu computador e um pendrive para participar."
         },
         {
             "id": 5,
-            "name": "4Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 6,
-            "name": "5Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 7,
-            "name": "6Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
-        },
-        {
-            "id": 8,
-            "name": "7Talk sobre Soft-Skills",
-            "image": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/9e067eef-7f85-46c4-9d1f-6bf296722c34/GiorgiaLupi_2017S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82w=640",
-            "imageDesc": "Foto do Evento",
-            "author": "Helena Monteiro",
-            "date": "30 de agosto às 16h",
-            "classification": "livre"
+            "name": "Como sobreviver no terminal do Linux",
+            "image": "../../eventsImages/carlao.jpeg",
+            "imageDesc": "Carlão Pereira",
+            "author": "Carlão Pereira",
+            "date": "01 de setembro",
+            "time": "10h - 12h",
+            "vacancies" : 30,
+            "classification": "livre",
+            
+
+            "description": "Este mini-curso apresentará uma breve história da filosofia do Software Livre e do surgimento do sistema operacional Linux, focando em seguida nos principais comandos para dominar o terminal e executar tarefas com agilidade e eficiência. Desde comandos básicos de navegação até operações mais avançadas, serão exploradas ferramentas essenciais para gestão de arquivos, instalação de programas, gerenciamento de processos, entre outros, de uma forma totalmente prática."
         }
     ]
 }

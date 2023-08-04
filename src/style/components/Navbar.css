@@ -23,5 +23,6 @@ li a {
 }
 
 .nav-bar li:hover {
-  transform: translateY(-5px);
+  /* transform: translateY(-5px); */
+  transform: scale(1.1);
 }

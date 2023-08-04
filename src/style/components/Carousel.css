@@ -1,19 +1,12 @@
 .carousel-control {
-    /* max-width: 1380px; */
-    
-    width: calc(314px*4 - 7px);
-
-
-    /* display: none; */
+    width: calc(270px*4 + 217px);
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-areas: "previous carousel next";
-    /* background-color: red; */
 }
 
 .control-button {
     position: relative;
-    /* z-index: 2; */
 
     width: 100%;
     height: 100%;
@@ -21,14 +14,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* background-color: blueviolet; */
 }
 
 .control-button > svg {
     width: 100px;
     height: auto;
-    /* background-color: black; */
 }
 
 
@@ -76,31 +66,31 @@
     width: fit-content;
     height: 100%;
 
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 
 @media  screen and (max-width : 1550px) {
     .carousel-control{
-        width: calc((314px*3) + 38px);
+        width: calc(270px*3 + 200px);
     }
 }
 
 @media  screen and (max-width : 1250px) {
     .carousel-control{
-        width: calc((314px*2) + 92px) ;
+        width: calc(270px*2 + 200px);
     }
 }
 
 @media  screen and (max-width : 900px) {
     .carousel-control{
-        width: 460px;
+        width: 470px;
     }
 }
 
 @media  screen and (max-width : 480px) {
     .carousel-control{
-        width: 400px;
+        width: 410px;
     }
 
     .control-button > svg {
@@ -117,17 +107,21 @@
     }
 }
 
-@media  screen and (max-width : 400px) {
+@media  screen and (max-width : 440px) {
     .carousel-control {
-        width: 330px;
+        width: 370px;
     }
-}
-@media  screen and (max-width : 330px) {
-    .carousel-control {
-        width: 248px;
-    }
+
     .control-button > svg {
         width: 50px;
-        margin: -10px;
     }
 }
+@media  screen and (max-width : 400px) {
+    .carousel-control {
+        width: 288px;
+    }
+    .carousel-card {
+        margin: 0 2px;
+    }
+}
+

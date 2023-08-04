@@ -1,14 +1,12 @@
 import ReactModal from 'react-modal';
 import React, { useState } from 'react';
 import Button from "./Button.js";
-import Event from "./Event.js";
-import events from "../JSONs/events.json";
 
 import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
 
 
-function PopUpEvent({name, author, date, description, classification}) {
+function PopUpEvent({event}) {
   const [isOpen, setIsOpen] = useState(false);
  
   return (
@@ -18,12 +16,14 @@ function PopUpEvent({name, author, date, description, classification}) {
             isOpen={isOpen}
             contentLabel="Example Modal">
             <div className='popUpDescription'>
-                <h2>{name}</h2>
-                <h3>{author}</h3>
-                  <p>{date}</p>
-                <p>{description}</p>
+                <h2>{event.name}</h2>
+                <h3>{event.author}</h3>
+                <p>{event.date} | {event.time}</p>
+                <p className='description-container'>{event.description}</p>
+                {event.vacancies ? <p>Quantidade de vagas: {event.vacancies}</p> : <></>}
                 <div className="badge-line">
-                  <ClassificationBadge classification={classification}/>
+                  {event.classification ? <p>Dificuldade:</p> : <></>}
+                  <ClassificationBadge classification={event.classification}/>
                 </div>
                 <Button text='Fechar' action={() => setIsOpen(false)}/>
             </div>

@@ -25,17 +25,17 @@
       },
       {
         "id": 2,
-        "src": "./logos/inova.png",
-        "name": "Inova IFSP",
-        "link": "http://inova.ifsp.edu.br/",
-        "width": 180
+        "src": "./logos/monitora_black.png",
+        "name": "Marlabs - Monitora",
+        "link": "https://monitoratec.com.br",
+        "width": 260
       },
       {
         "id": 3,
-        "src": "./logos/mediamonks.png",
+        "src": "./logos/media_monks.png",
         "name": "Media.monks",
         "link": "https://media.monks.com/pt",
-        "width": 235
+        "width": 225
       },
       {
         "id": 4,
@@ -46,33 +46,34 @@
       },
       {
         "id": 5,
+        "src": "./logos/f1rst.png",
+        "name": "F1RST",
+        "link": "https://www.f1rst.com.br/first/",
+        "width": 210
+      },
+      {
+        "id": 6,
+        "src": "./logos/inova.png",
+        "name": "Inova IFSP",
+        "link": "http://inova.ifsp.edu.br/",
+        "width": 180
+      },
+      
+      {
+        "id": 7,
         "src": "./logos/logoonesix_transp3.png",
         "name": "OneSix",
         "link": "https://onesix.global",
         "width": 170
-      },
-      {
-        "id": 6,
-        "src": "./logos/monitora_black.png",
-        "name": "Marlabs - Monitora",
-        "link": "https://monitoratec.com.br",
-        "width": 260
-      },
-      {
-        "id": 7,
-        "src": "./logos/logoF1RST.png",
-        "name": "F1SRT",
-        "link": "https://www.f1rst.com.br/first/",
-        "width": 210
       }
     ],
     "unused":[
       {
-        "id": 4,
-        "src": "./logos/tokenlab.svg",
-        "name": "Tokenlab",
-        "link": "https://www.tokenlab.com.br/pt/home",
-        "width": 240
+        "id": 8,
+        "src": "./logos/RaiaDrogasil.png",
+        "name": "RaiaDrogasil",
+        "link": "https://rd.com.br",
+        "width": 160
       }
     ]
   

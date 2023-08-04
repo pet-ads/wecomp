@@ -1,6 +1,6 @@
 import "../style/components/EventClassification.css";
 
-function DifficultyLevel({classification}){
+function EventClassification({classification}){
     let classificacao
         switch(classification){
             case "livre": classificacao = "Livre"
@@ -18,10 +18,6 @@ function DifficultyLevel({classification}){
         <div className="eventClassification">
             <p className={classification}>{classificacao}</p>
         </div>
-        // <img className="eventClassification" src="./events/classification/livre.png" alt="classificação livre"/>
     )
-    
 }
-
-
-export default DifficultyLevel;
+export default EventClassification;
