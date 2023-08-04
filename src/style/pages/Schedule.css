@@ -4,9 +4,8 @@
     flex-direction: column;
     background-size: 300px 300px;
     height: var(--page-height);
+    min-height: 550px;
     justify-content: center;
-    
-    /* background-color:azure ; */
 }
 
 .scheduleTitle {
