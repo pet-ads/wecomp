@@ -6,13 +6,13 @@
     height: var(--page-height);
     min-height: 550px;
     justify-content: center;
+    margin-right: -300px;
 }
 
 .scheduleTitle {
     color: var(--font-color);
     font-size: var(--title-font-size);
     padding-bottom: 50px;
-    /* background-color: red; */
 }
 
 .schedule > p {
@@ -32,3 +32,4 @@
         padding-bottom: 0px;
     }
 }
+

@@ -33,6 +33,10 @@
 
 
 @media screen and (max-width: 390px) {
+    .about-the-event {
+        margin-bottom: 50px;
+    }
+
     .event-description {
         max-width: 90%;
     }

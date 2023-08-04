@@ -4,18 +4,33 @@
     flex-direction: column;
     justify-content: center;
     height: var(--page-height);
+    
+}
+.contact > .disclaimer {
+    width: 70%;
+    max-width: 900px;
+    margin:20px auto;
+    font-size: var(--text-font-size);
+    font-weight: var(--text-font-weight);
+    text-align: center;
 }
 
 .contact > h2 {
     font-size: var(--title-font-size);
 }
 
-.contact > h3, .email > h3 {
+.contact > h3 {
     margin: 20px;
     font-size: var(--subtitle-font-size);
 }
 
-.contact > p, .email > p {
+.email > h3 {
+    margin: 10px;
+    font-size: var(--subtitle-font-size);
+}
+
+
+.email > p {
     margin:20px auto;
     font-size: var(--text-font-size);
     font-weight: var(--text-font-weight);
@@ -46,23 +61,7 @@
     font-weight: 700;
 }
 
-.email {
-    margin: 30px;
-}
 
-.email > h3 {
-    margin: 10px;
-    font-size: var(--subtitle-font-size);
-}
-
-.contact > .disclaimer {
-    max-width: 80%;
-    min-width: 50%;
-
-    font-size: var(--text-font-size);
-    font-weight: var(--text-font-weight);
-    text-align: center;
-}
 
 @media screen and (max-width: 375px) {
     .contact {
