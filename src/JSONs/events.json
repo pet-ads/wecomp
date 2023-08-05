@@ -26,7 +26,7 @@
             "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
         {
-            "id": 2,
+            "id": 2.1,
             "name": "Criando um aplicativo de clima com Flutter",
             "image": "../../eventsImages/davi.png",
             "imageDesc": "Davi Guelfi Erba",
@@ -37,7 +37,7 @@
             "classification": "livre",
             
 
-            "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
+            "description": "Neste minicurso os participantes irão aprender como criar um aplicativo para visualizar dados metereologicos (clima) utilizando o Flutter. É um curso básico para os que querem conhecer essa tecnologia de desenvolvimento híbrida que é uma das mais utilizadas hoje em dia no mercado de trabalho."
         },
         {
             "id": 3,
