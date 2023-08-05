@@ -55,12 +55,26 @@
         },
         {
             "id": 4,
+            "name": "Introdução à Ciência de Dados - Da teoria ao Deploy em 240 minutos.",
+            "image": "../../eventsImages/luana_tiago.png",
+            "imageDesc": "Luana Terra e Tiago Corrêa",
+            "author": "Luana Terra e Tiago Corrêa",
+            "date": "31 de agosto",
+            "time": "8h - 12h",
+            "vacancies" : 30,
+            "classification": "livre",
+            
+
+            "description": "Esse minicurso aborda conceitos básicos de ciência de dados, ferramentas para se trabalhar com os dados, exemplos de modelos de predição (estimação e classificação) e um jeito fácil e rápido de dar deploy com Streamlit. O curso é introdutório e não é necessário conhecimento prévio na área, mas conhecimento em Python é desejável."
+        },
+        {
+            "id": 4.1,
             "name": "InstallFest Linux",
             "image": "../../eventsImages/pedro.png",
             "imageDesc": "Pedro Nobile",
             "author": "Pedro Nobile",
             "date": "01 de setembro",
-            "time": "8h - 10",
+            "time": "8h - 10h",
             "vacancies" : 20,
             "classification": "livre",
             
