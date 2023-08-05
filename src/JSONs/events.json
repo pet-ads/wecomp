@@ -26,6 +26,20 @@
             "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
         {
+            "id": 2,
+            "name": "Criando um aplicativo de clima com Flutter",
+            "image": "../../eventsImages/davi.png",
+            "imageDesc": "Davi Guelfi Erba",
+            "author": "Davi Guelfi Erba",
+            "date": "28 de agosto",
+            "time": "8h - 12h",
+            "vacancies" : 30,
+            "classification": "livre",
+            
+
+            "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
+        },
+        {
             "id": 3,
             "name": "Criando Micro-serviços em Golang",
             "image": "../../eventsImages/go.png",
