@@ -1,11 +1,9 @@
 .partners {
     width: 100%;
-    height: var(--page-height);
+    /* height: var(--page-height); */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: red; */
-    /* margin-bottom: 130px; */
 }
 
 .partnersTile{
