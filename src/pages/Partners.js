@@ -23,7 +23,7 @@ function Partners({isLandscape}){
     }, []);
 
     return (
-        <div className={`partners ${isLandscape ? "partners-landscape" : ""}`}>
+        <div id="organizers" className={'partners ${isLandscape ? "partners-landscape" : ""}'}>
             <div className="partnersTile">
             <GroupOfPartners partners={supporters} text="Apoiadores" isLandscape={isLandscape}/>
             <GroupOfPartners partners={organizers} text="Realização" isLandscape={isLandscape} />
