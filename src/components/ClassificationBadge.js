@@ -17,7 +17,6 @@ function ClassificationBadge({classification}){
                 return(
                     <></>
                 )
-            break;
         }
     return(
         <div className={"badge-" + classification + " badge"}>

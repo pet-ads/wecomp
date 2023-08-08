@@ -13,6 +13,4 @@ function Banner({ bannerImage, canvasBackgroundColor, children }) {
     );
 }
 
-/*<img className="logoIFSP" src={logoIFSP}></img>*/
-
 export default Banner;
