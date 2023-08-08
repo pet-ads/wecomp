@@ -23,7 +23,7 @@
             "classification": "livre",
             
 
-            "description": "Nesse workshop, será demonstrado de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
+            "description": "Nesse workshop, serão demonstradas de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
         {
             "id": 2.1,
