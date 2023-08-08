@@ -1,0 +1,51 @@
+
+.control-button {
+    display: flex;
+    
+}
+
+.control-button > svg {
+    width: 100px;
+    height: auto;
+}
+
+.forward{
+    rotate: 180deg;
+}
+
+
+.clickable > path {
+    fill: var(--pallete-light)
+}
+
+.nonClickable > path{
+    fill: rgb(209, 209, 209);
+}
+
+
+@media  screen and (max-width : 600px) {
+    .control-button > svg {
+        width: 70px;
+    }
+    .clickable > path {
+        stroke: var(--pallete-light);
+        stroke-width: 0.5;
+    }
+    
+    .nonClickable > path{
+        stroke: rgb(209, 209, 209);
+        stroke-width: 0.2px;
+    }
+}
+
+@media  screen and (max-width : 400px) {
+    .control-button > svg {
+        width: 50px;
+    }
+}
+
+@media  screen and (max-width : 320px) {
+    .control-button > svg {
+        width: 40px;
+    }
+}

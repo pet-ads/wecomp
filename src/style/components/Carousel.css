@@ -14,31 +14,6 @@
     overflow: hidden;
 }
 
-
-.control-button {
-    display: flex;
-    
-}
-
-.control-button > svg {
-    width: 100px;
-    height: auto;
-}
-
-.forward{
-    rotate: 180deg;
-}
-
-
-.clickable > path {
-    fill: var(--pallete-light)
-}
-
-.nonClickable > path{
-    fill: rgb(209, 209, 209);
-}
-
-
 .carousel-card {
     height: 100%;
     margin: 0 15px;
@@ -63,29 +38,29 @@
     }
 }
 
-@media  screen and (max-width : 480px) {
-    .control-button > svg {
-        width: 70px;
-        background-color: aquamarine;
+@media  screen and (max-width : 400px) {
+    .carousel-card {
+        margin: 0 10px;
     }
-    .clickable > path {
-        stroke: var(--pallete-light);
-        stroke-width: 0.5;
-    }
-    
-    .nonClickable > path{
-        stroke: rgb(209, 209, 209);
-        stroke-width: 0.2px;
-    }
-}
 
-@media  screen and (max-width : 440px) {
-    
     .carousel-window {
-        width: calc(230px);
-    }
-    .control-button > svg {
-        width: 50px;
+        width: calc(204px);
     }
 }
 
+@media  screen and (max-width : 320px) {
+    .carousel-card {
+        margin: 0 5px;
+    }
+
+    .carousel-window {
+        width: calc(173px);
+    }
+}
+
+@media  screen and (max-width : 320px) {
+
+    .carousel-window {
+        width: calc(173px);
+    }
+}

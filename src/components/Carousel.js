@@ -1,5 +1,4 @@
 import "../style/components/Carousel.css"
-import "../style/components/Button.css"
 import { useState, useEffect } from "react"
 import Arrow from "./Arrow.js"
 
@@ -18,6 +17,7 @@ function Carousel({ children }){
         const cardComputedStyle = getComputedStyle(card)
         const width = parseInt(cardComputedStyle.width)
         const lateralWidth = parseInt(cardComputedStyle.margin.split(" ")[1])
+        console.log(2 * lateralWidth + width)
         return 2 * lateralWidth + width
     }
 
@@ -26,6 +26,7 @@ function Carousel({ children }){
         
         const windowWidth = parseInt(getComputedStyle(carouselWindow).width)
         setMaxNumberOfVisibleCards(windowWidth / getCurrentCardWidth())
+        console.log(windowWidth / getCurrentCardWidth())
         return windowWidth / getCurrentCardWidth()
     }
 

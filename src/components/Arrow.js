@@ -1,3 +1,5 @@
+import "../style/components/Arrow.css"
+
 function Arrow(props){
     return(
         <div className={"control-button " +  props.direction} >

@@ -65,13 +65,22 @@
         height: 210px;
         
     }
-
     .event{
         width: 184px;
     }
 
 }
 
+@media  screen and (max-width : 320px) {
+    .eventBanner {
+        width: 163px;
+        height: 185px;
+    }
+
+    .event{
+        width: 163px;
+    }
+}
 
 @media  screen and (max-height : 680px) {
     .eventTitle {
