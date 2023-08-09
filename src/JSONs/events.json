@@ -55,21 +55,36 @@
         },
         {
             "id": 3.1,
-            "name": "Talk Minsait - A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
+            "name": "Talk Minsait",
+            "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
             "image": "../../eventsImages/talk_minsait.png",
             "imageDesc": "Talk Minsait",
             "author": "Carlos Eduardo Leite",
             "date": "29 de agosto",
             "time": "19h - 21h",
             "vacancies" : 100,
-            "classification": "intermediario",
             
 
             "description": "Nesta palestra a Minsait abordarerá as vantagens da computação em nuvem, como elasticidade, automação e gerenciamento simplificado onde a combinação desses componentes permite a construção de aplicativos altamente escaláveis, resilientes e flexíveis, capazes de aproveitar ao máximo as vantagens da nuvem e acelerar a inovação nos negócios. Também serão apresentadas informações sobre a empresa e processos seletivos."
         },
         {
+            "id": 3.1,
+            "name": "Talk F1RST",
+            "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
+            "image": "../../eventsImages/talk_f1rst.png",
+            "imageDesc": "Talk F1RST",
+            "author": "F1RSTERS IFSP",
+            "date": "20 de agosto",
+            "time": "19h - 21h",
+            "vacancies" : 100,
+            
+
+            "description": "Carreira na F1RST e bate-papo com F1RSTERS egressos do IFSP"
+        },
+        {
             "id": 4,
-            "name": "Introdução à Ciência de Dados - Da teoria ao Deploy em 240 minutos.",
+            "name": "Introdução à Ciência de Dados",
+            "subTitle": "Da teoria ao Deploy em 240 minutos",
             "image": "../../eventsImages/luana_tiago.png",
             "imageDesc": "Luana Terra e Tiago Corrêa",
             "author": "Luana Terra e Tiago Corrêa",
@@ -83,6 +98,19 @@
         },
         {
             "id": 4.1,
+            "name": "Talk monitora",
+            "image": "../../eventsImages/talk_monitora.png",
+            "imageDesc": "Monitora",
+            "author": "Fabíola Cardes e Leonardo Miyake",
+            "date": "31 de agosto",
+            "time": "19h - 21h",
+            "vacancies" : 100,
+            
+
+            "description": "Impressionando os Recrutadores: Como Desenvolver Soft Skills para Entrevistas de TI"
+        },
+        {
+            "id": 4.2,
             "name": "InstallFest Linux",
             "image": "../../eventsImages/pedro.png",
             "imageDesc": "Pedro Nobile",
@@ -108,6 +136,19 @@
             
 
             "description": "Este mini-curso apresentará uma breve história da filosofia do Software Livre e do surgimento do sistema operacional Linux, focando em seguida nos principais comandos para dominar o terminal e executar tarefas com agilidade e eficiência. Desde comandos básicos de navegação até operações mais avançadas, serão exploradas ferramentas essenciais para gestão de arquivos, instalação de programas, gerenciamento de processos, entre outros, de uma forma totalmente prática."
+        },
+        {
+            "id": 5.1,
+            "name": "Talk Media.Monks",
+            "image": "../../eventsImages/talk_mediamonks.png",
+            "imageDesc": "Media Monks",
+            "author": "Equipe Media Monks",
+            "date": "01 de setembro",
+            "time": "19h - 21h",
+            "vacancies" : 100,
+            
+
+            "description": "Impressionando os Recrutadores: Como Desenvolver Soft Skills para Entrevistas de TI"
         }
     ]
 }
