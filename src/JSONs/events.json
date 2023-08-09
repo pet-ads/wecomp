@@ -54,6 +54,20 @@
             "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
         },
         {
+            "id": 3.1,
+            "name": "Talk Minsait - A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
+            "image": "../../eventsImages/talk_minsait.png",
+            "imageDesc": "Talk Minsait",
+            "author": "Carlos Eduardo Leite",
+            "date": "29 de agosto",
+            "time": "19h - 21h",
+            "vacancies" : 100,
+            "classification": "intermediario",
+            
+
+            "description": "Nesta palestra a Minsait abordarerá as vantagens da computação em nuvem, como elasticidade, automação e gerenciamento simplificado onde a combinação desses componentes permite a construção de aplicativos altamente escaláveis, resilientes e flexíveis, capazes de aproveitar ao máximo as vantagens da nuvem e acelerar a inovação nos negócios. Também serão apresentadas informações sobre a empresa e processos seletivos."
+        },
+        {
             "id": 4,
             "name": "Introdução à Ciência de Dados - Da teoria ao Deploy em 240 minutos.",
             "image": "../../eventsImages/luana_tiago.png",
