@@ -1,7 +1,7 @@
 import ReactModal from 'react-modal';
 import React, { useState } from 'react';
 import Button from "./Button.js";
-import popUpEventTab from "./PopUpEventTab.js";
+// import popUpEventTab from "./PopUpEventTab.js";
 
 import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
