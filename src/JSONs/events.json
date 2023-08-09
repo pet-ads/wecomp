@@ -1,154 +1,156 @@
 {
     "listOfEvents": [
         {
-            "id": 1,
+            "id": 28.1,
             "name": "Abertura oficial",
             "image": "../../eventsImages/onovolab.png",
             "imageDesc": "OnovoLab",
             "author": "ONOVOLAB",
             "date": "28 de agosto",
             "time": "19h - 21h30",
-
             "description": "A abertura oficial da IV Wecomp acontecerá no ONOVOLAB e contará com a presença de empresas parceiras, uma mesa redonda com o tema 'IA generativa, mercado de trabalho e a carreira dos (novos) desenvolvedores' e uma confraternização. Não perca!"
         },
         {
-            "id": 2,
+            "id": 28.2,
             "name": "Como é o dia-a-dia de um QA?",
             "image": "../../eventsImages/cerminaro.jpeg",
             "imageDesc": "Cerminaro",
+            "bio": "Leonardo Cerminaro é formado em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos e trabalha como Senior Quality Assurance Enginee na X-Team. Possui certificações de teste de software CTFL-AT e CTFL da BSTQB e ampla experiência em qualidade de software.",
             "author": "Leonardo Cerminaro",
             "date": "28 de agosto",
             "time": "8h - 12h",
             "vacancies" : 30,
             "classification": "livre",
-            
-
             "description": "Nesse workshop, serão demonstradas de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
         {
-            "id": 2.1,
+            "id": 28.3,
             "name": "Criando um aplicativo de clima com Flutter",
             "image": "../../eventsImages/davi.png",
             "imageDesc": "Davi Guelfi Erba",
+            "bio": "Davi é desenvolvedor full-stack com foco em front-end na Monitora, organizador do OpenSanca, apaixonado por carro, tecnologia e aleatoriedades",
             "author": "Davi Guelfi Erba",
             "date": "28 de agosto",
             "time": "8h - 12h",
             "vacancies" : 30,
             "classification": "livre",
-            
-
             "description": "Neste minicurso os participantes irão aprender como criar um aplicativo para visualizar dados metereologicos (clima) utilizando o Flutter. É um curso básico para os que querem conhecer essa tecnologia de desenvolvimento híbrida que é uma das mais utilizadas hoje em dia no mercado de trabalho."
         },
         {
-            "id": 3,
+            "id": 29.1,
             "name": "Criando Micro-serviços em Golang",
             "image": "../../eventsImages/go.png",
-            "imageDesc": "Gustavo e Vinicius",
-            "author": "Gustavo Okuyama e Vinícius Silva",
+            "imageDesc": "Vinícius Silva e Gustavo Okuyama",
+            "bio": ["Vinícius Silva é formado em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos. Possui 4 anos de experiência profissional, sendo 3 deles dedicados ao time de Busca do iFood atuando como Engenheiro de Software.",
+                    "Gustavo Okuyama é formado em Engenharia Elétrica pela USP de São Carlos. Tem experiência com visão computacional e desde 2019 atua como Engenheiro de Software no iFood na maior parte do tempo em Golang."],
+            "author": "Vinícius Silva e Gustavo Okuyama",
             "date": "29 e 30 de agosto",
             "time": "8h - 12h",
             "vacancies" : 20,
             "classification": "intermediario",
-            
-
             "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
         },
         {
-            "id": 3.1,
+            "id": 29.2,
+            "name": "Jornada Cloud Native",
+            "subTitle": "Modernizando infraestrutura e work loads com observabilidade",
+            "image": "../../eventsImages/cloud_native.png",
+            "imageDesc": "Jornada Cloud Native",
+            "bio": ["Henrique Lima Margarido é Analista Sênior de DevOps na Minsait, atuando com arquitetura, automação e otimização de ambientes complexos de TI. Possui profundo conhecimento e prática no gerenciamento de soluções e arquiteturas, incluindo Kubernetes, CI/CD, conteinerização, automação de infraestrutura, observabilidade e plataformas de nuvem como AWS e Azure.",
+                    "Augusto Moreto Barros atua com tecnologias de CICD, Docker, IAC, Kubernetes, Observabilidade, Java, Node, Python, Azure, AWS e Oracle. É responsável por administrar todos os ambientes desde DEV até PROD na Minsait, construindo desde o CI/CD e container até a infraestrutura, observabilidade e demais configurações."],
+            "author": "Henrique Margarido e Augusto Barros",
+            "date": "29 de agosto",
+            "time": "9h - 12h e 14h - 17h",
+            "vacancies" : 30,
+            "classification": "intermediario"
+        },
+        {
+            "id": 29.3,
             "name": "Talk Minsait",
             "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
             "image": "../../eventsImages/talk_minsait.png",
             "imageDesc": "Talk Minsait",
+            "bio": "Carlos Eduardo Leite (Carlão) atua como Head de Arquitetura na Minsait sendo responsável por orientar a construção de arquiteturas escaláveis e resilientes, impulsionando a adoção de tecnologias cloud native e microserviços. Com ampla expertise em tecnologias cloud, como AWS, Azure e Google Cloud Platform, domínio de ferramentas e práticas DevOps, incluindo CI/CD, automação de infraestrutura e monitoramento, especialização em virtualização e contêineres, como Docker e Kubernetes, para ambientes escaláveis e experiência em projetos de migração para a nuvem, otimização de custos e garantia de segurança em ambientes cloud, atuando em diversos projetos de infraestrutura, liderando equipes DevOps e implementando soluções inovadoras para ambientes Linux e sistemas distribuídos. Experiência sólida em práticas DevOps.",
             "author": "Carlos Eduardo Leite",
             "date": "29 de agosto",
             "time": "19h - 21h",
             "vacancies" : 100,
-            
-
             "description": "Nesta palestra a Minsait abordarerá as vantagens da computação em nuvem, como elasticidade, automação e gerenciamento simplificado onde a combinação desses componentes permite a construção de aplicativos altamente escaláveis, resilientes e flexíveis, capazes de aproveitar ao máximo as vantagens da nuvem e acelerar a inovação nos negócios. Também serão apresentadas informações sobre a empresa e processos seletivos."
         },
         {
-            "id": 3.1,
+            "id": 30.1,
             "name": "Talk F1RST",
-            "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
             "image": "../../eventsImages/talk_f1rst.png",
             "imageDesc": "Talk F1RST",
             "author": "F1RSTERS IFSP",
-            "date": "20 de agosto",
+            "date": "30 de agosto",
             "time": "19h - 21h",
             "vacancies" : 100,
-            
-
             "description": "Carreira na F1RST e bate-papo com F1RSTERS egressos do IFSP"
         },
         {
-            "id": 4,
+            "id": 31.1,
             "name": "Introdução à Ciência de Dados",
             "subTitle": "Da teoria ao Deploy em 240 minutos",
             "image": "../../eventsImages/luana_tiago.png",
-            "imageDesc": "Luana Terra e Tiago Corrêa",
-            "author": "Luana Terra e Tiago Corrêa",
+            "imageDesc": "Tiago Corrêa e Luana Terra",
+            "bio": ["Tiago Corrêa é graduado em Matemática pela Universidade Federal de São Carlos (UFSCar), Mestre em Ciência Tecnologia e Sociedade (UFSCar) e doutorando em Tecnologia (Unicamp). Atualmente desenvolve pesquisa na área de Music Information Retrieval (MIR), utilizando aplicações de Machine Learning em Python. Trabalha na Predify utilizando modelos de Data Science para precificação.",
+                    "Luana Terra é formada em Ciências de Computação pelo Instituto de Ciências Matemáticas e Computação na USP de São Carlos, já atuou na área de desenvolvimento de jogos e realidade virtual e hoje trabalha como cientista de dados na Predify. Nas horas vagas, explora e estuda sua paixão, a Computação."],
+            "author": "Tiago Corrêa e Luana Terra",
             "date": "31 de agosto",
             "time": "8h - 12h",
             "vacancies" : 30,
             "classification": "livre",
-            
-
             "description": "Esse minicurso aborda conceitos básicos de ciência de dados, ferramentas para se trabalhar com os dados, exemplos de modelos de predição (estimação e classificação) e um jeito fácil e rápido de dar deploy com Streamlit. O curso é introdutório e não é necessário conhecimento prévio na área, mas conhecimento em Python é desejável."
         },
         {
-            "id": 4.1,
+            "id": 31.2,
             "name": "Talk monitora",
             "image": "../../eventsImages/talk_monitora.png",
             "imageDesc": "Monitora",
+            "bio": ["Fabíola Cardes é uma profissional com 14 anos de experiência em recursos humanos (RH). Atualmente, é Head Pessoas e Cultura da Monitora Soluções Tecnológicas.",
+                    "Leonardo Miyake é formado em Ciência da Computação e possui MBA em Inteligência Artificial e Big Data. Atualmente, é Vice Diretor de TI da Monitora Soluções Tecnológicas."],
             "author": "Fabíola Cardes e Leonardo Miyake",
             "date": "31 de agosto",
             "time": "19h - 21h",
             "vacancies" : 100,
-            
-
             "description": "Impressionando os Recrutadores: Como Desenvolver Soft Skills para Entrevistas de TI"
         },
         {
-            "id": 4.2,
+            "id": 1.1,
             "name": "InstallFest Linux",
             "image": "../../eventsImages/pedro.png",
             "imageDesc": "Pedro Nobile",
+            "bio": "Pedro é formado em Ciência da Computação pela Universidade Federal de São Carlos. Tem mestrado com foco em Sistemas Distribuídos e Redes e doutorado na área de Sistemas Distribuídos e Programação Concorrente. Conheceu o GNU/Linux em 2002 e não deixou de usá-lo desde então. Já pertenceu a várias comunidades ligadas de software livre e é grande incentivador da utilização de software livre na sua vida profissional.",
             "author": "Pedro Nobile",
             "date": "01 de setembro",
             "time": "8h - 10h",
             "vacancies" : 20,
             "classification": "livre",
-            
-
             "description": "Conhecer Linux e compreender o básico de seu uso é requisito essencial a qualquer desenvolvedor de sofware. O InstallFest Linux é um evento dedicado a abrir as portas desse poderoso sistema operacional aos futuros desenvolvedores. Durante o encontro, será fornecido apoio técnico personalizado para instalação da sua primeira distribuição Linux, sem afetar seu sistema operacional atual.  Explore as vantagens do Linux na programação e no desenvolvimento de software e abra novas oportunidades em sua carreira tecnológica. Traga seu computador e um pendrive para participar."
         },
         {
-            "id": 5,
+            "id": 1.2,
             "name": "Como sobreviver no terminal do Linux",
             "image": "../../eventsImages/carlao.jpeg",
             "imageDesc": "Carlão Pereira",
+            "bio": "É professor efetivo do IFSP (campus São Carlos), desde 2012. Possui doutorado em Geografia pela UNESP, no qual desenvolveu um software para produção e análise de informações geográficas com o auxílio de técnicas de computação inteligente (lógica Nebulosa e redes neurais artificiais). É mestre pela Escola Nacional de Ciências Estatísticas e Tecnólogo em Processamento de Dados pela Universidade Veiga de Almeida. Usuário de Linux desde 2005, colaborador e disseminador da filosofia do Software Livre. Vascaíno sofredor.",
             "author": "Carlão Pereira",
             "date": "01 de setembro",
             "time": "10h - 12h",
             "vacancies" : 30,
             "classification": "livre",
-            
-
             "description": "Este mini-curso apresentará uma breve história da filosofia do Software Livre e do surgimento do sistema operacional Linux, focando em seguida nos principais comandos para dominar o terminal e executar tarefas com agilidade e eficiência. Desde comandos básicos de navegação até operações mais avançadas, serão exploradas ferramentas essenciais para gestão de arquivos, instalação de programas, gerenciamento de processos, entre outros, de uma forma totalmente prática."
         },
         {
-            "id": 5.1,
+            "id": 1.3,
             "name": "Talk Media.Monks",
             "image": "../../eventsImages/talk_mediamonks.png",
             "imageDesc": "Media Monks",
             "author": "Equipe Media Monks",
             "date": "01 de setembro",
             "time": "19h - 21h",
-            "vacancies" : 100,
-            
-
-            "description": "Impressionando os Recrutadores: Como Desenvolver Soft Skills para Entrevistas de TI"
+            "vacancies" : 100
         }
     ]
 }
