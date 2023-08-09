@@ -17,7 +17,7 @@ function PopUpEvent({event}) {
             isOpen={isOpen}
             contentLabel="Example Modal">
             <div className='popUpDescription'>
-                <h2>{event.subTitle ?  (event.name + " - " + event.subTitle) : (event.name)}</h2>
+                <h2 className='modalTitle'>{event.subTitle ?  (event.name + " - " + event.subTitle) : (event.name)}</h2>
                 <h3>{event.author}</h3>
                 <p>{event.date} | {event.time}</p>
 

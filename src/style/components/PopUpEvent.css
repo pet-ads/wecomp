@@ -39,7 +39,6 @@
     /* background-color: red; */
 }
 
-
 .popUpDescription > h2 {
     margin-bottom: 10px;
 }
@@ -98,6 +97,12 @@
 @media screen and (max-width: 480px) {
     .popUpTeste {
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .modalTitle{
+        font-size: 1.3em;
     }
 }
 
