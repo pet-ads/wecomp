@@ -28,11 +28,11 @@
 
 
 .eventAuthor {
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
     color: var(--font-color);
     margin: 10px;
-    height: 60px;
+    height: 95px;
     
     display: flex;
     align-items: center;
@@ -91,8 +91,8 @@
     
     .eventAuthor {
         font-size: 16px;
-        margin: 7px;
-        height: 40px;
+        margin: 18px;
+        height: 70px;
     }
 
     .eventDateTime {
