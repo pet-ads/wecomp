@@ -32,7 +32,7 @@ iframe {
     left: 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
     .locationFrame {
         width: 300px;
         height: 250px;
@@ -43,7 +43,18 @@ iframe {
     }
   }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 1000px) {
+    .locationFrame {
+        width: 250px;
+        height: 250px;
+    }
+
+    iframe {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 800px) {
     .locationFrame {
         width: 200px;
         height: 250px;
@@ -54,26 +65,15 @@ iframe {
     }
 }
 
+
 @media screen and (max-width: 670px) {
-    .locationFrame {
-        width: 200px;
-        height: 210px;
-    }
-
-    iframe {
-        height: 130px;
-    }
-}
-
-
-@media screen and (max-width: 500px) {
     .locationFrame {
         width: 200px;
         height: 200px;
         margin-top: 0px;
-        margin-bottom: 10px;
-        margin-left: 40px;
-        margin-right: 40px;
+        margin-bottom: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
     iframe {
