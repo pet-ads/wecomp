@@ -1,7 +1,7 @@
 .eventTitle {
-    font-size: 22px;
+    font-size: 21px;
     color: var(--font-color);
-    height: 130px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 
 
 .eventAuthor {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 700;
     color: var(--font-color);
     margin: 10px;
