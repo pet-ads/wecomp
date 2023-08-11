@@ -52,20 +52,6 @@
         },
         {
             "id": 29.2,
-            "name": "Criando Micro-serviços em Golang",
-            "image": "../../eventsImages/go.png",
-            "imageDesc": "Vinícius Silva e Gustavo Okuyama",
-            "bio": ["Vinícius Silva é formado em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos. Possui 4 anos de experiência profissional, sendo 3 deles dedicados ao time de Busca do iFood atuando como Engenheiro de Software.",
-                    "Gustavo Okuyama é formado em Engenharia Elétrica pela USP de São Carlos. Tem experiência com visão computacional e desde 2019 atua como Engenheiro de Software no iFood na maior parte do tempo em Golang."],
-            "author":"Vinícius Silva e Gustavo Okuyama",
-            "date": "29 e 30 de agosto",
-            "time": "8h - 12h",
-            "vacancies" : 20,
-            "classification": "intermediario",
-            "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
-        },
-        {
-            "id": 29.2,
             "name": "Jornada Cloud Native",
             "subTitle": "Modernizando infraestrutura e work loads com observabilidade",
             "image": "../../eventsImages/cloud_native.png",
@@ -79,7 +65,7 @@
             "classification": "intermediario"
         },
         {
-            "id": 29.3,
+            "id": 29.4,
             "name": "Talk Minsait",
             "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
             "image": "../../eventsImages/talk_minsait.png",
@@ -93,6 +79,20 @@
         },
         {
             "id": 30.1,
+            "name": "Criando Micro-serviços em Golang",
+            "image": "../../eventsImages/go.png",
+            "imageDesc": "Vinícius Silva e Gustavo Okuyama",
+            "bio": ["Vinícius Silva é formado em Análise e Desenvolvimento de Sistemas pelo IFSP São Carlos. Possui 4 anos de experiência profissional, sendo 3 deles dedicados ao time de Busca do iFood atuando como Engenheiro de Software.",
+                    "Gustavo Okuyama é formado em Engenharia Elétrica pela USP de São Carlos. Tem experiência com visão computacional e desde 2019 atua como Engenheiro de Software no iFood na maior parte do tempo em Golang."],
+            "author":"Vinícius Silva e Gustavo Okuyama",
+            "date": "30 e 31 de agosto",
+            "time": "8h - 12h",
+            "vacancies" : 20,
+            "classification": "intermediario",
+            "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
+        },
+        {
+            "id": 30.2,
             "name": "Talk F1RST",
             "image": "../../eventsImages/talk_f1rst.png",
             "imageDesc": "Talk F1RST",
