@@ -1,4 +1,3 @@
-
 .control-button {
     display: flex;
     
@@ -7,15 +6,20 @@
 .control-button > svg {
     width: 100px;
     height: auto;
+
 }
 
 .forward{
     rotate: 180deg;
+    
 }
 
+.clickable{
+    cursor: pointer;
+}
 
 .clickable > path {
-    fill: var(--pallete-light)
+    fill: var(--pallete-light);
 }
 
 .nonClickable > path{
