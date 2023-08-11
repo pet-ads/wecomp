@@ -12,7 +12,7 @@
 }
 
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 774px) {
   .header {
     display: none;
   }
