@@ -33,7 +33,7 @@
             "date": "28 de agosto",
             "time": "8h - 12h",
             "vacancies" : 30,
-            "classification": "livre",
+            "classification": "basico",
             "description": "Neste minicurso os participantes irão aprender como criar um aplicativo para visualizar dados metereologicos (clima) utilizando o Flutter. É um curso básico para os que querem conhecer essa tecnologia de desenvolvimento híbrida que é uma das mais utilizadas hoje em dia no mercado de trabalho."
         },
         {
@@ -47,7 +47,7 @@
             "date": "29 de agosto",
             "time": "9h - 12h",
             "vacancies" : 30,
-            "classification": "intermediario",
+            "classification": "basico",
             "description": "O intuito desse curso é fomentar o desenvolvimento de aplicações nativas Android e iOS, de maneira prática, colocando a mão na massa. No primeiro momento, os alunos serão introduzidos em como organizar um projeto MVVM e consumo de REST API com Swift. A ideia é introduzir a linguagem Swift e o consumo de serviços. E em seguida,  vamos desenvolver um aplicativo Android, utilizando a linguagem Kotlin e consumindo a API viacep.com.br O curso é voltado para todos alunos que tem o interesse em conhecer e aprender sobre o desenvolvimento Android e iOS. Contamos com a presença de vocês."
         },
         {
@@ -62,7 +62,20 @@
             "date": "29 de agosto",
             "time": "9h - 12h e 14h - 17h",
             "vacancies" : 30,
-            "classification": "intermediario"
+            "classification": "intermediario",
+            "description": "Parte da manhã: Descubra as melhores práticas para atualizar sua infraestrutura e workloads com eficiência, migrando para um ambiente Cloud Native. Aprenda sobre contêineres, orquestração, escalabilidade e segurança, capacitando-se para impulsionar a agilidade e a resiliência de seus sistemas, utilizando como exemplo uma aplicação em spring-boot. Ideal para profissionais de TI que buscam maximizar os benefícios Parte da tarde: Mergulhe no mundo da observabilidade de sistemas complexos com a poderosa combinação do OpenTelemetry e da Grafana Stack. À medida que as arquiteturas de software crescem em complexidade, a capacidade de compreender, depurar e otimizar esses sistemas se torna fundamental. É aqui que a observabilidade entra em cena. Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura."
+        },
+        {
+            "id": 29.3,
+            "name": "Ciência de dados aplicada a imagens",
+            "image": "../../eventsImages/logo512.png",
+            "imageDesc": "Ciência de dados aplicada a imagens",
+            "author": "Jorge Luiz Franco",
+            "date": "29 de agosto",
+            "time": "14h - 18h",
+            "vacancies" : 30,
+            "classification": "basico",
+            "description": "Neste curso será apresentado conceitos básicos de um pipeline de ciência de dados aplicado a imagens, como obtenção de dados, pré processamento, ajuste de modelos, avaliação e diferentes tarefas da área de visão computacional. É necessário conhecimento da linguagem python."
         },
         {
             "id": 29.4,
@@ -75,7 +88,7 @@
             "date": "29 de agosto",
             "time": "19h - 21h",
             "vacancies" : 100,
-            "description": "Nesta palestra a Minsait abordarerá as vantagens da computação em nuvem, como elasticidade, automação e gerenciamento simplificado onde a combinação desses componentes permite a construção de aplicativos altamente escaláveis, resilientes e flexíveis, capazes de aproveitar ao máximo as vantagens da nuvem e acelerar a inovação nos negócios. Também serão apresentadas informações sobre a empresa e processos seletivos."
+            "description": "Nesta palestra envolvente, exploraremos a jornada de transformação cloud native por meio de um estudo de caso no setor de seguros. Abordaremos como a empresa superou desafios técnicos e culturais para migrar suas operações para a nuvem, aproveitando a agilidade, escalabilidade e eficiência proporcionadas pela abordagem cloud native. Aprenda como a adoção de arquiteturas modernas, microserviços e práticas DevOps impulsionaram a inovação e aprimoraram a experiência do cliente, oferecendo insights valiosos sobre como outras empresas podem abraçar a transformação digital de maneira bem-sucedida. Também serão apresentadas informações sobre a empresa e processos seletivos."
         },
         {
             "id": 30.1,
@@ -93,6 +106,19 @@
         },
         {
             "id": 30.2,
+            "name": "Construindo Microsserviços Resilientes e Observáveis",
+            "image": "../../eventsImages/soad.png",
+            "imageDesc": "Cleber Silva, Leonardo Forner Locatti, Sabrina Suellen Mafé e Gustavo Soad",
+            "bio": "Cleber Silva é Especialista em Engenharia de Software, Leonardo Locatti atua como Desenvolvedor Backend, Sabrina Mafé é Analista de TI e Gustavo Soad atua como Gerente de Engenharia. Todos integram o fantástico time de desenvolvedores da F1RST.",
+            "author":"Cleber Silva, Leonardo Forner Locatti, Sabrina Suellen Mafé e Gustavo Soad",
+            "date": "30 de agosto",
+            "time": "9h - 12h",
+            "vacancies" : 30,
+            "classification": "intermediario",
+            "description": "Neste mini curso você vai aprender a construir microsserviços, utilizando ferramentas e técnicas que permitem os serviços serem resilientes e observáveis. Para este curso, será utilizada a linguagem Java como base para o projeto prático. Temas abordados: Conceitos de microsserviços, Construindo seus primeiros microsserviços, Resiliência, Rastreabilidade, Observabilidade, Análise de falhas"
+        },
+        {
+            "id": 30.3,
             "name": "Talk F1RST",
             "image": "../../eventsImages/talk_f1rst.png",
             "imageDesc": "Talk F1RST",
