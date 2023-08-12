@@ -35,8 +35,6 @@
     overflow-x: auto;
     max-height: 200px;
     text-align: justify;
-    
-    /* background-color: red; */
 }
 
 .popUpDescription > h2 {
@@ -98,11 +96,12 @@
     .popUpTeste {
         width: 75%;
     }
-}
-
-@media screen and (max-width: 480px) {
     .modalTitle{
         font-size: 1.3em;
+    }
+
+    .description-container{
+        text-align: left;
     }
 }
 
