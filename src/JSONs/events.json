@@ -20,7 +20,7 @@
             "date": "28 de agosto",
             "time": "8h - 12h",
             "vacancies" : 30,
-            "classification": "livre",
+            "classification": "basico",
             "description": "Nesse workshop, serão demonstradas de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
         {
@@ -47,7 +47,7 @@
             "date": "29 de agosto",
             "time": "9h - 12h",
             "vacancies" : 30,
-            "classification": "basico",
+            "classification": "intermediario",
             "description": "O intuito desse curso é fomentar o desenvolvimento de aplicações nativas Android e iOS, de maneira prática, colocando a mão na massa. No primeiro momento, os alunos serão introduzidos em como organizar um projeto MVVM e consumo de REST API com Swift. A ideia é introduzir a linguagem Swift e o consumo de serviços. E em seguida,  vamos desenvolver um aplicativo Android, utilizando a linguagem Kotlin e consumindo a API viacep.com.br O curso é voltado para todos alunos que tem o interesse em conhecer e aprender sobre o desenvolvimento Android e iOS. Contamos com a presença de vocês."
         },
         {
@@ -166,7 +166,7 @@
             "date": "01 de setembro",
             "time": "8h - 10h",
             "vacancies" : 20,
-            "classification": "livre",
+            "classification": "basico",
             "description": "Conhecer Linux e compreender o básico de seu uso é requisito essencial a qualquer desenvolvedor de sofware. O InstallFest Linux é um evento dedicado a abrir as portas desse poderoso sistema operacional aos futuros desenvolvedores. Durante o encontro, será fornecido apoio técnico personalizado para instalação da sua primeira distribuição Linux, sem afetar seu sistema operacional atual.  Explore as vantagens do Linux na programação e no desenvolvimento de software e abra novas oportunidades em sua carreira tecnológica. Traga seu computador e um pendrive para participar."
         },
         {
@@ -179,7 +179,7 @@
             "date": "01 de setembro",
             "time": "10h - 12h",
             "vacancies" : 30,
-            "classification": "livre",
+            "classification": "basico",
             "description": "Este mini-curso apresentará uma breve história da filosofia do Software Livre e do surgimento do sistema operacional Linux, focando em seguida nos principais comandos para dominar o terminal e executar tarefas com agilidade e eficiência. Desde comandos básicos de navegação até operações mais avançadas, serão exploradas ferramentas essenciais para gestão de arquivos, instalação de programas, gerenciamento de processos, entre outros, de uma forma totalmente prática."
         },
         {
