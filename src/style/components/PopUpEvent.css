@@ -53,6 +53,12 @@
     padding-bottom: 20px;
 }
 
+.inline{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
 .badge-line p {
     font-weight: var(--text-font-weight);
 }
@@ -64,19 +70,14 @@
 
 @media screen and (max-width: 1120px) {
     .popUpTeste {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 852px) {
-    .popUpTeste {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .popUpTeste {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .inline {
+        flex-direction: column;
+        gap: 10px
     }
 }
 

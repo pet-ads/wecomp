@@ -29,7 +29,14 @@ function PopUpEvent({event}) {
                   {event.classification ? <p>Dificuldade:</p> : <></>}
                   <ClassificationBadge classification={event.classification}/>
                 </div>
-                <Button text='Fechar' action={() => setIsOpen(false)}/>
+                  {event.vacancies ? 
+                <div className="inline">
+                  <Button text='Inscreva-se' address={event.link} active="false"/> 
+                  <Button text='Fechar' action={() => setIsOpen(false)}/>
+                </div>
+                :
+                  <Button text='Fechar' action={() => setIsOpen(false)}/>
+                }
             </div>
         </ReactModal>
     </div>
