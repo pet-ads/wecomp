@@ -31,7 +31,7 @@ function PopUpEvent({event}) {
                 </div>
                   {event.vacancies ? 
                 <div className="inline">
-                  <Button text='Inscreva-se' address={event.link} active="false"/> 
+                  <Button text='Inscreva-se' address={event.link} active={event.active}/> 
                   <Button text='Fechar' action={() => setIsOpen(false)}/>
                 </div>
                 :

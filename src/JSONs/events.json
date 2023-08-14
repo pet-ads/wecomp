@@ -19,7 +19,9 @@
             "author": "Leonardo Cerminaro",
             "date": "28 de agosto",
             "time": "8h - 12h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "basico",
             "description": "Nesse workshop, serão demonstradas de maneira prática algumas atividades rotineiras de um profissional que trabalha como QA. Iniciaremos a parte de criação de casos de teste, execução dos casos de testes criados, explicação de conceitos de Engenharia de Software na prática e criação dos testes automatizados utilizando Javascript e Cypress. Além disso, falaremos de certificações e de como se especializar ainda mais nessa área importante dentro do desenvolvimento de software."
         },
@@ -32,7 +34,9 @@
             "author": "Davi Guelfi Erba",
             "date": "28 de agosto",
             "time": "8h - 12h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "basico",
             "description": "Neste minicurso os participantes irão aprender como criar um aplicativo para visualizar dados metereologicos (clima) utilizando o Flutter. É um curso básico para os que querem conhecer essa tecnologia de desenvolvimento híbrida que é uma das mais utilizadas hoje em dia no mercado de trabalho."
         },
@@ -46,7 +50,9 @@
             "author": "Geovanna Martins e Gustavo Feliciano",
             "date": "29 de agosto",
             "time": "9h - 12h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "intermediario",
             "description": "O intuito desse curso é fomentar o desenvolvimento de aplicações nativas Android e iOS, de maneira prática, colocando a mão na massa. No primeiro momento, os alunos serão introduzidos em como organizar um projeto MVVM e consumo de REST API com Swift. A ideia é introduzir a linguagem Swift e o consumo de serviços. E em seguida,  vamos desenvolver um aplicativo Android, utilizando a linguagem Kotlin e consumindo a API viacep.com.br O curso é voltado para todos alunos que tem o interesse em conhecer e aprender sobre o desenvolvimento Android e iOS. Contamos com a presença de vocês."
         },
@@ -61,7 +67,9 @@
             "author": "Henrique Margarido e Augusto Barros",
             "date": "29 de agosto",
             "time": "9h - 12h e 14h - 17h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "intermediario",
             "description": "Parte da manhã: Descubra as melhores práticas para atualizar sua infraestrutura e workloads com eficiência, migrando para um ambiente Cloud Native. Aprenda sobre contêineres, orquestração, escalabilidade e segurança, capacitando-se para impulsionar a agilidade e a resiliência de seus sistemas, utilizando como exemplo uma aplicação em spring-boot. Ideal para profissionais de TI que buscam maximizar os benefícios Parte da tarde: Mergulhe no mundo da observabilidade de sistemas complexos com a poderosa combinação do OpenTelemetry e da Grafana Stack. À medida que as arquiteturas de software crescem em complexidade, a capacidade de compreender, depurar e otimizar esses sistemas se torna fundamental. É aqui que a observabilidade entra em cena. Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura."
         },
@@ -73,7 +81,9 @@
             "author": "Jorge Luiz Franco",
             "date": "29 de agosto",
             "time": "14h - 18h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "basico",
             "description": "Neste curso será apresentado conceitos básicos de um pipeline de ciência de dados aplicado a imagens, como obtenção de dados, pré processamento, ajuste de modelos, avaliação e diferentes tarefas da área de visão computacional. É necessário conhecimento da linguagem python."
         },
@@ -87,7 +97,9 @@
             "author": "Carlos Eduardo Leite",
             "date": "29 de agosto",
             "time": "19h - 21h",
-            "vacancies" : 100,
+            "link": "",
+            "active": false,
+            "vacancies": 100,
             "description": "Nesta palestra envolvente, exploraremos a jornada de transformação cloud native por meio de um estudo de caso no setor de seguros. Abordaremos como a empresa superou desafios técnicos e culturais para migrar suas operações para a nuvem, aproveitando a agilidade, escalabilidade e eficiência proporcionadas pela abordagem cloud native. Aprenda como a adoção de arquiteturas modernas, microserviços e práticas DevOps impulsionaram a inovação e aprimoraram a experiência do cliente, oferecendo insights valiosos sobre como outras empresas podem abraçar a transformação digital de maneira bem-sucedida. Também serão apresentadas informações sobre a empresa e processos seletivos."
         },
         {
@@ -100,7 +112,9 @@
             "author":"Vinícius Silva e Gustavo Okuyama",
             "date": "30 e 31 de agosto",
             "time": "8h - 12h",
-            "vacancies" : 20,
+            "link": "",
+            "active": false,
+            "vacancies": 20,
             "classification": "intermediario",
             "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
         },
@@ -113,7 +127,9 @@
             "author":"Cleber Silva, Leonardo Forner Locatti, Sabrina Suellen Mafé e Gustavo Soad",
             "date": "30 de agosto",
             "time": "9h - 12h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "intermediario",
             "description": "Neste mini curso você vai aprender a construir microsserviços, utilizando ferramentas e técnicas que permitem os serviços serem resilientes e observáveis. Para este curso, será utilizada a linguagem Java como base para o projeto prático. Temas abordados: Conceitos de microsserviços, Construindo seus primeiros microsserviços, Resiliência, Rastreabilidade, Observabilidade, Análise de falhas"
         },
@@ -125,7 +141,9 @@
             "author": "F1RSTERS IFSP",
             "date": "30 de agosto",
             "time": "19h - 21h",
-            "vacancies" : 100,
+            "link": "",
+            "active": false,
+            "vacancies": 100,
             "description": "Carreira na F1RST e bate-papo com F1RSTERS egressos do IFSP"
         },
         {
@@ -139,7 +157,9 @@
             "author": "Tiago Corrêa e Luana Terra",
             "date": "31 de agosto",
             "time": "8h - 12h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "livre",
             "description": "Esse minicurso aborda conceitos básicos de ciência de dados, ferramentas para se trabalhar com os dados, exemplos de modelos de predição (estimação e classificação) e um jeito fácil e rápido de dar deploy com Streamlit. O curso é introdutório e não é necessário conhecimento prévio na área, mas conhecimento em Python é desejável."
         },
@@ -153,7 +173,9 @@
             "author": "Fabíola Cardes e Leonardo Miyake",
             "date": "31 de agosto",
             "time": "19h - 21h",
-            "vacancies" : 100,
+            "link": "",
+            "active": false,
+            "vacancies": 100,
             "description": "Impressionando os Recrutadores: Como Desenvolver Soft Skills para Entrevistas de TI"
         },
         {
@@ -165,7 +187,9 @@
             "author": "Pedro Nobile",
             "date": "01 de setembro",
             "time": "8h - 10h",
-            "vacancies" : 20,
+            "link": "",
+            "active": false,
+            "vacancies": 20,
             "classification": "basico",
             "description": "Conhecer Linux e compreender o básico de seu uso é requisito essencial a qualquer desenvolvedor de sofware. O InstallFest Linux é um evento dedicado a abrir as portas desse poderoso sistema operacional aos futuros desenvolvedores. Durante o encontro, será fornecido apoio técnico personalizado para instalação da sua primeira distribuição Linux, sem afetar seu sistema operacional atual.  Explore as vantagens do Linux na programação e no desenvolvimento de software e abra novas oportunidades em sua carreira tecnológica. Traga seu computador e um pendrive para participar."
         },
@@ -178,7 +202,9 @@
             "author": "Carlão Pereira",
             "date": "01 de setembro",
             "time": "10h - 12h",
-            "vacancies" : 30,
+            "link": "",
+            "active": false,
+            "vacancies": 30,
             "classification": "basico",
             "description": "Este mini-curso apresentará uma breve história da filosofia do Software Livre e do surgimento do sistema operacional Linux, focando em seguida nos principais comandos para dominar o terminal e executar tarefas com agilidade e eficiência. Desde comandos básicos de navegação até operações mais avançadas, serão exploradas ferramentas essenciais para gestão de arquivos, instalação de programas, gerenciamento de processos, entre outros, de uma forma totalmente prática."
         },
@@ -192,7 +218,9 @@
             "author": "Carlos Pereira Lopes",
             "date": "01 de setembro",
             "time": "19h - 21h",
-            "vacancies" : 100,
+            "link": "",
+            "active": false,
+            "vacancies": 100,
             "description": "Compreenda como a convergência da tecnologia, dos dados e do marketing digital se transforma em ativos estratégicos essenciais para as marcas na criação de experiências personalizadas e relevantes, elevando o engajamento e a conexão com os clientes. Descubra através de insights concretos, estudos de caso e análises das tendências atuais, além de apresentar a nossa marca global, presente em mais de 32 países: Media.Monks."
         }
     ]
