@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+
   padding: 0;
   margin: 0; 
   
@@ -9,23 +9,19 @@
   scroll-behavior: smooth;
 }
 
-.scroll-container{
-  overflow-x: overlay;
-}
-
-.scroll-container::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 7px;
 }
 
-.scroll-container::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background: var(--pallete-light)
 }
 
-.scroll-container::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background: linear-gradient( 180deg, var(--pallete-dark), var(--pallete-light));
   border-radius: 10px;
 }
 
-.scroll-container::-webkit-scrollbar-corner{
+::-webkit-scrollbar-corner{
  size: 0;
 }
