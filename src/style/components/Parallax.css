@@ -1,6 +1,6 @@
 .parallax_layer_back {
     background-image: linear-gradient(to right,rgba(29,221,154,.65) 2%,rgba(29,221,154,.3),rgba(0,208,255,.2) 9%,rgba(0,208,255,.1),#fff 15%,#fff 85%,rgba(0,208,255,.1),rgba(0,208,255,.2) 91%,rgba(29,221,154,.3),rgba(29,221,154,.65));
-    height: 400vh;
+    height:399vh;
     margin-left: -10px;
     -webkit-transform: translateZ(-1px) scale(2);
     transform: translateZ(-1px) scale(2);
@@ -67,10 +67,10 @@ https://keithclark.co.uk/articles/pure-css-parallax-websites/
     position: fixed;
     width: 200%;
     height: 200%;
-    top: -101%;
+    top: -100%;
     left: -45%;
     z-index: 0;
-    transform: scale(1.02);
+    transform: scale(1.0);
 }
 
 .parallax-image-safari {
