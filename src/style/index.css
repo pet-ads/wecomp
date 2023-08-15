@@ -10,7 +10,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -23,5 +23,5 @@
 }
 
 ::-webkit-scrollbar-corner{
- size: 0;
+  size: 0;
 }
