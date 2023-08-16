@@ -10,6 +10,8 @@ import "../style/components/PopUpEvent.css";
 function PopUpEvent({event}) {
   const [isOpen, setIsOpen] = useState(false);
  
+  const registrationPeriodActive = false;
+
   return (
     <div className='popUp'>
         <Button text='Descrição' action={() => setIsOpen(true)}/>
@@ -29,9 +31,9 @@ function PopUpEvent({event}) {
                   {event.classification ? <p>Dificuldade:</p> : <></>}
                   <ClassificationBadge classification={event.classification}/>
                 </div>
-                  {event.vacancies ? 
+                  {event.link ? 
                 <div className="inline">
-                  <Button text='Inscreva-se' address={event.link} active={event.active}/> 
+                  <Button text='Inscreva-se' address={event.link} active={event.active && registrationPeriodActive}/> 
                   <Button text='Fechar' action={() => setIsOpen(false)}/>
                 </div>
                 :
