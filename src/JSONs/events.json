@@ -127,7 +127,7 @@
             "name": "Construindo Microsserviços Resilientes e Observáveis",
             "image": "../../eventsImages/microservices.png",
             "imageDesc": "Cleber Silva, Leonardo Forner Locatti, Sabrina Suellen Mafé e Gustavo Soad",
-            "bio": "Cleber Silva é Especialista em Engenharia de Software, Leonardo Locatti atua como Desenvolvedor Backend, Sabrina Mafé é Analista de TI e Gustavo Soad atua como Gerente de Engenharia. Todos integram o fantástico time de desenvolvedores da F1RST.",
+            "bio": "Cleber Silva é Especialista em Engenharia de Software, Leonardo Locatti atua como Desenvolvedor Backend e Gustavo Soad atua como Gerente de Engenharia. Todos integram o fantástico time de desenvolvedores da F1RST.",
             "author":"Cleber Silva, Leonardo Forner Locatti, Sabrina Suellen Mafé e Gustavo Soad",
             "date": "30 de agosto",
             "time": "9h - 12h",
@@ -140,6 +140,7 @@
         {
             "id": 30.3,
             "name": "Talk F1RST",
+            "subTitle": "Vagas de estágio e efetivas em Sanca + Papo com F1RSTERS que são ex-IFSP",
             "image": "../../eventsImages/talk_f1rst.png",
             "imageDesc": "Talk F1RST",
             "author": "F1RSTERS IFSP",
@@ -148,7 +149,7 @@
             "link": "https://forms.gle/ucbTKU3nn6pDQVGC8",
             "active": true,
             "vacancies": 100,
-            "description": "Carreira na F1RST e bate-papo com F1RSTERS egressos do IFSP"
+            "description": "Neste papo falaremos sobre as nossas carreiras, incentivos a educação e desenvolvimento, vagas que temos em aberto e programas de entrada (estágio, trainee). Além disso, contaremos com a presença de pessoas colaboradoras da F1RST que estudaram no IFSP para contar um pouco sobre como foi a trajetória da formação até agora."
         },
         {
             "id": 31.1,
