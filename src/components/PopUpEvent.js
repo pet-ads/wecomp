@@ -31,12 +31,13 @@ function PopUpEvent({event}) {
                   {event.classification ? <p>Dificuldade:</p> : <></>}
                   <ClassificationBadge classification={event.classification}/>
                 </div>
-                  {event.link ? 
-                <div className="inline">
-                  <Button text='Inscreva-se' address={event.link} active={event.active && registrationPeriodActive}/> 
-                  <Button text='Fechar' action={() => setIsOpen(false)}/>
-                </div>
-                :
+                <p className='location'>Local: {event.location}</p>
+                {event.link ? 
+                  <div className="inline">
+                    <Button text='Inscreva-se' address={event.link} active={event.active && registrationPeriodActive}/> 
+                    <Button text='Fechar' action={() => setIsOpen(false)}/>
+                  </div>
+                  :
                   <Button text='Fechar' action={() => setIsOpen(false)}/>
                 }
             </div>
