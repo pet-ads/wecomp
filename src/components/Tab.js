@@ -1,6 +1,8 @@
-function Tab(text){
+import "../style/components/Tab.css";
+
+function Tab({text, onClick}){
     return(
-        <h2 className="tab">{text}</h2>
+        <p className="tab" onClick={onClick}>{text}</p>
     )
 }
 
