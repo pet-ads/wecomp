@@ -71,6 +71,10 @@
     .banner-text {
         font-size: var(--mobile-text-font-size);
     }
+
+    .enrollment-period{
+        font-size: 23px;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -80,5 +84,9 @@
     
     .banner-text {
         font-size: 15px;
+    }
+
+    .enrollment-period{
+        font-size: 20px;
     }
 }
