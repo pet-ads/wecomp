@@ -91,8 +91,8 @@
 @media  screen and (max-height : 680px) {
     .eventTitle {
         margin: 10px 0;
-        font-size: 18px;
-        height: 90px;
+        font-size: 17px;
+        height: 100px;
     }
     
     .eventAuthor {
