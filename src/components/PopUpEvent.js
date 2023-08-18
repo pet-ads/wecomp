@@ -11,7 +11,7 @@ import PopUpEventTab from './PopUpEventTab.js';
 function PopUpEvent({event}) {
   const [isOpen, setIsOpen] = useState(false);
  
-  const registrationPeriodActive = false;
+  const registrationPeriodActive = true;
 
   return (
     <div className='popUp'>
