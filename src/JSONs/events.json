@@ -173,9 +173,9 @@
             "date": "30 de agosto",
             "time": "19h - 21h",
             "link": "https://forms.gle/ucbTKU3nn6pDQVGC8",
-            "active": true,
+            "active": false,
             "vacancies": 100,
-            "status": "ÚLTIMAS VAGAS!",
+            "status": "ESGOTADO!",
             "location": "ONOVOLAB",
             "description": "Neste papo falaremos sobre as nossas carreiras, incentivos a educação e desenvolvimento, vagas que temos em aberto e programas de entrada (estágio, trainee). Além disso, contaremos com a presença de pessoas colaboradoras da F1RST que estudaram no IFSP para contar um pouco sobre como foi a trajetória da formação até agora."
         },
