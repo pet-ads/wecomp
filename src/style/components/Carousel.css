@@ -54,13 +54,6 @@
     }
 
     .carousel-window {
-        width: calc(173px);
-    }
-}
-
-@media  screen and (max-width : 320px) {
-
-    .carousel-window {
-        width: calc(173px);
+        width: calc(184px);
     }
 }

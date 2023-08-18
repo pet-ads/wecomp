@@ -1,6 +1,7 @@
 import "../style/components/Event.css";
 import PopUpEvent from "./PopUpEvent";
 import ClassificationLevel from "./ClassificationLevel";
+import EventStatus from "./EventStatus"
 import soldOut from '../images/soldOut.png';
 
 function Event({event}){
@@ -9,7 +10,8 @@ function Event({event}){
                 <h2 className="eventTitle">{event.name}</h2>
                 <div className="eventBanner">
                     <img className="eventImage" src={event.image} alt={event.imageDesc}/>
-                    {event.soldOut ? <img className="sold-out" src={soldOut} alt="teste"/> : <></>}
+                    {event.status ? <EventStatus status={event.status} /> : <></>}
+                    {/* {event.soldOut ? <img className="sold-out" src={soldOut} alt="teste"/> : <></>} */}
                     {event.classification != undefined ? <ClassificationLevel classification={event.classification}/> : <></>}
                 </div>
 
