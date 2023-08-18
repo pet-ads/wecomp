@@ -56,19 +56,26 @@
     font-weight: var(--text-font-weight);
 }
 
-
+.sold-out {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 
 @media  screen and (max-width : 400px) {
     .eventBanner {
         width: 184px;
-        height: 210px;
-        
+        height: 210px;  
     }
     .event{
         width: 184px;
     }
 
+    .sold-out {
+        width: 184px;
+        height: 210px; 
+    }
 }
 
 @media  screen and (max-width : 320px) {
@@ -79,6 +86,10 @@
 
     .event{
         width: 163px;
+    }
+    .sold-out {
+        width: 163px;
+        height: 185px; 
     }
 }
 
