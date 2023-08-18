@@ -25,36 +25,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
     padding: 15px;
 
     position: relative;
     top: 25%;
-}
-
-.description-container{
-    overflow-x: auto;
-    max-height: 200px;
-    text-align: justify;
-    padding: 0 5px;
-}
-
-
-.description-container::-webkit-scrollbar {
-    width: 5px;
-}
-  
-.description-container::-webkit-scrollbar-thumb:hover {
-    background: var(--pallete-light)
-}
-  
-.description-container::-webkit-scrollbar-thumb {
-    background: linear-gradient( 180deg, var(--pallete-dark), var(--pallete-light));
-    border-radius: 5px;
-}
-  
-.description-container::-webkit-scrollbar-corner{
-    size: 0;
 }
 
 .popUpDescription > h2 {
@@ -127,7 +101,7 @@
     }
 }
 
-@media screen and (max-height: 840px) and  (max-width: 480px) {
+@media screen and (max-height: 860px) and  (max-width: 480px) {
     .popUpTeste {
         width: 600px;
         max-width: 90%;
@@ -138,7 +112,7 @@
     }
 }
 
-@media screen and (max-height: 740px) {
+@media screen and (max-height: 750px) {
     .description-container{
         max-height: 130px;
     }

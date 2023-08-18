@@ -8,7 +8,7 @@
   text-align: center;
   scroll-behavior: smooth;
 }
-
+/* 
 .scroll-container::-webkit-scrollbar {
   width: 7px;
 }
@@ -24,4 +24,4 @@
 
 .scroll-container::-webkit-scrollbar-corner{
   size: 0;
-}
+} */

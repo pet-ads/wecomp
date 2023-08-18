@@ -5,6 +5,7 @@ import Button from "./Button.js";
 
 import ClassificationBadge from "./ClassificationBadge";
 import "../style/components/PopUpEvent.css";
+import PopUpEventTab from './PopUpEventTab.js';
 
 
 function PopUpEvent({event}) {
@@ -22,10 +23,10 @@ function PopUpEvent({event}) {
                 <h2 className='modalTitle'>{event.subTitle ?  (event.name + " - " + event.subTitle) : (event.name)}</h2>
                 <h3>{event.author}</h3>
                 <p>{event.date} | {event.time}</p>
-
-                {/* <popUpEventTab text1="Descrição" text2="Bio"/> */}
-                <p className='description-container'>{event.description}</p>
-
+                {event.bio ? 
+                <PopUpEventTab texts={["Descrição", "Bio"]} descriptions={[event.description, event.bio]}/>
+                : <PopUpEventTab texts={["Descrição"]} descriptions={[event.description]}/>
+                }
                 {event.vacancies ? <p>Quantidade de vagas: {event.vacancies}</p> : <></>}
                 <div className="badge-line">
                   {event.classification ? <p>Dificuldade:</p> : <></>}
