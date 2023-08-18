@@ -71,11 +71,6 @@
     .event{
         width: 184px;
     }
-
-    .sold-out {
-        width: 184px;
-        height: 210px; 
-    }
 }
 
 @media  screen and (max-width : 320px) {
@@ -86,10 +81,6 @@
 
     .event{
         width: 163px;
-    }
-    .sold-out {
-        width: 163px;
-        height: 185px; 
     }
 }
 
