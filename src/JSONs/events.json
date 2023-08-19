@@ -131,9 +131,9 @@
             "date": "30 e 31 de agosto",
             "time": "8h - 12h",
             "link": "https://forms.gle/PzJfKd7UazuF7ENW9",
-            "active": true,
+            "active": false,
             "vacancies": 20,
-            "status": "ÚLTIMAS VAGAS!",
+            "status": "ESGOTADO!",
             "location": "IFSP",
             "classification": "intermediario",
             "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
