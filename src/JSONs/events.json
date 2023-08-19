@@ -80,7 +80,7 @@
             "link": "https://forms.gle/7BMKazi7Q4d9GPQy6",
             "active": true,
             "vacancies": 30,
-            "status": "",
+            "status": "ÚLTIMAS VAGAS!",
             "location": "IFSP",
             "classification": "intermediario",
             "description": "Parte da manhã: Descubra as melhores práticas para atualizar sua infraestrutura e workloads com eficiência, migrando para um ambiente Cloud Native. Aprenda sobre contêineres, orquestração, escalabilidade e segurança, capacitando-se para impulsionar a agilidade e a resiliência de seus sistemas, utilizando como exemplo uma aplicação em spring-boot. Ideal para profissionais de TI que buscam maximizar os benefícios Parte da tarde: Mergulhe no mundo da observabilidade de sistemas complexos com a poderosa combinação do OpenTelemetry e da Grafana Stack. À medida que as arquiteturas de software crescem em complexidade, a capacidade de compreender, depurar e otimizar esses sistemas se torna fundamental. É aqui que a observabilidade entra em cena. Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura."
