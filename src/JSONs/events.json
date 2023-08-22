@@ -34,40 +34,6 @@
             "description": "Descubra as melhores práticas para atualizar sua infraestrutura e workloads com eficiência, migrando para um ambiente Cloud Native. Aprenda sobre contêineres, orquestração, escalabilidade e segurança, capacitando-se para impulsionar a agilidade e a resiliência de seus sistemas, utilizando como exemplo uma aplicação em spring-boot. Mergulhe no mundo da observabilidade de sistemas complexos com a poderosa combinação do OpenTelemetry e da Grafana Stack. Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura, à medida que as arquiteturas de software crescem em complexidade. A capacidade de compreender, depurar e otimizar esses sistemas se torna fundamental, e é aqui que a observabilidade entra em cena.  Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura."
         },
         {
-            "id": 29.4,
-            "name": "Talk Minsait",
-            "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
-            "image": "../../eventsImages/talk_minsait.png",
-            "imageDesc": "Talk Minsait",
-            "bio": "Carlos Eduardo Leite (Carlão) atua como Head de Arquitetura na Minsait sendo responsável por orientar a construção de arquiteturas escaláveis e resilientes, impulsionando a adoção de tecnologias cloud native e microserviços. Com ampla expertise em tecnologias cloud, como AWS, Azure e Google Cloud Platform, domínio de ferramentas e práticas DevOps, incluindo CI/CD, automação de infraestrutura e monitoramento, especialização em virtualização e contêineres, como Docker e Kubernetes, para ambientes escaláveis e experiência em projetos de migração para a nuvem, otimização de custos e garantia de segurança em ambientes cloud, atuando em diversos projetos de infraestrutura, liderando equipes DevOps e implementando soluções inovadoras para ambientes Linux e sistemas distribuídos. Experiência sólida em práticas DevOps.",
-            "author": "Carlos Eduardo Leite",
-            "date": "29 de agosto",
-            "time": "19h - 21h",
-            "link": "https://forms.gle/GhS9H5DDhJ14tRUb9",
-            "active": true,
-            "vacancies": 100,
-            "status": "ÚLTIMAS VAGAS!",
-            "location": "IFSP",
-            "description": "Nesta palestra envolvente, exploraremos a jornada de transformação cloud native por meio de um estudo de caso no setor de seguros. Abordaremos como a empresa superou desafios técnicos e culturais para migrar suas operações para a nuvem, aproveitando a agilidade, escalabilidade e eficiência proporcionadas pela abordagem cloud native. Aprenda como a adoção de arquiteturas modernas, microserviços e práticas DevOps impulsionaram a inovação e aprimoraram a experiência do cliente, oferecendo insights valiosos sobre como outras empresas podem abraçar a transformação digital de maneira bem-sucedida. Também serão apresentadas informações sobre a empresa e processos seletivos."
-        },
-        {
-            "id": 30.2,
-            "name": "Construindo Microsserviços Resilientes e Observáveis",
-            "image": "../../eventsImages/microservices.png",
-            "imageDesc": "Cleber Silva, Leonardo Forner Locattie Gustavo Soad",
-            "bio": "Cleber Silva é Especialista em Engenharia de Software, Leonardo Locatti atua como Desenvolvedor Backend e Gustavo Soad atua como Gerente de Engenharia. Todos integram o fantástico time de desenvolvedores da F1RST.",
-            "author":"Cleber Silva, Leonardo Forner Locatti e Gustavo Soad",
-            "date": "30 de agosto",
-            "time": "9h - 12h",
-            "link": "https://forms.gle/Lq1vJFQ3BEU4aaFB6",
-            "active": true,
-            "vacancies": 30,
-            "status": "ÚLTIMAS VAGAS!",
-            "location": "IFSP",
-            "classification": "intermediario",
-            "description": "Neste mini curso você vai aprender a construir microsserviços, utilizando ferramentas e técnicas que permitem os serviços serem resilientes e observáveis. Para este curso, será utilizada a linguagem Java como base para o projeto prático. Temas abordados: Conceitos de microsserviços, Construindo seus primeiros microsserviços, Resiliência, Rastreabilidade, Observabilidade, Análise de falhas"
-        },
-        {
             "id": 31.2,
             "name": "Visita Técnica F1RST",
             "subTitle": "Fábrica de Testes de Qualidade",
@@ -157,6 +123,23 @@
             "description": "Neste curso será apresentado conceitos básicos de um pipeline de ciência de dados aplicado a imagens, como obtenção de dados, pré processamento, ajuste de modelos, avaliação e diferentes tarefas da área de visão computacional. É necessário conhecimento da linguagem python."
         },
         {
+            "id": 29.4,
+            "name": "Talk Minsait",
+            "subTitle": "A transformação da infraestrutura de aplicações para CloudNative no setor de Seguros",
+            "image": "../../eventsImages/talk_minsait.png",
+            "imageDesc": "Talk Minsait",
+            "bio": "Carlos Eduardo Leite (Carlão) atua como Head de Arquitetura na Minsait sendo responsável por orientar a construção de arquiteturas escaláveis e resilientes, impulsionando a adoção de tecnologias cloud native e microserviços. Com ampla expertise em tecnologias cloud, como AWS, Azure e Google Cloud Platform, domínio de ferramentas e práticas DevOps, incluindo CI/CD, automação de infraestrutura e monitoramento, especialização em virtualização e contêineres, como Docker e Kubernetes, para ambientes escaláveis e experiência em projetos de migração para a nuvem, otimização de custos e garantia de segurança em ambientes cloud, atuando em diversos projetos de infraestrutura, liderando equipes DevOps e implementando soluções inovadoras para ambientes Linux e sistemas distribuídos. Experiência sólida em práticas DevOps.",
+            "author": "Carlos Eduardo Leite",
+            "date": "29 de agosto",
+            "time": "19h - 21h",
+            "link": "https://forms.gle/GhS9H5DDhJ14tRUb9",
+            "active": false,
+            "vacancies": 100,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "description": "Nesta palestra envolvente, exploraremos a jornada de transformação cloud native por meio de um estudo de caso no setor de seguros. Abordaremos como a empresa superou desafios técnicos e culturais para migrar suas operações para a nuvem, aproveitando a agilidade, escalabilidade e eficiência proporcionadas pela abordagem cloud native. Aprenda como a adoção de arquiteturas modernas, microserviços e práticas DevOps impulsionaram a inovação e aprimoraram a experiência do cliente, oferecendo insights valiosos sobre como outras empresas podem abraçar a transformação digital de maneira bem-sucedida. Também serão apresentadas informações sobre a empresa e processos seletivos."
+        },
+        {
             "id": 30.1,
             "name": "Criando Micro-serviços em Golang",
             "image": "../../eventsImages/go.png",
@@ -173,6 +156,23 @@
             "location": "IFSP",
             "classification": "intermediario",
             "description": "Aprenda a criar micro-serviços em Go, uma das linguagens de programação mais valorizadas do mercado!  Neste curso vamos  conhecer a linguagem, criar duas aplicações e as conectá-las usando as principais bibliotecas do ecossistema Go. Explore o potencial dessa linguagem de programação moderna e eficiente, ampliando suas habilidades como desenvolvedor e descobrindo seus principais casos de uso no mundo da tecnologia."
+        },
+        {
+            "id": 30.2,
+            "name": "Construindo Microsserviços Resilientes e Observáveis",
+            "image": "../../eventsImages/microservices.png",
+            "imageDesc": "Cleber Silva, Leonardo Forner Locattie Gustavo Soad",
+            "bio": "Cleber Silva é Especialista em Engenharia de Software, Leonardo Locatti atua como Desenvolvedor Backend e Gustavo Soad atua como Gerente de Engenharia. Todos integram o fantástico time de desenvolvedores da F1RST.",
+            "author":"Cleber Silva, Leonardo Forner Locatti e Gustavo Soad",
+            "date": "30 de agosto",
+            "time": "9h - 12h",
+            "link": "https://forms.gle/Lq1vJFQ3BEU4aaFB6",
+            "active": false,
+            "vacancies": 30,
+            "status": "ESGOTADO!",
+            "location": "IFSP",
+            "classification": "intermediario",
+            "description": "Neste mini curso você vai aprender a construir microsserviços, utilizando ferramentas e técnicas que permitem os serviços serem resilientes e observáveis. Para este curso, será utilizada a linguagem Java como base para o projeto prático. Temas abordados: Conceitos de microsserviços, Construindo seus primeiros microsserviços, Resiliência, Rastreabilidade, Observabilidade, Análise de falhas"
         },
         {
             "id": 30.3,
