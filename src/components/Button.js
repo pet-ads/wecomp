@@ -1,7 +1,6 @@
 import '../style/components/Button.css';
 
 function Button({text, address, action, alt, active}){
-    console.log(active)
     return (
         <div>
             {active == false ?
