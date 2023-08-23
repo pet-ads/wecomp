@@ -34,25 +34,6 @@
             "description": "Descubra as melhores práticas para atualizar sua infraestrutura e workloads com eficiência, migrando para um ambiente Cloud Native. Aprenda sobre contêineres, orquestração, escalabilidade e segurança, capacitando-se para impulsionar a agilidade e a resiliência de seus sistemas, utilizando como exemplo uma aplicação em spring-boot. Mergulhe no mundo da observabilidade de sistemas complexos com a poderosa combinação do OpenTelemetry e da Grafana Stack. Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura, à medida que as arquiteturas de software crescem em complexidade. A capacidade de compreender, depurar e otimizar esses sistemas se torna fundamental, e é aqui que a observabilidade entra em cena.  Explore as melhores práticas e estratégias para coletar, analisar e visualizar dados cruciais de seus aplicativos e infraestrutura."
         },
         {
-            "id": 31.2,
-            "name": "Visita Técnica F1RST",
-            "subTitle": "Fábrica de Testes de Qualidade",
-            "image": "../../eventsImages/visita.jpeg",
-            "imageDesc": "Andrea Feitoza e Yuri Gregorio",
-            "bio": ["Andrea Feitosa é TI Manager e possui mais de 20 anos de carreira no Santander/F1RST.",
-                    "Yuri é Analista de TI Sênior na F1RST e possui grande experiência em teste de software e análise de sistemas."],
-            "author": "Andrea Feitoza e Yuri Gregorio",
-            "date": "31 de agosto",
-            "time": "09h - 11h",
-            "link": "https://forms.gle/Y13YoHtSkErogott8",
-            "active": true,
-            "vacancies": 40,
-            "status": "ÚLTIMAS VAGAS!",
-            "location": "Auditório F1RST - ONOVOLAB",
-            "classification": "basico",
-            "description": "Nesta visita serão abordados temas o Programa de Estágio na F1RST, um overview do processo de Qualidade e Automação na F1RST e como funciona a nossa fábrica de testes da empresa."
-        },
-        {
             "id": 28.2,
             "name": "Como é o dia-a-dia de um QA?",
             "image": "../../eventsImages/cerminaro.jpeg",
@@ -216,6 +197,25 @@
             "location": "IFSP",
             "classification": "livre",
             "description": "Esse minicurso aborda conceitos básicos de ciência de dados, ferramentas para se trabalhar com os dados, exemplos de modelos de predição (estimação e classificação) e um jeito fácil e rápido de dar deploy com Streamlit. O curso é introdutório e não é necessário conhecimento prévio na área, mas conhecimento em Python é desejável."
+        },
+        {
+            "id": 31.2,
+            "name": "Visita Técnica F1RST",
+            "subTitle": "Fábrica de Testes de Qualidade",
+            "image": "../../eventsImages/visita.jpeg",
+            "imageDesc": "Andrea Feitoza e Yuri Gregorio",
+            "bio": ["Andrea Feitosa é TI Manager e possui mais de 20 anos de carreira no Santander/F1RST.",
+                    "Yuri é Analista de TI Sênior na F1RST e possui grande experiência em teste de software e análise de sistemas."],
+            "author": "Andrea Feitoza e Yuri Gregorio",
+            "date": "31 de agosto",
+            "time": "09h - 11h",
+            "link": "https://forms.gle/Y13YoHtSkErogott8",
+            "active": false,
+            "vacancies": 40,
+            "status": "ESGOTADO!",
+            "location": "Auditório F1RST - ONOVOLAB",
+            "classification": "basico",
+            "description": "Nesta visita serão abordados temas o Programa de Estágio na F1RST, um overview do processo de Qualidade e Automação na F1RST e como funciona a nossa fábrica de testes da empresa."
         },
         {
             "id": 31.3,
