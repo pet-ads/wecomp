@@ -9,7 +9,7 @@ function Footer({isLandscape}) {
                 <a href="https://github.com/pet-ads/wecomp" target="_blank">
                     <img className="logoGithub" src={logoGithubBranco} alt="Logo do Github"/>
                 </a>
-                <a href="http://petads.paginas.scl.ifsp.edu.br/src/pages/home/index.html"  target="_blank">
+                <a href="http://petads.paginas.scl.ifsp.edu.br"  target="_blank">
                     <p className="footer_text">Desenvolvido com ♥ por PET/ADS @ IFSP/SCL</p>
                 </a>
                 <a href="https://portais.ifsp.edu.br/scl/"  target="_blank">
