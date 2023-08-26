@@ -51,6 +51,12 @@
     text-decoration: none;
 }
 
+.footer-ref:hover{
+    transform: scale(1.1);
+    transition: 100ms linear;
+}
+
+
 @media screen and (max-width: 965px) {
     .footer {
         height: 20vh;
