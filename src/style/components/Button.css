@@ -1,6 +1,18 @@
 .button {
     transition: transform 0.2s ease-out;
-    background-image: linear-gradient( to left, var(--pallete-dark), var(--pallete-light));
+    background-image: linear-gradient( to right,
+    var(--grad-1) 0%, 
+    var(--grad-2) 10%, 
+    var(--grad-3) 20%, 
+    var(--grad-4) 30%, 
+    var(--grad-3) 40%, 
+    var(--grad-2) 48%, 
+    var(--grad-1), 
+    var(--grad-2) 72%, 
+    var(--grad-3) 80%, 
+    var(--grad-4) 90%
+    );
+    background-size: 300%;
     border: none;
     color: white;
     padding: 12px 28px;
@@ -28,4 +40,28 @@
 
 .button:hover {
     transform: scale(1.1);
+    animation: gradient 1.4s;
+    -webkit-animation-name: gradient;
+    animation-name: gradient;
+    animation: gradient 1.4s ease;
 }
+
+@-webkit-keyframes gradient {
+    0% {
+        background-position: 0% 33%;
+    }
+    
+    100%{
+        background-position: 100% 66%;
+    }
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 33%;
+}
+
+100%{
+    background-position: 100% 66%;
+}
+} 

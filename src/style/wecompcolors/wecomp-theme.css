@@ -7,6 +7,11 @@
     --main-font: 'Montserrat', sans-serif;
     --font-color: rgb(32, 32, 32);
 
+    --grad-1: #2ed9ff;
+    --grad-2: #00d9eb;
+    --grad-3: #00ddc6;
+    --grad-4: var(--pallete-light);
+
     --title-font-size: 1.6rem;
     --subtitle-font-size: 1.4rem;
     --text-font-size: 1.2rem;
