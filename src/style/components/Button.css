@@ -2,15 +2,15 @@
     transition: transform 0.2s ease-out;
     background-image: linear-gradient( to right,
     var(--grad-1) 0%, 
-    var(--grad-2) 10%, 
-    var(--grad-3) 20%, 
-    var(--grad-4) 30%, 
-    var(--grad-3) 40%, 
-    var(--grad-2) 48%, 
-    var(--grad-1), 
-    var(--grad-2) 72%, 
-    var(--grad-3) 80%, 
-    var(--grad-4) 90%
+    var(--grad-2) 11%, 
+    var(--grad-3) 22%, 
+    var(--grad-4) 33%, 
+    var(--grad-3) 44%, 
+    var(--grad-2) 55%, 
+    var(--grad-1) 66%, 
+    var(--grad-2) 77%, 
+    var(--grad-3) 88%, 
+    var(--grad-4) 100%
     );
     background-size: 300%;
     border: none;
@@ -52,16 +52,16 @@
     }
     
     100%{
-        background-position: 100% 66%;
+        background-position: 100% 80%;
     }
 }
 
 @keyframes gradient {
-0% {
-    background-position: 0% 33%;
-}
+    0% {
+        background-position: 0% 33%;
+    }
 
-100%{
-    background-position: 100% 66%;
-}
+    100%{
+        background-position: 100% 33%;
+    }
 } 
