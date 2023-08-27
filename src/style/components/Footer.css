@@ -56,6 +56,10 @@
     transition: 100ms linear;
 }
 
+.footer-ref{
+    transition: transform 0.2s ease-out;
+}
+
 
 @media screen and (max-width: 965px) {
     .footer {
