@@ -40,10 +40,10 @@
 
 .button:hover {
     transform: scale(1.1);
-    animation: gradient 1.4s;
+    animation: gradient 1s;
     -webkit-animation-name: gradient;
     animation-name: gradient;
-    animation: gradient 1.4s ease;
+    animation: gradient 1s ease;
 }
 
 @-webkit-keyframes gradient {
