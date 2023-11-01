@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import Arrow from "./Arrow.js"
 
 function Carousel({ children }){
-    const [ index, setIndex ] = useState(15)
+    const [ index, setIndex ] = useState(0)
     const [ maxNumberOfVisibleCards, setMaxNumberOfVisibleCards ] = useState(null)
     const [ carouselPosition, setCarouselPosition ] = useState(0)
     const [ carouselTranformation, setCarouselTranformation ] = useState({ transform : "translateX(0px)" })
